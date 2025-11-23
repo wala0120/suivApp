@@ -1,0 +1,7 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Réclamation		TAR	86	nouvelle taille enregistrement : 86
+Réclamation	IDmagasin	RUB+		IDmagasin est une nouvelle clé
+magasin		TAR	131	nouvelle taille enregistrement : 131
+magasin	IDutilisateur	RUB+		IDutilisateur est une nouvelle clé
+Contrainte_utilisateur_magasin		NWL	utilisateur (IDutilisateur) et magasin (IDutilisateur)	Nouvelle liaison entre les fichiers utilisateur (IDutilisateur) et magasin (IDutilisateur)
+Contrainte_magasin_Réclamation		NWL	magasin (IDmagasin) et Réclamation (IDmagasin)	Nouvelle liaison entre les fichiers magasin (IDmagasin) et Réclamation (IDmagasin)

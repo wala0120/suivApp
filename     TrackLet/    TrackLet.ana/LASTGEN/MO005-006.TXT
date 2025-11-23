@@ -1,0 +1,3 @@
+//MO005-006.TXT ANA00005 TO ANA00006
+Réclamation		TAR	36	nouvelle taille enregistrement : 36
+Réclamation	IDmagasin	RUB+		IDmagasin est une nouvelle clé
