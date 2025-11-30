@@ -1,3 +1,0 @@
-//MO011-012.TXT ANA00011 TO ANA00012
-Réclamation		TAR	87	nouvelle taille enregistrement : 87
-Réclamation	Num_facture	RUB+		Num_facture est une nouvelle clé

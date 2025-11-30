@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.masociete.tracklet.go"
+    android:installLocation="auto"
+    android:versionCode="3"
+    android:versionName="0.0.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="fr.pcsoft.wdjava.core.application.WDAndroidApp"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/i_c_o_n_e________2"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:resizeableActivity="true"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDPSSuivApp$WDLanceur"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.Translucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFmenu$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFnouveau_utilisateur$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Menu_Administrateur$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFreclamation$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFlogin$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFmagasin$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:name="fr.pcsoft.wdjava.ui.activite.WDActivite$BlankActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:name="fr.pcsoft.wdjava.core.erreur.report.WDErrorReportActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+        <activity
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:name="fr.pcsoft.wdjava.net.oauth2.WDOAuth2Manager$OAuthActivity" />
+
+        <service android:name="fr.pcsoft.wdjava.core.service.WDServiceLocal" />
+
+        <meta-data
+            android:name="fr.pcsoft.first_window_name"
+            android:value="login" />
+        <meta-data
+            android:name="fr.pcsoft.splash_orientation_phone"
+            android:value="4" />
+        <meta-data
+            android:name="fr.pcsoft.splash_orientation_tablet"
+            android:value="4" />
+    </application>
+
+</manifest>

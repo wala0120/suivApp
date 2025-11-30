@@ -1,4 +1,0 @@
-//MO004-005.TXT ANA00004 TO ANA00005
-Réclamation		TAR	28	nouvelle taille enregistrement : 28
-Réclamation	Num_facture	RUB-		la rubrique Num_facture est supprimée
-Réclamation	IDmagasin	RUB-		la rubrique IDmagasin est supprimée

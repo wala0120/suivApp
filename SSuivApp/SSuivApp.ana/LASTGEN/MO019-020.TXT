@@ -1,0 +1,2 @@
+//MO019-020.TXT ANA00019 TO ANA00020
+Contrainte_magasin_Réclamation		MCL	1,n->0,n	

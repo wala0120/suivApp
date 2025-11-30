@@ -1,2 +1,0 @@
-//MO010-011.TXT ANA00010 TO ANA00011
-Contrainte_utilisateur_Réclamation		MCL	1,n->0,n	

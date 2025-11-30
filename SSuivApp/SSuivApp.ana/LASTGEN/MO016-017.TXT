@@ -1,0 +1,10 @@
+//MO016-017.TXT ANA00016 TO ANA00017
+Reclamation		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+Reclamation		FCNX+	Connexion HFSQL Classic	
+Magasin		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+Magasin		FCNX+	Connexion HFSQL Classic	
+Utilisateur		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+Utilisateur		FCNX+	Connexion HFSQL Classic	
+Affectation		BASE		La base du fichier est passée de HFSQL Client/Serveur à HFSQL Classic
+Affectation		FCNX+	Connexion HFSQL Classic	
+Connexion HFSQL Classic		CNX+		

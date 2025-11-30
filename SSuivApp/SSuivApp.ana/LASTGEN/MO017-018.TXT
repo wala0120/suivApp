@@ -1,0 +1,5 @@
+//MO017-018.TXT ANA00017 TO ANA00018
+Reclamation		FCNX-	Connexion HFSQL Classic	
+Magasin		FCNX-	Connexion HFSQL Classic	
+Utilisateur		FCNX-	Connexion HFSQL Classic	
+Affectation		FCNX-	Connexion HFSQL Classic	

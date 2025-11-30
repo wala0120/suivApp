@@ -1,0 +1,14 @@
+//MO015-016.TXT ANA00015 TO ANA00016
+Reclamation		TAR	87	nouvelle taille enregistrement : 87
+Reclamation		TYPE		Le type du fichier est passé de Connecteur Natif / Autre Connecteur OLE DB à HFSQL
+Reclamation		FCNX+	Connexion à 'Microsoft Windows Network'	
+Magasin		TAR	119	nouvelle taille enregistrement : 119
+Magasin		TYPE		Le type du fichier est passé de Connecteur Natif / Autre Connecteur OLE DB à HFSQL
+Magasin		FCNX+	Connexion à 'Microsoft Windows Network'	
+Utilisateur		TAR	171	nouvelle taille enregistrement : 171
+Utilisateur		TYPE		Le type du fichier est passé de Connecteur Natif / Autre Connecteur OLE DB à HFSQL
+Utilisateur		FCNX+	Connexion à 'Microsoft Windows Network'	
+Affectation		TAR	29	nouvelle taille enregistrement : 29
+Affectation		TYPE		Le type du fichier est passé de Connecteur Natif / Autre Connecteur OLE DB à HFSQL
+Affectation		FCNX+	Connexion à 'Microsoft Windows Network'	
+Connexion à 'Microsoft Windows Network'		CNX+		

@@ -1,0 +1,15 @@
+//MO014-015.TXT ANA00014 TO ANA00015
+Reclamation		TAR	78	nouvelle taille enregistrement : 78
+Reclamation		TYPE		Le type du fichier est passé de HFSQL à Connecteur Natif / Autre Connecteur OLE DB
+Reclamation		FCNX+	Connexion à 'SSuivApp.db'	
+Magasin		TAR	110	nouvelle taille enregistrement : 110
+Magasin		TYPE		Le type du fichier est passé de HFSQL à Connecteur Natif / Autre Connecteur OLE DB
+Magasin		FCNX+	Connexion à 'SSuivApp.db'	
+Utilisateur		TAR	162	nouvelle taille enregistrement : 162
+Utilisateur		TYPE		Le type du fichier est passé de HFSQL à Connecteur Natif / Autre Connecteur OLE DB
+Utilisateur		FCNX+	Connexion à 'SSuivApp.db'	
+Affectation		NFI		nouveau fichier
+Contrainte_Reclamation_Affectation		NWL	Reclamation (IDRéclamation) et Affectation (IDRéclamation)	Nouvelle liaison entre les fichiers Reclamation (IDRéclamation) et Affectation (IDRéclamation)
+Contrainte_Utilisateur_Affectation		NWL	Utilisateur (IDutilisateur) et Affectation (IDutilisateur)	Nouvelle liaison entre les fichiers Utilisateur (IDutilisateur) et Affectation (IDutilisateur)
+Contrainte_utilisateur_Réclamation		DEL	Utilisateur (IDutilisateur) et Reclamation (IDutilisateur)	Liaison supprimée entre les fichiers Utilisateur (IDutilisateur) et Reclamation (IDutilisateur)
+Connexion à 'SSuivApp.db'		CNX+		

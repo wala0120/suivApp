@@ -1,4 +1,0 @@
-//MO009-010.TXT ANA00009 TO ANA00010
-Réclamation		TAR	36	nouvelle taille enregistrement : 36
-Réclamation		IDE+*		fichier avec identifiant
-Réclamation	IDRéclamation	RUB+		IDRéclamation est une nouvelle clé
