@@ -1,2 +1,2 @@
-//MO019-020.TXT ANA00019 TO ANA00020
-Contrainte_magasin_Réclamation		MCL	1,n->0,n	
+//MO020-021.TXT ANA00020 TO ANA00021
+Reclamation	Num_facture	CLE-*		la rubrique Num_facture n'est plus une clé
