@@ -3,7 +3,7 @@
     package="com.masociete.tracklet.go"
     android:installLocation="auto"
     android:targetSandboxVersion="2"
-    android:versionCode="3"
+    android:versionCode="9"
     android:versionName="0.0.1.0" >
 
     <uses-sdk
@@ -42,12 +42,57 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.masociete.tracklet.wdgen.GWDFmenu$WDActiviteFenetre"
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_login$WDActiviteFenetre"
             android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
             android:hardwareAccelerated="false"
             android:theme="@android:style/Theme" />
         <activity
-            android:name="com.masociete.tracklet.wdgen.GWDFnouveau_utilisateur$WDActiviteFenetre"
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Menu_Chauffeur$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Magasin$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Ajout_affectation$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Modifier_Utilisateur$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Liste_Utilisateurs$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Ajout_Reclamation$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$WDActiviteFenetre"
             android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
             android:hardwareAccelerated="false"
             android:theme="@android:style/Theme" />
@@ -57,17 +102,12 @@
             android:hardwareAccelerated="false"
             android:theme="@android:style/Theme" />
         <activity
-            android:name="com.masociete.tracklet.wdgen.GWDFreclamation$WDActiviteFenetre"
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$WDActiviteFenetre"
             android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
             android:hardwareAccelerated="false"
             android:theme="@android:style/Theme" />
         <activity
-            android:name="com.masociete.tracklet.wdgen.GWDFlogin$WDActiviteFenetre"
-            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
-            android:hardwareAccelerated="false"
-            android:theme="@android:style/Theme" />
-        <activity
-            android:name="com.masociete.tracklet.wdgen.GWDFmagasin$WDActiviteFenetre"
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$WDActiviteFenetre"
             android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
             android:hardwareAccelerated="false"
             android:theme="@android:style/Theme" />
@@ -86,13 +126,28 @@
             android:theme="@android:style/Theme.DeviceDefault.Light" />
         <activity
             xmlns:android="http://schemas.android.com/apk/res/android"
-            android:name="fr.pcsoft.wdjava.net.oauth2.WDOAuth2Manager$OAuthActivity" />
+            android:name="fr.pcsoft.wdjava.ui.searchbar.WDSearchActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <provider
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:name="fr.pcsoft.wdjava.ui.searchbar.WDSearchHistory"
+            android:authorities="com.masociete.tracklet.go"
+            android:exported="false" />
 
         <service android:name="fr.pcsoft.wdjava.core.service.WDServiceLocal" />
 
         <meta-data
             android:name="fr.pcsoft.first_window_name"
-            android:value="login" />
+            android:value="FEN_login" />
         <meta-data
             android:name="fr.pcsoft.splash_orientation_phone"
             android:value="4" />

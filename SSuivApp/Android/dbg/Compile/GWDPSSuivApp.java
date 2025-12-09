@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Projet
  * Classe Android : SSuivApp
- * Date : 30/11/2025 15:01:38
+ * Date : 10/12/2025 00:34:24
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -14,7 +14,6 @@ import com.masociete.tracklet.*;
 import fr.pcsoft.wdjava.core.types.*;
 import fr.pcsoft.wdjava.core.*;
 import fr.pcsoft.wdjava.core.application.*;
-import fr.pcsoft.wdjava.core.context.*;
 import fr.pcsoft.wdjava.api.*;
 /*Imports trouvés dans le code WL*/
 /*Fin Imports trouvés dans le code WL*/
@@ -36,49 +35,31 @@ public static GWDPSSuivApp getInstance()
 return (GWDPSSuivApp) ms_instance;
 }
 
- // menu
-public GWDFmenu mWD_menu = new GWDFmenu();
- // accesseur de menu
-public GWDFmenu getmenu()
+ // FEN_login
+public GWDFFEN_login mWD_FEN_login = new GWDFFEN_login();
+ // accesseur de FEN_login
+public GWDFFEN_login getFEN_login()
 {
-mWD_menu.checkOuverture();
-return mWD_menu;
+mWD_FEN_login.checkOuverture();
+return mWD_FEN_login;
 }
 
- // login
-public GWDFlogin mWD_login = new GWDFlogin();
- // accesseur de login
-public GWDFlogin getlogin()
+ // FEN_Magasin
+public GWDFFEN_Magasin mWD_FEN_Magasin = new GWDFFEN_Magasin();
+ // accesseur de FEN_Magasin
+public GWDFFEN_Magasin getFEN_Magasin()
 {
-mWD_login.checkOuverture();
-return mWD_login;
+mWD_FEN_Magasin.checkOuverture();
+return mWD_FEN_Magasin;
 }
 
- // nouveau utilisateur
-public GWDFnouveau_utilisateur mWD_nouveau_utilisateur = new GWDFnouveau_utilisateur();
- // accesseur de nouveau utilisateur
-public GWDFnouveau_utilisateur getnouveau_utilisateur()
+ // FEN_Ajout_Reclamation
+public GWDFFEN_Ajout_Reclamation mWD_FEN_Ajout_Reclamation = new GWDFFEN_Ajout_Reclamation();
+ // accesseur de FEN_Ajout_Reclamation
+public GWDFFEN_Ajout_Reclamation getFEN_Ajout_Reclamation()
 {
-mWD_nouveau_utilisateur.checkOuverture();
-return mWD_nouveau_utilisateur;
-}
-
- // magasin
-public GWDFmagasin mWD_magasin = new GWDFmagasin();
- // accesseur de magasin
-public GWDFmagasin getmagasin()
-{
-mWD_magasin.checkOuverture();
-return mWD_magasin;
-}
-
- // réclamation
-public GWDFreclamation mWD_reclamation = new GWDFreclamation();
- // accesseur de réclamation
-public GWDFreclamation getreclamation()
-{
-mWD_reclamation.checkOuverture();
-return mWD_reclamation;
+mWD_FEN_Ajout_Reclamation.checkOuverture();
+return mWD_FEN_Ajout_Reclamation;
 }
 
  // FEN_Menu_Administrateur
@@ -90,15 +71,96 @@ mWD_FEN_Menu_Administrateur.checkOuverture();
 return mWD_FEN_Menu_Administrateur;
 }
 
-
- // FI_Téléchargement
-public GWDFIFI_Telechargement mWD_FI_Telechargement = new GWDFIFI_Telechargement();
- // accesseur de FI_Téléchargement
-public GWDFIFI_Telechargement getFI_Telechargement()
+ // FEN_Ajout_affectation
+public GWDFFEN_Ajout_affectation mWD_FEN_Ajout_affectation = new GWDFFEN_Ajout_affectation();
+ // accesseur de FEN_Ajout_affectation
+public GWDFFEN_Ajout_affectation getFEN_Ajout_affectation()
 {
-GWDFIFI_Telechargement fiCtx = (GWDFIFI_Telechargement)WDAppelContexte.getContexte().getFenetreInterne("FI_Téléchargement");
-return fiCtx != null ? fiCtx  : mWD_FI_Telechargement;
+mWD_FEN_Ajout_affectation.checkOuverture();
+return mWD_FEN_Ajout_affectation;
 }
+
+ // FEN_Liste_Reclamation_Admin
+public GWDFFEN_Liste_Reclamation_Admin mWD_FEN_Liste_Reclamation_Admin = new GWDFFEN_Liste_Reclamation_Admin();
+ // accesseur de FEN_Liste_Reclamation_Admin
+public GWDFFEN_Liste_Reclamation_Admin getFEN_Liste_Reclamation_Admin()
+{
+mWD_FEN_Liste_Reclamation_Admin.checkOuverture();
+return mWD_FEN_Liste_Reclamation_Admin;
+}
+
+ // FEN_Menu_Chauffeur
+public GWDFFEN_Menu_Chauffeur mWD_FEN_Menu_Chauffeur = new GWDFFEN_Menu_Chauffeur();
+ // accesseur de FEN_Menu_Chauffeur
+public GWDFFEN_Menu_Chauffeur getFEN_Menu_Chauffeur()
+{
+mWD_FEN_Menu_Chauffeur.checkOuverture();
+return mWD_FEN_Menu_Chauffeur;
+}
+
+ // FEN_Liste_Utilisateurs
+public GWDFFEN_Liste_Utilisateurs mWD_FEN_Liste_Utilisateurs = new GWDFFEN_Liste_Utilisateurs();
+ // accesseur de FEN_Liste_Utilisateurs
+public GWDFFEN_Liste_Utilisateurs getFEN_Liste_Utilisateurs()
+{
+mWD_FEN_Liste_Utilisateurs.checkOuverture();
+return mWD_FEN_Liste_Utilisateurs;
+}
+
+ // FEN_ Menu_Commercial
+public GWDFFEN_Menu_Commercial mWD_FEN_Menu_Commercial = new GWDFFEN_Menu_Commercial();
+ // accesseur de FEN_ Menu_Commercial
+public GWDFFEN_Menu_Commercial getFEN_Menu_Commercial()
+{
+mWD_FEN_Menu_Commercial.checkOuverture();
+return mWD_FEN_Menu_Commercial;
+}
+
+ // FEN_Ajout_utilisateur
+public GWDFFEN_Ajout_utilisateur mWD_FEN_Ajout_utilisateur = new GWDFFEN_Ajout_utilisateur();
+ // accesseur de FEN_Ajout_utilisateur
+public GWDFFEN_Ajout_utilisateur getFEN_Ajout_utilisateur()
+{
+mWD_FEN_Ajout_utilisateur.checkOuverture();
+return mWD_FEN_Ajout_utilisateur;
+}
+
+ // FEN_Liste_Reclamation_Commercial
+public GWDFFEN_Liste_Reclamation_Commercial mWD_FEN_Liste_Reclamation_Commercial = new GWDFFEN_Liste_Reclamation_Commercial();
+ // accesseur de FEN_Liste_Reclamation_Commercial
+public GWDFFEN_Liste_Reclamation_Commercial getFEN_Liste_Reclamation_Commercial()
+{
+mWD_FEN_Liste_Reclamation_Commercial.checkOuverture();
+return mWD_FEN_Liste_Reclamation_Commercial;
+}
+
+ // FEN_Liste_Reclamation_Chauffeur
+public GWDFFEN_Liste_Reclamation_Chauffeur mWD_FEN_Liste_Reclamation_Chauffeur = new GWDFFEN_Liste_Reclamation_Chauffeur();
+ // accesseur de FEN_Liste_Reclamation_Chauffeur
+public GWDFFEN_Liste_Reclamation_Chauffeur getFEN_Liste_Reclamation_Chauffeur()
+{
+mWD_FEN_Liste_Reclamation_Chauffeur.checkOuverture();
+return mWD_FEN_Liste_Reclamation_Chauffeur;
+}
+
+ // FEN_Modifier_Utilisateur
+public GWDFFEN_Modifier_Utilisateur mWD_FEN_Modifier_Utilisateur = new GWDFFEN_Modifier_Utilisateur();
+ // accesseur de FEN_Modifier_Utilisateur
+public GWDFFEN_Modifier_Utilisateur getFEN_Modifier_Utilisateur()
+{
+mWD_FEN_Modifier_Utilisateur.checkOuverture();
+return mWD_FEN_Modifier_Utilisateur;
+}
+
+ // FEN_Liste_Magasin
+public GWDFFEN_Liste_Magasin mWD_FEN_Liste_Magasin = new GWDFFEN_Liste_Magasin();
+ // accesseur de FEN_Liste_Magasin
+public GWDFFEN_Liste_Magasin getFEN_Liste_Magasin()
+{
+mWD_FEN_Liste_Magasin.checkOuverture();
+return mWD_FEN_Liste_Magasin;
+}
+
 
  // Constructeur de la classe GWDPSSuivApp
 public GWDPSSuivApp()
@@ -109,22 +171,88 @@ setLangueProjet(new int[] {1}, new int[] {0}, 1, false);
 
 // Palette des couleurs
 setPaletteCouleurGabarit(new int[] {0x394AE1, 0x26A0FA, 0x6DBC61, 0x85A800, 0xD2AC54, 0xC9822B, 0xA95CF8, 0xB86592, 0xB74A5E, 0x654E44, 0xA5A595});
-ajouterFenetre("menu", mWD_menu);
-ajouterFenetre("login", mWD_login);
-ajouterFenetre("nouveau utilisateur", mWD_nouveau_utilisateur);
-ajouterFenetre("magasin", mWD_magasin);
-ajouterFenetre("réclamation", mWD_reclamation);
+ajouterFenetre("FEN_login", mWD_FEN_login);
+ajouterFenetre("FEN_Magasin", mWD_FEN_Magasin);
+ajouterFenetre("FEN_Ajout_Reclamation", mWD_FEN_Ajout_Reclamation);
 ajouterFenetre("FEN_Menu_Administrateur", mWD_FEN_Menu_Administrateur);
-ajouterFenetreInterne("FI_Téléchargement");
+ajouterFenetre("FEN_Ajout_affectation", mWD_FEN_Ajout_affectation);
+ajouterFenetre("FEN_Liste_Reclamation_Admin", mWD_FEN_Liste_Reclamation_Admin);
+ajouterFenetre("FEN_Menu_Chauffeur", mWD_FEN_Menu_Chauffeur);
+ajouterFenetre("FEN_Liste_Utilisateurs", mWD_FEN_Liste_Utilisateurs);
+ajouterFenetre("FEN_ Menu_Commercial", mWD_FEN_Menu_Commercial);
+ajouterFenetre("FEN_Ajout_utilisateur", mWD_FEN_Ajout_utilisateur);
+ajouterFenetre("FEN_Liste_Reclamation_Commercial", mWD_FEN_Liste_Reclamation_Commercial);
+ajouterFenetre("FEN_Liste_Reclamation_Chauffeur", mWD_FEN_Liste_Reclamation_Chauffeur);
+ajouterFenetre("FEN_Modifier_Utilisateur", mWD_FEN_Modifier_Utilisateur);
+ajouterFenetre("FEN_Liste_Magasin", mWD_FEN_Liste_Magasin);
+
+ajouterRequeteWDR( new GWDRREQ_Reclamation() );
+ajouterRequeteWDR( new GWDRREQ_NbrReclamation() );
+
+
+}
+
+// Code de déclaration de SSuivApp
+public void trtInitProjet()
+{
+// CurrentUserID est un entier  // FR
+//MAP:0000000000000000:00030000:1:SSuivApp:com.masociete.tracklet.wdgen.GWDPSSuivApp:Initialisation de SSuivApp
+// CurrentUserID est un entier  // FR
+//MAP:0000000000000000:00030000:1:SSuivApp:com.masociete.tracklet.wdgen.GWDPSSuivApp:Initialisation de SSuivApp
+vWD_CurrentUserID = new WDEntier4();
+
+super.ajouterVariableGlobale("CurrentUserID",vWD_CurrentUserID);
+
+
+
+// IDReclamationGlobal est un entier
+//MAP:0000000000000000:00030000:2:SSuivApp:com.masociete.tracklet.wdgen.GWDPSSuivApp:Initialisation de SSuivApp
+vWD_IDReclamationGlobal = new WDEntier4();
+
+super.ajouterVariableGlobale("IDReclamationGlobal",vWD_IDReclamationGlobal);
+
+
+
+// IDCommerciale est un entier
+//MAP:0000000000000000:00030000:3:SSuivApp:com.masociete.tracklet.wdgen.GWDPSSuivApp:Initialisation de SSuivApp
+vWD_IDCommerciale = new WDEntier4();
+
+super.ajouterVariableGlobale("IDCommerciale",vWD_IDCommerciale);
+
+
+
+// gnIDUtilisateur est un entier = CurrentUserID
+//MAP:0000000000000000:00030000:4:SSuivApp:com.masociete.tracklet.wdgen.GWDPSSuivApp:Initialisation de SSuivApp
+vWD_gnIDUtilisateur = new WDEntier4();
+
+vWD_gnIDUtilisateur.setValeur(vWD_CurrentUserID);
+
+super.ajouterVariableGlobale("gnIDUtilisateur",vWD_gnIDUtilisateur);
+
+
+
+// gnIDUtilisateurModifier est un entier
+//MAP:0000000000000000:00030000:5:SSuivApp:com.masociete.tracklet.wdgen.GWDPSSuivApp:Initialisation de SSuivApp
+vWD_gnIDUtilisateurModifier = new WDEntier4();
+
+super.ajouterVariableGlobale("gnIDUtilisateurModifier",vWD_gnIDUtilisateurModifier);
 
 
 
 }
 
 
+
+
+
 ////////////////////////////////////////////////////////////////////////////
 // Déclaration des variables globales
 ////////////////////////////////////////////////////////////////////////////
+static public WDObjet vWD_CurrentUserID = WDVarNonAllouee.ref;
+static public WDObjet vWD_IDReclamationGlobal = WDVarNonAllouee.ref;
+static public WDObjet vWD_IDCommerciale = WDVarNonAllouee.ref;
+static public WDObjet vWD_gnIDUtilisateur = WDVarNonAllouee.ref;
+static public WDObjet vWD_gnIDUtilisateurModifier = WDVarNonAllouee.ref;
 public String getVersionApplication(){ return "0.0.1.0";}
 public String getNomSociete(){ return "PC SOFT";}
 public String getNomAPK(){ return "    TrackLet";}
@@ -200,32 +328,35 @@ return null;
 }
 protected void declarerRessources()
 {
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\RIGHT-ARROW (1).PNG",com.masociete.tracklet.R.drawable.right_arrow__1__28, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_EDT.PNG?E5_3NP_8_8_8_8",com.masociete.tracklet.R.drawable.aquablue_edt_27_np3_8_8_8_8_selector, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_COMBO.PNG?E5_3NP_32_6_42_6",com.masociete.tracklet.R.drawable.aquablue_combo_26_np3_32_6_42_6_selector, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ADD-GROUP.PNG",com.masociete.tracklet.R.drawable.add_group_25, "");
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\CLIENT_B_32_5.PNG?E5",com.masociete.tracklet.R.drawable.client_b_32_5_24_selector, "");
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\CHATGPT IMAGE 17 NOV. 2025, 10_52_07.PNG",com.masociete.tracklet.R.drawable.chatgpt_image_17_nov__2025__10_52_07_23, "");
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\PROFILE.PNG",com.masociete.tracklet.R.drawable.profile_22, "");
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\PHONE-CALL.PNG",com.masociete.tracklet.R.drawable.phone_call_21, "");
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\LOCATION (1).PNG",com.masociete.tracklet.R.drawable.location__1__20, "");
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\FBOOKING2_BTN_STD.PNG?E5_A1A6A1A6A1_3NP_8_8_10_10",com.masociete.tracklet.R.drawable.fbooking2_btn_std_19_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0, "");
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\EXPRESS-DELIVERY.PNG",com.masociete.tracklet.R.drawable.express_delivery_18, "");
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\DISKETTE.PNG",com.masociete.tracklet.R.drawable.diskette_17, "");
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\POWER.PNG",com.masociete.tracklet.R.drawable.power_16, "");
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\FBOOKING2_EDT.PNG?E5_3NP_8_8_8_8",com.masociete.tracklet.R.drawable.fbooking2_edt_15_np3_8_8_8_8_selector, "");
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\FBOOKING2_CBOX.PNG?E12_A1A6A1A6A1A6A1A6A1A6A1A6_8O",com.masociete.tracklet.R.drawable.fbooking2_cbox_14_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150, "");
-super.ajouterFichierAssocie("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\ACCOUNT-RECOVERY (1).PNG",com.masociete.tracklet.R.drawable.account_recovery__1__13, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\USINE_B_32_5.PNG?E5",com.masociete.tracklet.R.drawable.usine_b_32_5_12_selector, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\SETTINGS.PNG",com.masociete.tracklet.R.drawable.settings_11, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\INFO_B_32_5.PNG?E5",com.masociete.tracklet.R.drawable.info_b_32_5_10_selector, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ENTREPRENEUR.PNG",com.masociete.tracklet.R.drawable.entrepreneur_9, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\APPETITE_11331394.PNG",com.masociete.tracklet.R.drawable.appetite_11331394_8, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ADD-USER.PNG",com.masociete.tracklet.R.drawable.add_user_7, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\49E559BA-1B88-4AED-81D5-446C990E42BD.PNG",com.masociete.tracklet.R.drawable.a9e559ba_1b88_4aed_81d5_446c990e42bd_6, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_PROGBAR_BG.PNG?_3NP_4_4_4_4",com.masociete.tracklet.R.drawable.aquablue_progbar_bg_5_np3_4_4_4_4, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_PROGBAR_ACTIV.PNG?_3NP_4_4_4_4",com.masociete.tracklet.R.drawable.aquablue_progbar_activ_4_np3_4_4_4_4, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BTN_STD.PNG?E5_A1A6A1A6A1_3NP_8_8_10_10",com.masociete.tracklet.R.drawable.aquablue_btn_std_3_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\FBOOKING2_CBOX.PNG?E12_A1A6A1A6A1A6A1A6A1A6A1A6_8O",com.masociete.tracklet.R.drawable.fbooking2_cbox_31_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GEAR (1).PNG",com.masociete.tracklet.R.drawable.gear__1__30, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\SETTINGS.PNG",com.masociete.tracklet.R.drawable.settings_29, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\INFO_B_32_5.PNG?E5",com.masociete.tracklet.R.drawable.info_b_32_5_28_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ENTREPRENEUR.PNG",com.masociete.tracklet.R.drawable.entrepreneur_27, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ADD-USER.PNG",com.masociete.tracklet.R.drawable.add_user_26, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\RIGHT.PNG",com.masociete.tracklet.R.drawable.right_25, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\PROFILE.PNG",com.masociete.tracklet.R.drawable.profile_24, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\PHONE-CALL.PNG",com.masociete.tracklet.R.drawable.phone_call_23, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\LOCATION (1).PNG",com.masociete.tracklet.R.drawable.location__1__22, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\FBOOKING2_EDT.PNG?E5_3NP_8_8_8_8",com.masociete.tracklet.R.drawable.fbooking2_edt_21_np3_8_8_8_8_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\EXPRESS-DELIVERY.PNG",com.masociete.tracklet.R.drawable.express_delivery_20, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\BELL.PNG",com.masociete.tracklet.R.drawable.bell_19, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BTN_STD.PNG?E5_A1A6A1A6A1_3NP_8_8_10_10",com.masociete.tracklet.R.drawable.aquablue_btn_std_18_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_SELECT.PNG?E5_3NP_4_4_4_4",com.masociete.tracklet.R.drawable.aquablue_select_17_np3_4_4_4_4_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_ROLLOVER.PNG",com.masociete.tracklet.R.drawable.aquablue_rollover_16, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BREAK_PICT.PNG?E2_4O",com.masociete.tracklet.R.drawable.aquablue_break_pict_15_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BREAK.PNG",com.masociete.tracklet.R.drawable.aquablue_break_14, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ADD (1).PNG",com.masociete.tracklet.R.drawable.add__1__13, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ADD-GROUP.PNG",com.masociete.tracklet.R.drawable.add_group_12, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_EDT.PNG?E5_3NP_8_8_8_8",com.masociete.tracklet.R.drawable.aquablue_edt_11_np3_8_8_8_8_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\LIST.PNG",com.masociete.tracklet.R.drawable.list_10, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\LEFT.PNG",com.masociete.tracklet.R.drawable.left_9, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_COMBO.PNG?E5_3NP_32_6_42_6",com.masociete.tracklet.R.drawable.aquablue_combo_8_np3_32_6_42_6_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\FBOOKING2_BTN_STD.PNG?E5_A1A6A1A6A1_3NP_8_8_10_10",com.masociete.tracklet.R.drawable.fbooking2_btn_std_7_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\DISKETTE.PNG",com.masociete.tracklet.R.drawable.diskette_6, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\PARAMÈTRE_B_32_5.PNG?E5",com.masociete.tracklet.R.drawable.parametre_b_32_5_5_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\APPETITE_11331394.PNG",com.masociete.tracklet.R.drawable.appetite_11331394_4, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\49E559BA-1B88-4AED-81D5-446C990E42BD.PNG",com.masociete.tracklet.R.drawable.a9e559ba_1b88_4aed_81d5_446c990e42bd_3, "");
 }
 
 
