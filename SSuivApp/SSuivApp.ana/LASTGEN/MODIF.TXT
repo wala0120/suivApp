@@ -1,10 +1,6 @@
-//MO022-023.TXT ANA00022 TO ANA00023
-Reclamation		BASE		La base du fichier est passée de HFSQL Classic à HFSQL Client/Serveur
-Reclamation		FCNX+	Connexion à '127.0.0.1'	
-Magasin		BASE		La base du fichier est passée de HFSQL Classic à HFSQL Client/Serveur
-Magasin		FCNX+	Connexion à '127.0.0.1'	
-Utilisateur		BASE		La base du fichier est passée de HFSQL Classic à HFSQL Client/Serveur
-Utilisateur		FCNX+	Connexion à '127.0.0.1'	
-Affectation		BASE		La base du fichier est passée de HFSQL Classic à HFSQL Client/Serveur
-Affectation		FCNX+	Connexion à '127.0.0.1'	
-Connexion à '127.0.0.1'		CNX+		
+//MO023-024.TXT ANA00023 TO ANA00024
+Reclamation		FCNX+	Connexion à '192.168.100.61'	
+Magasin		FCNX+	Connexion à '192.168.100.61'	
+Utilisateur		FCNX+	Connexion à '192.168.100.61'	
+Affectation		FCNX+	Connexion à '192.168.100.61'	
+Connexion à '192.168.100.61'		CNX+		
