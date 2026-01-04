@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Magasin
- * Date : 10/12/2025 00:22:06
+ * Date : 28/12/2025 21:59:30
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -20,7 +20,6 @@ import fr.pcsoft.wdjava.ui.champs.image.*;
 import fr.pcsoft.wdjava.ui.champs.saisie.*;
 import fr.pcsoft.wdjava.ui.champs.bouton.*;
 import fr.pcsoft.wdjava.api.*;
-import fr.pcsoft.wdjava.core.erreur.*;
 import fr.pcsoft.wdjava.core.application.*;
 import fr.pcsoft.wdjava.ui.activite.*;
 /*Imports trouvés dans le code WL*/
@@ -618,108 +617,13 @@ public void activerEcoute()
 public GWDNom_de_magasin4 mWD_Nom_de_magasin4;
 
 /**
- * Image4
- */
-class GWDImage4 extends WDChampImage
-{
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°6 de FEN_Magasin.Image4
-////////////////////////////////////////////////////////////////////////////
-public  void initialiserObjet()
-{
-super.initialiserObjet();
-super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969406643281762204l);
-
-super.setChecksum("800332152");
-
-super.setNom("Image4");
-
-super.setType(30001);
-
-super.setBulle("");
-
-super.setLibelle("");
-
-super.setMenuContextuelSysteme();
-
-super.setNote("", "");
-
-super.setCurseurSouris(0);
-
-super.setNavigable(false);
-
-super.setEtatInitial(0);
-
-super.setPositionInitiale(38, 483);
-
-super.setTailleInitiale(35, 72);
-
-super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\diskette.png");
-
-super.setPlan(0);
-
-super.setTailleMin(0, 0);
-
-super.setTailleMax(2147483647, 2147483647);
-
-super.setVisibleInitial(true);
-
-super.setAltitude(6);
-
-super.setAncrageInitial(1, 1000, 1000, 500, 500, 0);
-
-super.setTransparence(1);
-
-super.setParamImage(2097158, 0, true, 100);
-
-super.setSymetrie(0);
-
-super.setZoneClicage(true);
-
-super.setPCodeMultitouch(false);
-
-super.setChargementEnTacheDeFond(false);
-
-super.setOrientationExif(false);
-
-super.setParamAnimation(1, 1, false, 300, true, false);
-
-super.setAnimationInitiale(false);
-
-super.setTauxParallaxe(0, 0);
-
-super.setPresenceLibelle(false);
-
-super.setStyleLibelle(0x7A6E6A, creerPolice_GEN("Verdana", -8.000000, 0), -1, 0, 0x7A6E6A);
-
-super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
-
-
-activerEcoute();
-super.terminerInitialisation();
-}
-
-// Activation des écouteurs: 
-public void activerEcoute()
-{
-}
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des variables globales
-////////////////////////////////////////////////////////////////////////////
-}
-public GWDImage4 mWD_Image4;
-
-/**
  * IMG_SansNom6
  */
 class GWDIMG_SansNom6 extends WDChampImage
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°7 de FEN_Magasin.IMG_SansNom6
+// Déclaration des champs du fils n°6 de FEN_Magasin.IMG_SansNom6
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -752,6 +656,101 @@ super.setPositionInitiale(41, 234);
 super.setTailleInitiale(35, 78);
 
 super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\profile.png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(6);
+
+super.setAncrageInitial(0, 1000, 1000, 1000, 500, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x222222, creerPolice_GEN("Roboto", -8.000000, 0), -1, 0, 0x222222);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_SansNom6 mWD_IMG_SansNom6;
+
+/**
+ * IMG_SansNom7
+ */
+class GWDIMG_SansNom7 extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°7 de FEN_Magasin.IMG_SansNom7
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2969406643281893276l);
+
+super.setChecksum("800463224");
+
+super.setNom("IMG_SansNom7");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(41, 339);
+
+super.setTailleInitiale(36, 47);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\location (1).png");
 
 super.setPlan(0);
 
@@ -805,101 +804,6 @@ public void activerEcoute()
 // Déclaration des variables globales
 ////////////////////////////////////////////////////////////////////////////
 }
-public GWDIMG_SansNom6 mWD_IMG_SansNom6;
-
-/**
- * IMG_SansNom7
- */
-class GWDIMG_SansNom7 extends WDChampImage
-{
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°8 de FEN_Magasin.IMG_SansNom7
-////////////////////////////////////////////////////////////////////////////
-public  void initialiserObjet()
-{
-super.initialiserObjet();
-super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969406643281893276l);
-
-super.setChecksum("800463224");
-
-super.setNom("IMG_SansNom7");
-
-super.setType(30001);
-
-super.setBulle("");
-
-super.setLibelle("");
-
-super.setMenuContextuelSysteme();
-
-super.setNote("", "");
-
-super.setCurseurSouris(0);
-
-super.setNavigable(false);
-
-super.setEtatInitial(0);
-
-super.setPositionInitiale(41, 339);
-
-super.setTailleInitiale(36, 47);
-
-super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\location (1).png");
-
-super.setPlan(0);
-
-super.setTailleMin(0, 0);
-
-super.setTailleMax(2147483647, 2147483647);
-
-super.setVisibleInitial(true);
-
-super.setAltitude(8);
-
-super.setAncrageInitial(0, 1000, 1000, 1000, 500, 0);
-
-super.setTransparence(1);
-
-super.setParamImage(2097158, 0, true, 100);
-
-super.setSymetrie(0);
-
-super.setZoneClicage(true);
-
-super.setPCodeMultitouch(false);
-
-super.setChargementEnTacheDeFond(false);
-
-super.setOrientationExif(false);
-
-super.setParamAnimation(1, 1, false, 300, true, false);
-
-super.setAnimationInitiale(false);
-
-super.setTauxParallaxe(0, 0);
-
-super.setPresenceLibelle(false);
-
-super.setStyleLibelle(0x222222, creerPolice_GEN("Roboto", -8.000000, 0), -1, 0, 0x222222);
-
-super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
-
-
-activerEcoute();
-super.terminerInitialisation();
-}
-
-// Activation des écouteurs: 
-public void activerEcoute()
-{
-}
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des variables globales
-////////////////////////////////////////////////////////////////////////////
-}
 public GWDIMG_SansNom7 mWD_IMG_SansNom7;
 
 /**
@@ -909,7 +813,7 @@ class GWDIMG_SansNom9 extends WDChampImage
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°9 de FEN_Magasin.IMG_SansNom9
+// Déclaration des champs du fils n°8 de FEN_Magasin.IMG_SansNom9
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -951,7 +855,7 @@ super.setTailleMax(2147483647, 2147483647);
 
 super.setVisibleInitial(true);
 
-super.setAltitude(9);
+super.setAltitude(8);
 
 super.setAncrageInitial(4, 1000, 1000, 500, 500, 0);
 
@@ -1004,7 +908,7 @@ class GWDBouton3 extends WDBouton
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°10 de FEN_Magasin.Bouton3
+// Déclaration des champs du fils n°9 de FEN_Magasin.Bouton3
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -1032,7 +936,7 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(95, 497);
+super.setPositionInitiale(70, 517);
 
 super.setTailleInitiale(185, 48);
 
@@ -1048,7 +952,7 @@ super.setTailleMax(2147483647, 2147483647);
 
 super.setVisibleInitial(true);
 
-super.setAltitude(10);
+super.setAltitude(9);
 
 super.setAncrageInitial(5, 1000, 1000, 500, 500, 0);
 
@@ -1099,18 +1003,26 @@ public void clicSurBoutonGauche()
 {
 super.clicSurBoutonGauche();
 
-// 
+// HRAZ(Magasin)          // Initialise le tampon mémoire à vide
 //MAP:2935739c0682979c:00000012:1:FEN_Magasin.Bouton3:com.masociete.tracklet.wdgen.GWDFFEN_Magasin$GWDBouton3:Clic sur Bouton3
-// EcranVersFichier()
+// HRAZ(Magasin)          // Initialise le tampon mémoire à vide
+//MAP:2935739c0682979c:00000012:1:FEN_Magasin.Bouton3:com.masociete.tracklet.wdgen.GWDFFEN_Magasin$GWDBouton3:Clic sur Bouton3
+WDAPIHF.hRaz(WDAPIHF.getFichierSansCasseNiAccent("magasin"));
+
+// EcranVersFichier()     // Envoie le contenu des champs de l'écran vers le tampon
 //MAP:2935739c0682979c:00000012:2:FEN_Magasin.Bouton3:com.masociete.tracklet.wdgen.GWDFFEN_Magasin$GWDBouton3:Clic sur Bouton3
 WDAPIFenetre.ecranVersFichier();
 
-// HEnregistre(magasin)  
+// HAjoute(Magasin)    
 //MAP:2935739c0682979c:00000012:3:FEN_Magasin.Bouton3:com.masociete.tracklet.wdgen.GWDFFEN_Magasin$GWDBouton3:Clic sur Bouton3
-WDAPIHF.hEnregistre(WDAPIHF.getFichierSansCasseNiAccent("magasin"));
+WDAPIHF.hAjoute(WDAPIHF.getFichierSansCasseNiAccent("magasin"));
 
-// ferme()
+// OuvreFenêtreMobile(FEN_Liste_Magasin)
 //MAP:2935739c0682979c:00000012:4:FEN_Magasin.Bouton3:com.masociete.tracklet.wdgen.GWDFFEN_Magasin$GWDBouton3:Clic sur Bouton3
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Liste_Magasin);
+
+// Ferme()                // Ferme la fenêtre
+//MAP:2935739c0682979c:00000012:6:FEN_Magasin.Bouton3:com.masociete.tracklet.wdgen.GWDFFEN_Magasin$GWDBouton3:Clic sur Bouton3
 WDAPIFenetre.ferme();
 
 }
@@ -1137,7 +1049,7 @@ class GWDLIB_SansNom1 extends WDLibelle
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°11 de FEN_Magasin.LIB_SansNom1
+// Déclaration des champs du fils n°10 de FEN_Magasin.LIB_SansNom1
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -1181,7 +1093,7 @@ super.setTailleMax(2147483647, 2147483647);
 
 super.setVisibleInitial(true);
 
-super.setAltitude(11);
+super.setAltitude(10);
 
 super.setAncrageInitial(0, 1000, 1000, 1000, 1000, 0);
 
@@ -1220,7 +1132,7 @@ class GWD_3 extends WDLibelle
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°12 de FEN_Magasin._3
+// Déclaration des champs du fils n°11 de FEN_Magasin._3
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -1264,7 +1176,7 @@ super.setTailleMax(2147483647, 2147483647);
 
 super.setVisibleInitial(true);
 
-super.setAltitude(12);
+super.setAltitude(11);
 
 super.setAncrageInitial(9, 1000, 1000, 1000, 1000, 0);
 
@@ -1303,7 +1215,7 @@ class GWDIMG_SansNom2 extends WDChampImage
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°13 de FEN_Magasin.IMG_SansNom2
+// Déclaration des champs du fils n°12 de FEN_Magasin.IMG_SansNom2
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -1345,7 +1257,7 @@ super.setTailleMax(2147483647, 2147483647);
 
 super.setVisibleInitial(true);
 
-super.setAltitude(13);
+super.setAltitude(12);
 
 super.setAncrageInitial(1, 1000, 1000, 1000, 1000, 0);
 
@@ -1411,252 +1323,6 @@ super.activerEcouteurClic();
 public GWDIMG_SansNom2 mWD_IMG_SansNom2;
 
 /**
- * IMG_SansNom3
- */
-class GWDIMG_SansNom3 extends WDChampImage
-{
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°14 de FEN_Magasin.IMG_SansNom3
-////////////////////////////////////////////////////////////////////////////
-public  void initialiserObjet()
-{
-super.initialiserObjet();
-super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969406643282286492l);
-
-super.setChecksum("800856440");
-
-super.setNom("IMG_SansNom3");
-
-super.setType(30001);
-
-super.setBulle("");
-
-super.setLibelle("");
-
-super.setMenuContextuelSysteme();
-
-super.setNote("", "");
-
-super.setCurseurSouris(0);
-
-super.setNavigable(false);
-
-super.setEtatInitial(0);
-
-super.setPositionInitiale(136, 608);
-
-super.setTailleInitiale(45, 42);
-
-super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\list.png");
-
-super.setPlan(0);
-
-super.setTailleMin(0, 0);
-
-super.setTailleMax(2147483647, 2147483647);
-
-super.setVisibleInitial(true);
-
-super.setAltitude(14);
-
-super.setAncrageInitial(1, 1000, 1000, 1000, 1000, 0);
-
-super.setTransparence(1);
-
-super.setParamImage(2097158, 0, true, 100);
-
-super.setSymetrie(0);
-
-super.setZoneClicage(true);
-
-super.setPCodeMultitouch(false);
-
-super.setChargementEnTacheDeFond(false);
-
-super.setOrientationExif(false);
-
-super.setParamAnimation(1, 1, false, 300, true, false);
-
-super.setAnimationInitiale(false);
-
-super.setTauxParallaxe(0, 0);
-
-super.setPresenceLibelle(false);
-
-super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
-
-super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
-
-
-activerEcoute();
-super.terminerInitialisation();
-}
-
-/**
- * Traitement: Clic sur IMG_SansNom3
- */
-public void clicSurBoutonGauche()
-{
-super.clicSurBoutonGauche();
-
-// OuvreFenêtreMobile('FEN_menu réclamation')
-//MAP:2935739c0686979c:00000012:1:FEN_Magasin.IMG_SansNom3:com.masociete.tracklet.wdgen.GWDFFEN_Magasin$GWDIMG_SansNom3:Clic sur IMG_SansNom3
-// Erreur sur l'objet: FEN_Magasin.IMG_SansNom3
-// 	Traitement : Clic sur IMG_SansNom3 (18)
-// 	Code: 301
-// 	Message: L'élément 'FEN_menu réclamation' est inconnu ou inaccessible.
-// 	Ligne : 0, Colonne : 19
-// 
-// 
-// Erreur sur l'objet: FEN_Magasin.IMG_SansNom3
-// 	Traitement : Clic sur IMG_SansNom3 (18)
-// 	Code: 301
-// 	Message: L'élément 'FEN_menu réclamation' est inconnu ou inaccessible.
-// 	Ligne : 0, Colonne : 19
-// 
-// 
-WDErreurManager.erreurGeneration("Erreur sur l'objet: FEN_Magasin.IMG_SansNom3\r\n\tTraitement : Clic sur IMG_SansNom3 (18)\r\n\tCode: 301\r\n\tMessage: L'élément 'FEN_menu réclamation' est inconnu ou inaccessible.\r\n\tLigne : 0, Colonne : 19\r\n\r\n\r\nErreur sur l'objet: FEN_Magasin.IMG_SansNom3\r\n\tTraitement : Clic sur IMG_SansNom3 (18)\r\n\tCode: 301\r\n\tMessage: L'élément 'FEN_menu réclamation' est inconnu ou inaccessible.\r\n\tLigne : 0, Colonne : 19\r\n\r\n");
-
-
-// // OuvreFenêtreMobile('FEN_menu réclamation')
-// //MAP:2935739c0686979c:00000012:1:FEN_Magasin.IMG_SansNom3:com.masociete.tracklet.wdgen.GWDFFEN_Magasin$GWDIMG_SansNom3:Clic sur IMG_SansNom3
-// WDAPIFenetre.ouvreFille();
-// 
-
-}
-
-
-
-
-// Activation des écouteurs: 
-public void activerEcoute()
-{
-super.activerEcouteurClic();
-}
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des variables globales
-////////////////////////////////////////////////////////////////////////////
-}
-public GWDIMG_SansNom3 mWD_IMG_SansNom3;
-
-/**
- * IMG_SansNom8
- */
-class GWDIMG_SansNom8 extends WDChampImage
-{
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°15 de FEN_Magasin.IMG_SansNom8
-////////////////////////////////////////////////////////////////////////////
-public  void initialiserObjet()
-{
-super.initialiserObjet();
-super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969406643282352028l);
-
-super.setChecksum("800921976");
-
-super.setNom("IMG_SansNom8");
-
-super.setType(30001);
-
-super.setBulle("");
-
-super.setLibelle("");
-
-super.setMenuContextuelSysteme();
-
-super.setNote("", "");
-
-super.setCurseurSouris(0);
-
-super.setNavigable(false);
-
-super.setEtatInitial(0);
-
-super.setPositionInitiale(261, 606);
-
-super.setTailleInitiale(42, 46);
-
-super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\right.png");
-
-super.setPlan(0);
-
-super.setTailleMin(0, 0);
-
-super.setTailleMax(2147483647, 2147483647);
-
-super.setVisibleInitial(true);
-
-super.setAltitude(15);
-
-super.setAncrageInitial(5, 0, 1000, 1000, 1000, 0);
-
-super.setTransparence(1);
-
-super.setParamImage(2097158, 0, true, 100);
-
-super.setSymetrie(0);
-
-super.setZoneClicage(true);
-
-super.setPCodeMultitouch(false);
-
-super.setChargementEnTacheDeFond(false);
-
-super.setOrientationExif(false);
-
-super.setParamAnimation(1, 1, false, 300, true, false);
-
-super.setAnimationInitiale(false);
-
-super.setTauxParallaxe(0, 0);
-
-super.setPresenceLibelle(false);
-
-super.setStyleLibelle(0x222222, creerPolice_GEN("Roboto", -8.000000, 0), -1, 0, 0x222222);
-
-super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
-
-
-activerEcoute();
-super.terminerInitialisation();
-}
-
-/**
- * Traitement: Clic sur IMG_SansNom8
- */
-public void clicSurBoutonGauche()
-{
-super.clicSurBoutonGauche();
-
-// OuvreFenêtreMobile(réclamation)
-//MAP:2935739c0687979c:00000012:1:FEN_Magasin.IMG_SansNom8:com.masociete.tracklet.wdgen.GWDFFEN_Magasin$GWDIMG_SansNom8:Clic sur IMG_SansNom8
-// OuvreFenêtreMobile(réclamation)
-//MAP:2935739c0687979c:00000012:1:FEN_Magasin.IMG_SansNom8:com.masociete.tracklet.wdgen.GWDFFEN_Magasin$GWDIMG_SansNom8:Clic sur IMG_SansNom8
-WDAPIFenetre.ouvreFille(WDAPIHF.getFichierSansCasseNiAccent("reclamation"));
-
-}
-
-
-
-
-// Activation des écouteurs: 
-public void activerEcoute()
-{
-super.activerEcouteurClic();
-}
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des variables globales
-////////////////////////////////////////////////////////////////////////////
-}
-public GWDIMG_SansNom8 mWD_IMG_SansNom8;
-
-/**
  * Traitement: Déclarations globales de FEN_Magasin
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
@@ -1691,7 +1357,6 @@ mWD_IMG_SansNom1 = new GWDIMG_SansNom1();
 mWD_Nom_de_magasin3 = new GWDNom_de_magasin3();
 mWD_adresse1 = new GWDadresse1();
 mWD_Nom_de_magasin4 = new GWDNom_de_magasin4();
-mWD_Image4 = new GWDImage4();
 mWD_IMG_SansNom6 = new GWDIMG_SansNom6();
 mWD_IMG_SansNom7 = new GWDIMG_SansNom7();
 mWD_IMG_SansNom9 = new GWDIMG_SansNom9();
@@ -1699,8 +1364,6 @@ mWD_Bouton3 = new GWDBouton3();
 mWD_LIB_SansNom1 = new GWDLIB_SansNom1();
 mWD__3 = new GWD_3();
 mWD_IMG_SansNom2 = new GWDIMG_SansNom2();
-mWD_IMG_SansNom3 = new GWDIMG_SansNom3();
-mWD_IMG_SansNom8 = new GWDIMG_SansNom8();
 
 }
 ////////////////////////////////////////////////////////////////////////////
@@ -1770,8 +1433,6 @@ mWD_adresse1.initialiserObjet();
 super.ajouter("adresse1", mWD_adresse1);
 mWD_Nom_de_magasin4.initialiserObjet();
 super.ajouter("Nom_de_magasin4", mWD_Nom_de_magasin4);
-mWD_Image4.initialiserObjet();
-super.ajouter("Image4", mWD_Image4);
 mWD_IMG_SansNom6.initialiserObjet();
 super.ajouter("IMG_SansNom6", mWD_IMG_SansNom6);
 mWD_IMG_SansNom7.initialiserObjet();
@@ -1786,10 +1447,6 @@ mWD__3.initialiserObjet();
 super.ajouter("_3", mWD__3);
 mWD_IMG_SansNom2.initialiserObjet();
 super.ajouter("IMG_SansNom2", mWD_IMG_SansNom2);
-mWD_IMG_SansNom3.initialiserObjet();
-super.ajouter("IMG_SansNom3", mWD_IMG_SansNom3);
-mWD_IMG_SansNom8.initialiserObjet();
-super.ajouter("IMG_SansNom8", mWD_IMG_SansNom8);
 
 super.terminerInitialisation();
 }

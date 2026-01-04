@@ -1,0 +1,6 @@
+//MO030-031.TXT ANA00030 TO ANA00031
+Reclamation		FCNX+	Connexion à '192.168.137.1'	
+Magasin		FCNX+	Connexion à '192.168.137.1'	
+Utilisateur		FCNX+	Connexion à '192.168.137.1'	
+Affectation		FCNX+	Connexion à '192.168.137.1'	
+Connexion à '192.168.137.1'		CNX+		

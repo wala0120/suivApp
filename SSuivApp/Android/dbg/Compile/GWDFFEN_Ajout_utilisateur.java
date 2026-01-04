@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Ajout_utilisateur
- * Date : 09/12/2025 23:56:10
+ * Date : 28/12/2025 21:59:30
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -17,10 +17,10 @@ import fr.pcsoft.wdjava.ui.champs.fenetre.*;
 import fr.pcsoft.wdjava.ui.champs.saisie.*;
 import fr.pcsoft.wdjava.ui.cadre.*;
 import fr.pcsoft.wdjava.ui.champs.libelle.*;
-import fr.pcsoft.wdjava.ui.champs.image.*;
 import fr.pcsoft.wdjava.ui.champs.bouton.*;
 import fr.pcsoft.wdjava.api.*;
 import fr.pcsoft.wdjava.ui.champs.combo.*;
+import fr.pcsoft.wdjava.ui.champs.image.*;
 import fr.pcsoft.wdjava.email.*;
 import fr.pcsoft.wdjava.core.poo.*;
 import fr.pcsoft.wdjava.core.application.*;
@@ -50,8 +50,8 @@ public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setRectLibelle(1,3,102,34);
-super.setRectCompPrincipal(103,3,183,34);
+super.setRectLibelle(1,3,94,36);
+super.setRectCompPrincipal(95,3,173,36);
 super.setQuid(2969406394167112941l);
 
 super.setChecksum("793783263");
@@ -76,9 +76,9 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(8, 289);
+super.setPositionInitiale(46, 418);
 
-super.setTailleInitiale(300, 40);
+super.setTailleInitiale(271, 42);
 
 super.setValeurInitiale("");
 
@@ -102,7 +102,7 @@ super.setVisibleInitial(true);
 
 super.setAltitude(1);
 
-super.setAncrageInitial(8, 1000, 1000, 1000, 1000, 0);
+super.setAncrageInitial(0, 1000, 1000, 1000, 500, 0);
 
 super.setEllipse(0);
 
@@ -142,7 +142,7 @@ super.setPresenceLibelle(true);
 
 super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -2, 0, 0x2D2D2D);
 
-super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(27, 0x2D2D2D, 0x0, 0xFFFFFFFF, 157.000000, 157.000000, 1, 1), 0, 0, 0, 0);
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(2, 0x969696, 0x161616, 0xFFFFFFFF, 2.000000, 2.000000, 1, 1), 0, 0, 0, 0);
 
 super.setCadreInterne(WDCadreFactory.creerCadre_GEN("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Gabarits\\WM\\180 AquaBlue\\AquaBlue_Edt.png?E5_3NP_8_8_8_8", new int[] {1,4,1,2,2,2,1,4,1}, new int[] {8, 8, 8, 8}, 0xFDFDFD, 1, 5));
 
@@ -180,8 +180,8 @@ public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setRectLibelle(1,3,101,34);
-super.setRectCompPrincipal(102,3,182,34);
+super.setRectLibelle(1,3,92,34);
+super.setRectCompPrincipal(93,3,171,34);
 super.setQuid(2969406394167178477l);
 
 super.setChecksum("793848799");
@@ -206,9 +206,9 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(8, 239);
+super.setPositionInitiale(50, 353);
 
-super.setTailleInitiale(300, 40);
+super.setTailleInitiale(267, 40);
 
 super.setValeurInitiale("");
 
@@ -232,7 +232,7 @@ super.setVisibleInitial(true);
 
 super.setAltitude(2);
 
-super.setAncrageInitial(8, 1000, 1000, 1000, 1000, 0);
+super.setAncrageInitial(0, 1000, 1000, 1000, 500, 0);
 
 super.setEllipse(0);
 
@@ -272,7 +272,7 @@ super.setPresenceLibelle(true);
 
 super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -2, 0, 0x2D2D2D);
 
-super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(27, 0x603C0C, 0x0, 0xFFFFFFFF, 157.000000, 157.000000, 1, 1), 0, 0, 0, 0);
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(2, 0x969696, 0x161616, 0xFFFFFFFF, 2.000000, 2.000000, 1, 1), 0, 0, 0, 0);
 
 super.setCadreInterne(WDCadreFactory.creerCadre_GEN("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Gabarits\\WM\\180 AquaBlue\\AquaBlue_Edt.png?E5_3NP_8_8_8_8", new int[] {1,4,1,2,2,2,1,4,1}, new int[] {8, 8, 8, 8}, 0xFDFDFD, 1, 5));
 
@@ -387,109 +387,13 @@ public void activerEcoute()
 public GWD_2 mWD__2;
 
 /**
- * IMG_SansNom1
- */
-class GWDIMG_SansNom1 extends WDChampImage
-{
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°4 de FEN_Ajout_utilisateur.IMG_SansNom1
-////////////////////////////////////////////////////////////////////////////
-public  void initialiserObjet()
-{
-super.initialiserObjet();
-super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969406394167309549l);
-
-super.setChecksum("793982607");
-
-super.setNom("IMG_SansNom1");
-
-super.setType(30001);
-
-super.setBulle("");
-
-super.setLibelle("");
-
-super.setMenuContextuelSysteme();
-
-super.setNote("", "");
-
-super.setCurseurSouris(0);
-
-super.setNavigable(false);
-
-super.setEtatInitial(0);
-
-super.setPositionInitiale(-108, 50);
-
-super.setTailleInitiale(387, 189);
-
-super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\add-group.png");
-
-super.setPlan(0);
-
-super.setTailleMin(0, 0);
-
-super.setTailleMax(2147483647, 2147483647);
-
-super.setVisibleInitial(true);
-
-super.setAltitude(4);
-
-super.setAncrageInitial(0, 1000, 1000, 1000, 1000, 0);
-
-super.setTransparence(1);
-
-super.setParamImage(2097158, 0, true, 100);
-
-super.setSymetrie(0);
-
-super.setZoneClicage(true);
-
-super.setPCodeMultitouch(false);
-
-super.setChargementEnTacheDeFond(false);
-
-super.setOrientationExif(false);
-
-super.setParamAnimation(1, 1, false, 300, true, false);
-
-super.setAnimationInitiale(false);
-
-super.setTauxParallaxe(0, 0);
-
-super.setPresenceLibelle(false);
-
-super.setStyleLibelle(0x222222, creerPolice_GEN("Roboto", -8.000000, 0), -1, 0, 0x222222);
-
-super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
-
-super.setParamAnimationChamp(24, 21, 0);
-
-activerEcoute();
-super.terminerInitialisation();
-}
-
-// Activation des écouteurs: 
-public void activerEcoute()
-{
-}
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des variables globales
-////////////////////////////////////////////////////////////////////////////
-}
-public GWDIMG_SansNom1 mWD_IMG_SansNom1;
-
-/**
  * Bouton2
  */
 class GWDBouton2 extends WDBouton
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°5 de FEN_Ajout_utilisateur.Bouton2
+// Déclaration des champs du fils n°4 de FEN_Ajout_utilisateur.Bouton2
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -517,7 +421,7 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(70, 486);
+super.setPositionInitiale(63, 532);
 
 super.setTailleInitiale(160, 48);
 
@@ -533,9 +437,9 @@ super.setTailleMax(2147483647, 2147483647);
 
 super.setVisibleInitial(true);
 
-super.setAltitude(5);
+super.setAltitude(4);
 
-super.setAncrageInitial(4, 1000, 1000, 1000, 1000, 0);
+super.setAncrageInitial(5, 1000, 1000, 500, 1000, 0);
 
 super.setNumTab(4);
 
@@ -606,11 +510,11 @@ WDObjet vWD_MotDePasse = new WDChaineU();
 
 
 
-// Utilisateur.Email = SAI_EMail..Valeur
+// utilisateur.Email = SAI_EMail..Valeur
 //MAP:29357362061eb4ed:00000012:2:FEN_Ajout_utilisateur.Bouton2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$GWDBouton2:Clic sur Bouton2
 WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("email").setValeur(mWD_SAI_EMail.getProp(EWDPropriete.PROP_VALEUR));
 
-// SI HLitRecherche(Utilisateur, Email, Utilisateur.Email) ALORS
+// SI HLitRecherche(utilisateur, Email, utilisateur.Email) ALORS
 //MAP:29357362061eb4ed:00000012:5:FEN_Ajout_utilisateur.Bouton2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$GWDBouton2:Clic sur Bouton2
 if(WDAPIHF.hLitRecherche(WDAPIHF.getFichierSansCasseNiAccent("utilisateur"),WDAPIHF.getRubriqueSansCasseNiAccent("email"),WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("email")).getBoolean())
 {
@@ -624,7 +528,7 @@ return;
 
 }
 
-// sEmail est une chaîne = Utilisateur.Email
+// sEmail est une chaîne = utilisateur.Email
 //MAP:29357362061eb4ed:00000012:b:FEN_Ajout_utilisateur.Bouton2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$GWDBouton2:Clic sur Bouton2
 
 vWD_sEmail.setValeur(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("email"));
@@ -712,11 +616,11 @@ vWD_MotDePasse.setValeur(vWD_MotDePasse.opPlus(WDAPIChaine.milieu(vWD_Caracteres
 
 }
 
-// Utilisateur.mot_De_passe = MotDePasse
+// utilisateur.mot_De_passe = MotDePasse
 //MAP:29357362061eb4ed:00000012:26:FEN_Ajout_utilisateur.Bouton2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$GWDBouton2:Clic sur Bouton2
 WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("mot_de_passe").setValeur(vWD_MotDePasse);
 
-// Utilisateur.mot_De_passe = MotDePasse
+// utilisateur.mot_De_passe = MotDePasse
 //MAP:29357362061eb4ed:00000012:29:FEN_Ajout_utilisateur.Bouton2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$GWDBouton2:Clic sur Bouton2
 WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("mot_de_passe").setValeur(vWD_MotDePasse);
 
@@ -724,11 +628,11 @@ WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent(
 //MAP:29357362061eb4ed:00000012:2c:FEN_Ajout_utilisateur.Bouton2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$GWDBouton2:Clic sur Bouton2
 WDAPIFenetre.ecranVersFichier();
 
-// SI HAjoute(Utilisateur) ALORS
+// SI HAjoute(utilisateur) ALORS
 //MAP:29357362061eb4ed:00000012:2f:FEN_Ajout_utilisateur.Bouton2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$GWDBouton2:Clic sur Bouton2
 if(WDAPIHF.hAjoute(WDAPIHF.getFichierSansCasseNiAccent("utilisateur")).getBoolean())
 {
-// 	EnvoyerEmail(Utilisateur.Email,"Votre nouveau compte","Bonjour," + RC + "Votre mot de passe est : " + MotDePasse)
+// 	EnvoyerEmail(utilisateur.Email,"Votre nouveau compte","Bonjour," + RC + "Votre mot de passe est : " + MotDePasse)
 //MAP:29357362061eb4ed:00000012:32:FEN_Ajout_utilisateur.Bouton2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$GWDBouton2:Clic sur Bouton2
 fWD_envoyerEmail(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("email"),new WDChaineU("Votre nouveau compte"),new WDChaineU("Bonjour,\r\nVotre mot de passe est : ").opPlus(vWD_MotDePasse));
 
@@ -767,108 +671,13 @@ super.activerEcouteurClic();
 public GWDBouton2 mWD_Bouton2;
 
 /**
- * Image4
- */
-class GWDImage4 extends WDChampImage
-{
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°6 de FEN_Ajout_utilisateur.Image4
-////////////////////////////////////////////////////////////////////////////
-public  void initialiserObjet()
-{
-super.initialiserObjet();
-super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969406394167440621l);
-
-super.setChecksum("794113679");
-
-super.setNom("Image4");
-
-super.setType(30001);
-
-super.setBulle("");
-
-super.setLibelle("");
-
-super.setMenuContextuelSysteme();
-
-super.setNote("", "");
-
-super.setCurseurSouris(0);
-
-super.setNavigable(false);
-
-super.setEtatInitial(0);
-
-super.setPositionInitiale(77, 479);
-
-super.setTailleInitiale(30, 67);
-
-super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\diskette.png");
-
-super.setPlan(0);
-
-super.setTailleMin(0, 0);
-
-super.setTailleMax(2147483647, 2147483647);
-
-super.setVisibleInitial(true);
-
-super.setAltitude(6);
-
-super.setAncrageInitial(0, 1000, 1000, 1000, 1000, 0);
-
-super.setTransparence(1);
-
-super.setParamImage(2097158, 0, true, 100);
-
-super.setSymetrie(0);
-
-super.setZoneClicage(true);
-
-super.setPCodeMultitouch(false);
-
-super.setChargementEnTacheDeFond(false);
-
-super.setOrientationExif(false);
-
-super.setParamAnimation(1, 1, false, 300, true, false);
-
-super.setAnimationInitiale(false);
-
-super.setTauxParallaxe(0, 0);
-
-super.setPresenceLibelle(false);
-
-super.setStyleLibelle(0x7A6E6A, creerPolice_GEN("Verdana", -8.000000, 0), -1, 0, 0x7A6E6A);
-
-super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
-
-
-activerEcoute();
-super.terminerInitialisation();
-}
-
-// Activation des écouteurs: 
-public void activerEcoute()
-{
-}
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des variables globales
-////////////////////////////////////////////////////////////////////////////
-}
-public GWDImage4 mWD_Image4;
-
-/**
  * LIB_Ajout_Utilisateur
  */
 class GWDLIB_Ajout_Utilisateur extends WDLibelle
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°7 de FEN_Ajout_utilisateur.LIB_Ajout_Utilisateur
+// Déclaration des champs du fils n°5 de FEN_Ajout_utilisateur.LIB_Ajout_Utilisateur
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -896,7 +705,7 @@ super.setCurseurSouris(0);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(-2, 57);
+super.setPositionInitiale(-88, 9);
 
 super.setTailleInitiale(320, 83);
 
@@ -912,7 +721,7 @@ super.setTailleMax(2147483647, 2147483647);
 
 super.setVisibleInitial(true);
 
-super.setAltitude(7);
+super.setAltitude(5);
 
 super.setAncrageInitial(8, 1000, 1000, 1000, 1000, 0);
 
@@ -951,17 +760,17 @@ class GWDCOMBO_Role extends WDCombo
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°8 de FEN_Ajout_utilisateur.COMBO_Role
+// Déclaration des champs du fils n°6 de FEN_Ajout_utilisateur.COMBO_Role
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setRectLibelle(1,3,98,34);
-super.setRectCompPrincipal(99,3,187,34);
+super.setRectLibelle(1,3,91,34);
+super.setRectCompPrincipal(92,3,174,34);
 super.setQuid(2969406394167571693l);
 
-super.setChecksum("805447495");
+super.setChecksum("809767533");
 
 super.setNom("COMBO_Role");
 
@@ -981,9 +790,9 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(8, 350);
+super.setPositionInitiale(46, 485);
 
-super.setTailleInitiale(300, 40);
+super.setTailleInitiale(269, 40);
 
 super.setValeurInitiale("");
 
@@ -1003,9 +812,9 @@ super.setTailleMax(2147483647, 2147483647);
 
 super.setVisibleInitial(true);
 
-super.setAltitude(8);
+super.setAltitude(6);
 
-super.setAncrageInitial(8, 1000, 1000, 1000, 1000, 0);
+super.setAncrageInitial(0, 1000, 1000, 1000, 500, 0);
 
 super.setNumTab(3);
 
@@ -1021,7 +830,7 @@ super.setPresenceLibelle(true);
 
 super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -2, 0, 0x2D2D2D);
 
-super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(27, 0x2D2D2D, 0x0, 0xFFFFFFFF, 157.000000, 157.000000, 1, 1), 0, 0, 0, 0);
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(2, 0x969696, 0x161616, 0xFFFFFFFF, 2.000000, 2.000000, 1, 1), 0, 0, 0, 0);
 
 super.setCadreInterne(WDCadreFactory.creerCadre_GEN("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Gabarits\\WM\\180 AquaBlue\\AquaBlue_Combo.png?E5_3NP_32_6_42_6", new int[] {1,4,1,2,2,2,1,4,1}, new int[] {6, 42, 6, 32}, 0xFDFDFD, 1, 5));
 
@@ -1045,6 +854,500 @@ public void activerEcoute()
 ////////////////////////////////////////////////////////////////////////////
 }
 public GWDCOMBO_Role mWD_COMBO_Role;
+
+/**
+ * IMG_SansNom2
+ */
+class GWDIMG_SansNom2 extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°7 de FEN_Ajout_utilisateur.IMG_SansNom2
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2976413302584616137l);
+
+super.setChecksum("781978410");
+
+super.setNom("IMG_SansNom2");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(14, 584);
+
+super.setTailleInitiale(33, 38);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\left.png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(7);
+
+super.setAncrageInitial(1, 1000, 1000, 1000, 1000, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+/**
+ * Traitement: Clic sur IMG_SansNom2
+ */
+public void clicSurBoutonGauche()
+{
+super.clicSurBoutonGauche();
+
+// OuvreFenêtreMobile(FEN_Liste_Utilisateurs)
+//MAP:294e5821054da4c9:00000012:1:FEN_Ajout_utilisateur.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$GWDIMG_SansNom2:Clic sur IMG_SansNom2
+// OuvreFenêtreMobile(FEN_Liste_Utilisateurs)
+//MAP:294e5821054da4c9:00000012:1:FEN_Ajout_utilisateur.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$GWDIMG_SansNom2:Clic sur IMG_SansNom2
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Liste_Utilisateurs);
+
+}
+
+
+
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+super.activerEcouteurClic();
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_SansNom2 mWD_IMG_SansNom2;
+
+/**
+ * IMG_SansNom3
+ */
+class GWDIMG_SansNom3 extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°8 de FEN_Ajout_utilisateur.IMG_SansNom3
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2977268486420025055l);
+
+super.setChecksum("794377993");
+
+super.setNom("IMG_SansNom3");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(-42, 43);
+
+super.setTailleInitiale(419, 262);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\ChatGPT Image 28 déc. 2025, 11_44_06.png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(8);
+
+super.setAncrageInitial(8, 1000, 1000, 1000, 1000, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_SansNom3 mWD_IMG_SansNom3;
+
+/**
+ * IMG_SansNom4
+ */
+class GWDIMG_SansNom4 extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°9 de FEN_Ajout_utilisateur.IMG_SansNom4
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2977271230916300004l);
+
+super.setChecksum("806551437");
+
+super.setNom("IMG_SansNom4");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(-2, 342);
+
+super.setTailleInitiale(44, 45);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\dabord (1).png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(9);
+
+super.setAncrageInitial(0, 1000, 1000, 1000, 1000, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_SansNom4 mWD_IMG_SansNom4;
+
+/**
+ * IMG_SansNom5
+ */
+class GWDIMG_SansNom5 extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°10 de FEN_Ajout_utilisateur.IMG_SansNom5
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2977271286751149809l);
+
+super.setChecksum("806826407");
+
+super.setNom("IMG_SansNom5");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(5, 404);
+
+super.setTailleInitiale(33, 59);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\e-mail.png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(10);
+
+super.setAncrageInitial(0, 1000, 1000, 1000, 1000, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_SansNom5 mWD_IMG_SansNom5;
+
+/**
+ * IMG_SansNom6
+ */
+class GWDIMG_SansNom6 extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°11 de FEN_Ajout_utilisateur.IMG_SansNom6
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2977271312521353598l);
+
+super.setChecksum("807226426");
+
+super.setNom("IMG_SansNom6");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(4, 480);
+
+super.setTailleInitiale(42, 39);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\equipe.png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(11);
+
+super.setAncrageInitial(0, 1000, 1000, 1000, 1000, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_SansNom6 mWD_IMG_SansNom6;
 
 
 ////////////////////////////////////////////////////////////////////////////
@@ -1278,7 +1581,7 @@ finExecProcLocale();
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// PROCÉDURE MaFenêtre()
+// PROCEDURE MaFenêtre()
 //MAP:293573620619b4dd:00000000:1:FEN_Ajout_utilisateur:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur:Déclarations globales de FEN_Ajout_utilisateur
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;
@@ -1306,11 +1609,14 @@ protected void creerChamps()
 mWD_SAI_EMail = new GWDSAI_EMail();
 mWD_SAI_Nom_Prenom = new GWDSAI_Nom_Prenom();
 mWD__2 = new GWD_2();
-mWD_IMG_SansNom1 = new GWDIMG_SansNom1();
 mWD_Bouton2 = new GWDBouton2();
-mWD_Image4 = new GWDImage4();
 mWD_LIB_Ajout_Utilisateur = new GWDLIB_Ajout_Utilisateur();
 mWD_COMBO_Role = new GWDCOMBO_Role();
+mWD_IMG_SansNom2 = new GWDIMG_SansNom2();
+mWD_IMG_SansNom3 = new GWDIMG_SansNom3();
+mWD_IMG_SansNom4 = new GWDIMG_SansNom4();
+mWD_IMG_SansNom5 = new GWDIMG_SansNom5();
+mWD_IMG_SansNom6 = new GWDIMG_SansNom6();
 
 }
 ////////////////////////////////////////////////////////////////////////////
@@ -1320,7 +1626,7 @@ public  void initialiserObjet()
 {
 super.setQuid(2969406394167047389l);
 
-super.setChecksum("799716808");
+super.setChecksum("800276808");
 
 super.setNom("FEN_Ajout_utilisateur");
 
@@ -1336,11 +1642,11 @@ super.setNote("", "");
 
 super.setCouleur(0x0);
 
-super.setCouleurFond(0xEAEAEA);
+super.setCouleurFond(0xFFFFFF);
 
 super.setPositionInitiale(0, 0);
 
-super.setTailleInitiale(320, 568);
+super.setTailleInitiale(320, 624);
 
 super.setTitre("nouveau utilisateur");
 
@@ -1376,16 +1682,22 @@ mWD_SAI_Nom_Prenom.initialiserObjet();
 super.ajouter("SAI_Nom_Prénom", mWD_SAI_Nom_Prenom);
 mWD__2.initialiserObjet();
 super.ajouter("_2", mWD__2);
-mWD_IMG_SansNom1.initialiserObjet();
-super.ajouter("IMG_SansNom1", mWD_IMG_SansNom1);
 mWD_Bouton2.initialiserObjet();
 super.ajouter("Bouton2", mWD_Bouton2);
-mWD_Image4.initialiserObjet();
-super.ajouter("Image4", mWD_Image4);
 mWD_LIB_Ajout_Utilisateur.initialiserObjet();
 super.ajouter("LIB_Ajout_Utilisateur", mWD_LIB_Ajout_Utilisateur);
 mWD_COMBO_Role.initialiserObjet();
 super.ajouter("COMBO_Role", mWD_COMBO_Role);
+mWD_IMG_SansNom2.initialiserObjet();
+super.ajouter("IMG_SansNom2", mWD_IMG_SansNom2);
+mWD_IMG_SansNom3.initialiserObjet();
+super.ajouter("IMG_SansNom3", mWD_IMG_SansNom3);
+mWD_IMG_SansNom4.initialiserObjet();
+super.ajouter("IMG_SansNom4", mWD_IMG_SansNom4);
+mWD_IMG_SansNom5.initialiserObjet();
+super.ajouter("IMG_SansNom5", mWD_IMG_SansNom5);
+mWD_IMG_SansNom6.initialiserObjet();
+super.ajouter("IMG_SansNom6", mWD_IMG_SansNom6);
 
 super.terminerInitialisation();
 }

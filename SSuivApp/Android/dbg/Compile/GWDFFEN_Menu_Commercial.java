@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_ Menu_Commercial
- * Date : 10/12/2025 00:22:05
+ * Date : 28/12/2025 21:59:30
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -19,7 +19,7 @@ import fr.pcsoft.wdjava.ui.champs.libelle.*;
 import fr.pcsoft.wdjava.ui.cadre.*;
 import fr.pcsoft.wdjava.ui.champs.image.*;
 import fr.pcsoft.wdjava.api.*;
-import fr.pcsoft.wdjava.ui.champs.bouton.*;
+import fr.pcsoft.wdjava.core.erreur.*;
 import fr.pcsoft.wdjava.core.context.*;
 import fr.pcsoft.wdjava.core.application.*;
 import fr.pcsoft.wdjava.ui.activite.*;
@@ -88,9 +88,9 @@ super.setCurseurSouris(0);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(1, 117);
+super.setPositionInitiale(1, 106);
 
-super.setTailleInitiale(85, 36);
+super.setTailleInitiale(93, 47);
 
 super.setPlan(0);
 
@@ -171,9 +171,9 @@ super.setNavigable(false);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(8, -33);
+super.setPositionInitiale(4, -4);
 
-super.setTailleInitiale(78, 200);
+super.setTailleInitiale(78, 121);
 
 super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\appetite_11331394.png");
 
@@ -323,7 +323,7 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(66, 256);
+super.setPositionInitiale(26, 256);
 
 super.setTailleInitiale(94, 150);
 
@@ -339,7 +339,7 @@ super.setNumTab(1);
 
 super.setAltitude(1);
 
-super.setAncrageInitial(9, 330, 1000, 1000, 1000, 0);
+super.setAncrageInitial(1, 330, 1000, 1000, 1000, 0);
 
 super.setIndiceModeleLigneDynamique(0);
 
@@ -411,29 +411,29 @@ class GWDZM_ACTION5 extends WDZoneMultiligne
 ////////////////////////////////////////////////////////////////////////////
 
 /**
- * BTN_ACTION5
+ * IMG_SansNom6
  */
-class GWDBTN_ACTION5 extends WDBouton
+class GWDIMG_SansNom6 extends WDChampImage
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°1 de FEN_ Menu_Commercial.ZM_ACTION5.BTN_ACTION5
+// Déclaration des champs du fils n°1 de FEN_ Menu_Commercial.ZM_ACTION5.IMG_SansNom6
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969373541904153898l);
+super.setQuid(2977279069265552657l);
 
-super.setChecksum("735664587");
+super.setChecksum("840490715");
 
-super.setNom("BTN_ACTION5");
+super.setNom("IMG_SansNom6");
 
-super.setType(4);
+super.setType(30001);
 
 super.setBulle("");
 
-super.setLibelle("+");
+super.setLibelle("");
 
 super.setMenuContextuelSysteme();
 
@@ -445,97 +445,65 @@ super.setNavigable(false);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(13, 8);
+super.setPositionInitiale(15, -47);
 
-super.setTailleInitiale(68, 54);
+super.setTailleInitiale(78, 200);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\parametre (1).png");
 
 super.setPlan(0);
 
-super.setImageEtat(5);
-
-super.setImageFondEtat(1);
-
 super.setTailleMin(0, 0);
 
-super.setTailleMax(134217727, 134217727);
+super.setTailleMax(2147483647, 2147483647);
 
 super.setVisibleInitial(true);
 
 super.setAltitude(1);
 
-super.setAncrageInitial(4, 1000, 1000, 500, 1000, 0);
+super.setAncrageInitial(0, 1000, 1000, 1000, 1000, 0);
 
-super.setNumTab(-1);
+super.setTransparence(1);
 
-super.setLettreAppel(65535);
+super.setParamImage(2097158, 0, true, 100);
 
-super.setTypeBouton(2);
+super.setSymetrie(0);
 
-super.setTypeActionPredefinie(0);
+super.setZoneClicage(true);
 
-super.setBoutonOnOff(false);
+super.setPCodeMultitouch(false);
 
-super.setTauxParallaxe(1000, 0);
+super.setChargementEnTacheDeFond(false);
 
-super.setLibelleVAlign(1);
+super.setOrientationExif(false);
 
-super.setLibelleHAlign(5);
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
 
 super.setPresenceLibelle(false);
 
-super.setImage("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\paramètre_B_32_5@dpi1x.png?E5", 0, 2, 5, null, null, null);
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
 
-super.setStyleLibelleRepos(0xFFFFFF, creerPolice_GEN("Trebuchet MS", -8.000000, 0), 0, 0x2D2D2D);
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
 
-super.setStyleLibelleSurvol(0xFFFFFF, creerPolice_GEN("Trebuchet MS", -8.000000, 0), 0, 0x2D2D2D);
-
-super.setStyleLibelleEnfonce(0xFFFFFF, creerPolice_GEN("Trebuchet MS", -8.000000, 0), 0, 0x2D2D2D);
-
-super.setCadreRepos(WDCadreFactory.creerCadre_GEN(31, 0x7A582D, 0x0, 0x7A582D, 2.000000, 2.000000, 1, 1));
-
-super.setCadreSurvol(WDCadreFactory.creerCadre_GEN(31, 0x7A582D, 0x0, 0x7A582D, 2.000000, 2.000000, 1, 1));
-
-super.setCadreEnfonce(WDCadreFactory.creerCadre_GEN(31, 0x7A582D, 0x0, 0x7A582D, 2.000000, 2.000000, 1, 1));
-
-super.setImageFond9Images(new int[] {1,4,1,2,2,2,1,4,1}, 10, 10, 8, 8);
-
-super.setImageFond("", 1, 0, 1, 1);
 
 activerEcoute();
 super.terminerInitialisation();
 }
 
-/**
- * Traitement: Clic sur BTN_ACTION5
- */
-public void clicSurBoutonGauche()
-//  le clic dans la ZML exécutera le code de clic de ce bouton
-//  A Faire : Ajoutez le code sur le clic de ce bouton
-{
-super.clicSurBoutonGauche();
-
-// // le clic dans la ZML exécutera le code de clic de ce bouton
-//MAP:2935558102a3fd2a:00000012:1:FEN_ Menu_Commercial.ZM_ACTION5.BTN_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION5$GWDZM_ACTION5_Ligne1$GWDBTN_ACTION5:Clic sur BTN_ACTION5
-// Info("clic sur "+MoiMême..Nom)
-//MAP:2935558102a3fd2a:00000012:3:FEN_ Menu_Commercial.ZM_ACTION5.BTN_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION5$GWDZM_ACTION5_Ligne1$GWDBTN_ACTION5:Clic sur BTN_ACTION5
-WDAPIDialogue.info(new WDChaineU("clic sur ").opPlus(WDContexte.getMoiMeme().getProp(EWDPropriete.PROP_NOM)).getString());
-
-}
-
-
-
-
 // Activation des écouteurs: 
 public void activerEcoute()
 {
-super.activerEcouteurClic();
 }
 
 ////////////////////////////////////////////////////////////////////////////
 // Déclaration des variables globales
 ////////////////////////////////////////////////////////////////////////////
 }
-public GWDBTN_ACTION5 mWD_BTN_ACTION5 = new GWDBTN_ACTION5();
+public GWDIMG_SansNom6 mWD_IMG_SansNom6 = new GWDIMG_SansNom6();
 
 /**
  * LIB_TitreAction5
@@ -572,7 +540,7 @@ super.setCurseurSouris(0);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(1, 115);
+super.setPositionInitiale(2, 117);
 
 super.setTailleInitiale(92, 25);
 
@@ -619,89 +587,6 @@ public void activerEcoute()
 ////////////////////////////////////////////////////////////////////////////
 }
 public GWDLIB_TitreAction5 mWD_LIB_TitreAction5 = new GWDLIB_TitreAction5();
-
-/**
- * LIB_SousTitreAction5
- */
-class GWDLIB_SousTitreAction5 extends WDLibelle
-{
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°3 de FEN_ Menu_Commercial.ZM_ACTION5.LIB_SousTitreAction5
-////////////////////////////////////////////////////////////////////////////
-public  void initialiserObjet()
-{
-super.initialiserObjet();
-super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969373541904284970l);
-
-super.setChecksum("735795203");
-
-super.setNom("LIB_SousTitreAction5");
-
-super.setType(3);
-
-super.setBulle("");
-
-super.setTypeSaisie(0);
-
-super.setMasqueSaisie(new WDChaineU("0"));
-
-super.setLibelle("");
-
-super.setNote("", "");
-
-super.setCurseurSouris(0);
-
-super.setEtatInitial(0);
-
-super.setPositionInitiale(2, 105);
-
-super.setTailleInitiale(92, 45);
-
-super.setPlan(0);
-
-super.setCadrageHorizontal(1);
-
-super.setCadrageVertical(0);
-
-super.setTailleMin(0, 0);
-
-super.setTailleMax(2147483647, 2147483647);
-
-super.setVisibleInitial(true);
-
-super.setAltitude(3);
-
-super.setAncrageInitial(8, 1000, 1000, 1000, 1000, 0);
-
-super.setEllipse(0);
-
-super.setTauxParallaxe(0, 0);
-
-super.setPresenceLibelle(true);
-
-super.setStyleLibelle(0x969696, 0xFFFFFFFF, creerPolice_GEN("Trebuchet MS", -7.000000, 0), 3, 0, 0x2D2D2D);
-
-super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0x603C0C, 0x0, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
-
-
-super.setMiseABlancSiZero(true);
-
-activerEcoute();
-super.terminerInitialisation();
-}
-
-// Activation des écouteurs: 
-public void activerEcoute()
-{
-}
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des variables globales
-////////////////////////////////////////////////////////////////////////////
-}
-public GWDLIB_SousTitreAction5 mWD_LIB_SousTitreAction5 = new GWDLIB_SousTitreAction5();
 class GWDZM_ACTION5_Ligne1 extends LigneZMLStatique
 {
 /**
@@ -713,12 +598,10 @@ public void initialiserSousObjets()
 // Initialisation des champs de FEN_ Menu_Commercial.ZM_ACTION5
 ////////////////////////////////////////////////////////////////////////////
 super.initialiserSousObjets();
-mWD_BTN_ACTION5.initialiserObjet();
-super.ajouterChamp(mWD_BTN_ACTION5);
+mWD_IMG_SansNom6.initialiserObjet();
+super.ajouterChamp(mWD_IMG_SansNom6);
 mWD_LIB_TitreAction5.initialiserObjet();
 super.ajouterChamp(mWD_LIB_TitreAction5);
-mWD_LIB_SousTitreAction5.initialiserObjet();
-super.ajouterChamp(mWD_LIB_SousTitreAction5);
 }
 public  void initialiserObjet()
 {
@@ -778,7 +661,7 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(183, 256);
+super.setPositionInitiale(182, 256);
 
 super.setTailleInitiale(94, 150);
 
@@ -827,9 +710,27 @@ super.selectionLigne();
 
 // // Le clic sur la ZML execute simplement le code du bouton associé
 //MAP:2935558102a1fd2a:00000021:1:FEN_ Menu_Commercial.ZM_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION5:Sélection (clic) d'une ligne dans ZM_ACTION5
-// ExécuteTraitement(BTN_ACTION5, trtClic)
-//MAP:2935558102a1fd2a:00000021:2:FEN_ Menu_Commercial.ZM_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION5:Sélection (clic) d'une ligne dans ZM_ACTION5
-WDAPIVM.executeTraitement(mWD_BTN_ACTION5,18);
+// Erreur sur l'objet: FEN_ Menu_Commercial.ZM_ACTION5
+// 	Traitement : Sélection (clic) d'une ligne dans ZM_ACTION5 (33)
+// 	Code: 301
+// 	Message: L'élément 'BTN_ACTION5' est inconnu ou inaccessible.
+// 	Ligne : 1, Colonne : 18
+// 
+// 
+// Erreur sur l'objet: FEN_ Menu_Commercial.ZM_ACTION5
+// 	Traitement : Sélection (clic) d'une ligne dans ZM_ACTION5 (33)
+// 	Code: 301
+// 	Message: L'élément 'BTN_ACTION5' est inconnu ou inaccessible.
+// 	Ligne : 1, Colonne : 18
+// 
+// 
+WDErreurManager.erreurGeneration("Erreur sur l'objet: FEN_ Menu_Commercial.ZM_ACTION5\r\n\tTraitement : Sélection (clic) d'une ligne dans ZM_ACTION5 (33)\r\n\tCode: 301\r\n\tMessage: L'élément 'BTN_ACTION5' est inconnu ou inaccessible.\r\n\tLigne : 1, Colonne : 18\r\n\r\n\r\nErreur sur l'objet: FEN_ Menu_Commercial.ZM_ACTION5\r\n\tTraitement : Sélection (clic) d'une ligne dans ZM_ACTION5 (33)\r\n\tCode: 301\r\n\tMessage: L'élément 'BTN_ACTION5' est inconnu ou inaccessible.\r\n\tLigne : 1, Colonne : 18\r\n\r\n");
+
+
+// // ExécuteTraitement(BTN_ACTION5, trtClic)
+// //MAP:2935558102a1fd2a:00000021:2:FEN_ Menu_Commercial.ZM_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION5:Sélection (clic) d'une ligne dans ZM_ACTION5
+// WDAPIVM.executeTraitement(,18);
+// 
 
 }
 

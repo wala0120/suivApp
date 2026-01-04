@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Liste_Utilisateurs
- * Date : 09/12/2025 23:56:10
+ * Date : 28/12/2025 21:59:30
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -949,7 +949,7 @@ finExecProcLocale();
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// PROCÉDURE MaFenêtre()
+// PROCEDURE MaFenêtre()
 //MAP:2935771207aa1e61:00000000:1:FEN_Liste_Utilisateurs:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Utilisateurs:Déclarations globales de FEN_Liste_Utilisateurs
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;

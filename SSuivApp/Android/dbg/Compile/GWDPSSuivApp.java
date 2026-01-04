@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Projet
  * Classe Android : SSuivApp
- * Date : 10/12/2025 00:34:24
+ * Date : 29/12/2025 11:06:36
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -161,6 +161,15 @@ mWD_FEN_Liste_Magasin.checkOuverture();
 return mWD_FEN_Liste_Magasin;
 }
 
+ // FEN_Modifier_Reclamation
+public GWDFFEN_Modifier_Reclamation mWD_FEN_Modifier_Reclamation = new GWDFFEN_Modifier_Reclamation();
+ // accesseur de FEN_Modifier_Reclamation
+public GWDFFEN_Modifier_Reclamation getFEN_Modifier_Reclamation()
+{
+mWD_FEN_Modifier_Reclamation.checkOuverture();
+return mWD_FEN_Modifier_Reclamation;
+}
+
 
  // Constructeur de la classe GWDPSSuivApp
 public GWDPSSuivApp()
@@ -185,6 +194,7 @@ ajouterFenetre("FEN_Liste_Reclamation_Commercial", mWD_FEN_Liste_Reclamation_Com
 ajouterFenetre("FEN_Liste_Reclamation_Chauffeur", mWD_FEN_Liste_Reclamation_Chauffeur);
 ajouterFenetre("FEN_Modifier_Utilisateur", mWD_FEN_Modifier_Utilisateur);
 ajouterFenetre("FEN_Liste_Magasin", mWD_FEN_Liste_Magasin);
+ajouterFenetre("FEN_Modifier_Reclamation", mWD_FEN_Modifier_Reclamation);
 
 ajouterRequeteWDR( new GWDRREQ_Reclamation() );
 ajouterRequeteWDR( new GWDRREQ_NbrReclamation() );
@@ -239,6 +249,26 @@ super.ajouterVariableGlobale("gnIDUtilisateurModifier",vWD_gnIDUtilisateurModifi
 
 
 
+// gnCurrentAffectationTab est un entier  = 1
+//MAP:0000000000000000:00030000:6:SSuivApp:com.masociete.tracklet.wdgen.GWDPSSuivApp:Initialisation de SSuivApp
+vWD_gnCurrentAffectationTab = new WDEntier4();
+
+vWD_gnCurrentAffectationTab.setValeur(1);
+
+super.ajouterVariableGlobale("gnCurrentAffectationTab",vWD_gnCurrentAffectationTab);
+
+
+
+// gnCurrentRecuperationTab est un entier  = 1
+//MAP:0000000000000000:00030000:7:SSuivApp:com.masociete.tracklet.wdgen.GWDPSSuivApp:Initialisation de SSuivApp
+vWD_gnCurrentRecuperationTab = new WDEntier4();
+
+vWD_gnCurrentRecuperationTab.setValeur(1);
+
+super.ajouterVariableGlobale("gnCurrentRecuperationTab",vWD_gnCurrentRecuperationTab);
+
+
+
 }
 
 
@@ -253,9 +283,11 @@ static public WDObjet vWD_IDReclamationGlobal = WDVarNonAllouee.ref;
 static public WDObjet vWD_IDCommerciale = WDVarNonAllouee.ref;
 static public WDObjet vWD_gnIDUtilisateur = WDVarNonAllouee.ref;
 static public WDObjet vWD_gnIDUtilisateurModifier = WDVarNonAllouee.ref;
-public String getVersionApplication(){ return "0.0.1.0";}
+static public WDObjet vWD_gnCurrentAffectationTab = WDVarNonAllouee.ref;
+static public WDObjet vWD_gnCurrentRecuperationTab = WDVarNonAllouee.ref;
+public String getVersionApplication(){ return "0.0.4.0";}
 public String getNomSociete(){ return "PC SOFT";}
-public String getNomAPK(){ return "    TrackLet";}
+public String getNomAPK(){ return "SSuivApp";}
 public int getIdNomApplication(){return com.masociete.tracklet.R.string.app_name;}
 public boolean isModeAnsi(){ return false;}
 public boolean isAffectationTableauParCopie(){ return true;}
@@ -328,35 +360,40 @@ return null;
 }
 protected void declarerRessources()
 {
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\FBOOKING2_CBOX.PNG?E12_A1A6A1A6A1A6A1A6A1A6A1A6_8O",com.masociete.tracklet.R.drawable.fbooking2_cbox_31_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GEAR (1).PNG",com.masociete.tracklet.R.drawable.gear__1__30, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\SETTINGS.PNG",com.masociete.tracklet.R.drawable.settings_29, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\INFO_B_32_5.PNG?E5",com.masociete.tracklet.R.drawable.info_b_32_5_28_selector, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ENTREPRENEUR.PNG",com.masociete.tracklet.R.drawable.entrepreneur_27, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ADD-USER.PNG",com.masociete.tracklet.R.drawable.add_user_26, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\RIGHT.PNG",com.masociete.tracklet.R.drawable.right_25, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\PROFILE.PNG",com.masociete.tracklet.R.drawable.profile_24, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\PHONE-CALL.PNG",com.masociete.tracklet.R.drawable.phone_call_23, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\LOCATION (1).PNG",com.masociete.tracklet.R.drawable.location__1__22, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\FBOOKING2_EDT.PNG?E5_3NP_8_8_8_8",com.masociete.tracklet.R.drawable.fbooking2_edt_21_np3_8_8_8_8_selector, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\EXPRESS-DELIVERY.PNG",com.masociete.tracklet.R.drawable.express_delivery_20, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\BELL.PNG",com.masociete.tracklet.R.drawable.bell_19, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BTN_STD.PNG?E5_A1A6A1A6A1_3NP_8_8_10_10",com.masociete.tracklet.R.drawable.aquablue_btn_std_18_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_SELECT.PNG?E5_3NP_4_4_4_4",com.masociete.tracklet.R.drawable.aquablue_select_17_np3_4_4_4_4_selector, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_ROLLOVER.PNG",com.masociete.tracklet.R.drawable.aquablue_rollover_16, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BREAK_PICT.PNG?E2_4O",com.masociete.tracklet.R.drawable.aquablue_break_pict_15_selector, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BREAK.PNG",com.masociete.tracklet.R.drawable.aquablue_break_14, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ADD (1).PNG",com.masociete.tracklet.R.drawable.add__1__13, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ADD-GROUP.PNG",com.masociete.tracklet.R.drawable.add_group_12, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_EDT.PNG?E5_3NP_8_8_8_8",com.masociete.tracklet.R.drawable.aquablue_edt_11_np3_8_8_8_8_selector, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\LIST.PNG",com.masociete.tracklet.R.drawable.list_10, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\LEFT.PNG",com.masociete.tracklet.R.drawable.left_9, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_COMBO.PNG?E5_3NP_32_6_42_6",com.masociete.tracklet.R.drawable.aquablue_combo_8_np3_32_6_42_6_selector, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\FBOOKING2_BTN_STD.PNG?E5_A1A6A1A6A1_3NP_8_8_10_10",com.masociete.tracklet.R.drawable.fbooking2_btn_std_7_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\DISKETTE.PNG",com.masociete.tracklet.R.drawable.diskette_6, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\PARAMÈTRE_B_32_5.PNG?E5",com.masociete.tracklet.R.drawable.parametre_b_32_5_5_selector, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\APPETITE_11331394.PNG",com.masociete.tracklet.R.drawable.appetite_11331394_4, "");
 super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\49E559BA-1B88-4AED-81D5-446C990E42BD.PNG",com.masociete.tracklet.R.drawable.a9e559ba_1b88_4aed_81d5_446c990e42bd_3, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\APPETITE_11331394.PNG",com.masociete.tracklet.R.drawable.appetite_11331394_4, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\PARAMETRE (1).PNG",com.masociete.tracklet.R.drawable.parametre__1__5, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\FBOOKING2_BTN_STD.PNG?E5_A1A6A1A6A1_3NP_8_8_10_10",com.masociete.tracklet.R.drawable.fbooking2_btn_std_6_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_COMBO.PNG?E5_3NP_32_6_42_6",com.masociete.tracklet.R.drawable.aquablue_combo_7_np3_32_6_42_6_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\LEFT.PNG",com.masociete.tracklet.R.drawable.left_8, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\CHATGPT IMAGE 28 DÉC. 2025, 12_14_44.PNG",com.masociete.tracklet.R.drawable.chatgpt_image_28_dec__2025__12_14_44_9, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_EDT.PNG?E5_3NP_8_8_8_8",com.masociete.tracklet.R.drawable.aquablue_edt_10_np3_8_8_8_8_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\CHATGPT IMAGE 28 DÉC. 2025, 11_44_06.PNG",com.masociete.tracklet.R.drawable.chatgpt_image_28_dec__2025__11_44_06_11, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\DABORD (1).PNG",com.masociete.tracklet.R.drawable.dabord__1__12, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\E-MAIL.PNG",com.masociete.tracklet.R.drawable.e_mail_13, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\EQUIPE.PNG",com.masociete.tracklet.R.drawable.equipe_14, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ADD (1).PNG",com.masociete.tracklet.R.drawable.add__1__15, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\CORBEILLE.PNG",com.masociete.tracklet.R.drawable.corbeille_16, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BREAK.PNG",com.masociete.tracklet.R.drawable.aquablue_break_17, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BREAK_PICT.PNG?E2_4O",com.masociete.tracklet.R.drawable.aquablue_break_pict_18_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_ROLLOVER.PNG",com.masociete.tracklet.R.drawable.aquablue_rollover_19, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_SELECT.PNG?E5_3NP_4_4_4_4",com.masociete.tracklet.R.drawable.aquablue_select_20_np3_4_4_4_4_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BTN_STD.PNG?E5_A1A6A1A6A1_3NP_8_8_10_10",com.masociete.tracklet.R.drawable.aquablue_btn_std_21_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\SEARCH.PNG",com.masociete.tracklet.R.drawable.search_22, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\BELL.PNG",com.masociete.tracklet.R.drawable.bell_23, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\EXPRESS-DELIVERY.PNG",com.masociete.tracklet.R.drawable.express_delivery_24, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\FBOOKING2_EDT.PNG?E5_3NP_8_8_8_8",com.masociete.tracklet.R.drawable.fbooking2_edt_25_np3_8_8_8_8_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\LOCATION (1).PNG",com.masociete.tracklet.R.drawable.location__1__26, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\PHONE-CALL.PNG",com.masociete.tracklet.R.drawable.phone_call_27, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\PROFILE.PNG",com.masociete.tracklet.R.drawable.profile_28, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\A-PROPOS-DE.PNG",com.masociete.tracklet.R.drawable.a_propos_de_29, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ADD-USER.PNG",com.masociete.tracklet.R.drawable.add_user_30, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ENTREPRENEUR.PNG",com.masociete.tracklet.R.drawable.entrepreneur_31, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\SETTINGS.PNG",com.masociete.tracklet.R.drawable.settings_32, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\DISKETTE.PNG",com.masociete.tracklet.R.drawable.diskette_33, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\LIST.PNG",com.masociete.tracklet.R.drawable.list_34, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ADD-GROUP.PNG",com.masociete.tracklet.R.drawable.add_group_35, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\FBOOKING2_CBOX.PNG?E12_A1A6A1A6A1A6A1A6A1A6A1A6_8O",com.masociete.tracklet.R.drawable.fbooking2_cbox_36_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150, "");
 }
 
 

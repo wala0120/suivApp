@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Liste_Magasin
- * Date : 09/12/2025 23:56:10
+ * Date : 28/12/2025 21:59:30
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -17,9 +17,8 @@ import fr.pcsoft.wdjava.ui.champs.fenetre.*;
 import fr.pcsoft.wdjava.ui.champs.zr.*;
 import fr.pcsoft.wdjava.ui.champs.libelle.*;
 import fr.pcsoft.wdjava.ui.cadre.*;
-import fr.pcsoft.wdjava.core.erreur.*;
-import fr.pcsoft.wdjava.api.*;
 import fr.pcsoft.wdjava.ui.champs.image.*;
+import fr.pcsoft.wdjava.api.*;
 import fr.pcsoft.wdjava.ui.actionbar.*;
 import fr.pcsoft.wdjava.core.application.*;
 import fr.pcsoft.wdjava.ui.activite.*;
@@ -380,6 +379,120 @@ public void activerEcoute()
 ////////////////////////////////////////////////////////////////////////////
 }
 public GWDLIB_Phone mWD_LIB_Phone = new GWDLIB_Phone();
+
+/**
+ * IMG_Corbeille
+ */
+class GWDIMG_Corbeille extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°7 de FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2977243025835383190l);
+
+super.setChecksum("775860888");
+
+super.setNom("IMG_Corbeille");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(291, 27);
+
+super.setTailleInitiale(23, 19);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\corbeille.png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(4);
+
+super.setAncrageInitial(5, 0, 1000, 500, 1000, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+/**
+ * Traitement: Clic sur IMG_Corbeille ( ZR_Magasins )
+ */
+public void clicSurBoutonGauche()
+{
+super.clicSurBoutonGauche();
+
+// HSupprime(Magasin)
+//MAP:29514ac204ed5996:00000012:1:FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Magasins )
+// HSupprime(Magasin)
+//MAP:29514ac204ed5996:00000012:1:FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Magasins )
+WDAPIHF.hSupprime(WDAPIHF.getFichierSansCasseNiAccent("magasin"));
+
+}
+
+
+
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+super.activerEcouteurClic();
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_Corbeille mWD_IMG_Corbeille = new GWDIMG_Corbeille();
 /**
  * Initialise tous les champs de FEN_Liste_Magasin.ZR_Magasins
  */
@@ -401,6 +514,8 @@ mWD_LIB_Addresse.initialiserObjet();
 super.ajouterChamp("LIB_Addresse",mWD_LIB_Addresse);
 mWD_LIB_Phone.initialiserObjet();
 super.ajouterChamp("LIB_Phone",mWD_LIB_Phone);
+mWD_IMG_Corbeille.initialiserObjet();
+super.ajouterChamp("IMG_Corbeille",mWD_IMG_Corbeille);
 creerAttributAuto();
 }
 public  void initialiserObjet()
@@ -508,27 +623,12 @@ public void selectionLigne()
 {
 super.selectionLigne();
 
-// gnIDUtilisateurModifier=  ATT_IdUtilisateur 
+// OuvreFenêtreMobile(FEN_Modifier_Utilisateur)
 //MAP:29387d60024ec134:00000021:1:FEN_Liste_Magasin.ZR_Magasins:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins:Sélection d'une ligne de ZR_Magasins
-// Erreur sur l'objet: FEN_Liste_Magasin.ZR_Magasins
-// 	Traitement : Sélection d'une ligne de ZR_Magasins (33)
-// 	Code: 301
-// 	Message: L'élément 'ATT_IdUtilisateur' est inconnu ou inaccessible.
-// 	Ligne : 0, Colonne : 26
-// 
-// 
-WDErreurManager.erreurGeneration("Erreur sur l'objet: FEN_Liste_Magasin.ZR_Magasins\r\n\tTraitement : Sélection d'une ligne de ZR_Magasins (33)\r\n\tCode: 301\r\n\tMessage: L'élément 'ATT_IdUtilisateur' est inconnu ou inaccessible.\r\n\tLigne : 0, Colonne : 26\r\n\r\n");
+// OuvreFenêtreMobile(FEN_Modifier_Utilisateur)
+//MAP:29387d60024ec134:00000021:1:FEN_Liste_Magasin.ZR_Magasins:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins:Sélection d'une ligne de ZR_Magasins
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Modifier_Utilisateur);
 
-
-// // gnIDUtilisateurModifier=  ATT_IdUtilisateur 
-// //MAP:29387d60024ec134:00000021:1:FEN_Liste_Magasin.ZR_Magasins:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins:Sélection d'une ligne de ZR_Magasins
-// GWDPSSuivApp.getInstance().vWD_gnIDUtilisateurModifier.setValeur();
-// 
-
-// // OuvreFenêtreMobile(FEN_Modifier_Utilisateur)
-// //MAP:29387d60024ec134:00000021:2:FEN_Liste_Magasin.ZR_Magasins:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins:Sélection d'une ligne de ZR_Magasins
-// WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Modifier_Utilisateur);
-// 
 }
 
 
@@ -639,9 +739,9 @@ super.clicSurBoutonGauche();
 
 // 
 //MAP:29387d600258c143:00000012:1:FEN_Liste_Magasin.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDIMG_SansNom2:Clic sur IMG_SansNom2
-// OuvreFenêtreMobile('FEN_Ajout_utilisateur')
+// OuvreFenêtreMobile('FEN_Magasin')
 //MAP:29387d600258c143:00000012:2:FEN_Liste_Magasin.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDIMG_SansNom2:Clic sur IMG_SansNom2
-WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Ajout_utilisateur);
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Magasin);
 
 }
 
@@ -815,7 +915,7 @@ public GWDACTB_ActionBar mWD_ACTB_ActionBar;
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// PROCÉDURE MaFenêtre()
+// PROCEDURE MaFenêtre()
 //MAP:29387d31023808f0:00000000:1:FEN_Liste_Magasin:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin:Déclarations globales de FEN_Liste_Magasin
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;

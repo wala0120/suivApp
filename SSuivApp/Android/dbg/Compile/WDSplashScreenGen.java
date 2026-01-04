@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Splash Screen
  * Classe Android : SSuivApp
- * Date : 10/12/2025 00:34:24
+ * Date : 29/12/2025 11:06:36
  * Version de wdjava.dll  : 25.0.315.2
  */
 

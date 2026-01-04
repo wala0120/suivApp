@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_APP_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":10,"versionName":"0.0.3.0","enabled":true,"outputFile":"SSuivApp.apk","fullName":"release","baseName":"release"},"path":"AndroidManifest.xml","properties":{"packageId":"com.masociete.tracklet","split":"","minSdkVersion":"21"}}]

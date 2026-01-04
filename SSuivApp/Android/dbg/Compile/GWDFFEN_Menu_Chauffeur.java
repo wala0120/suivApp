@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Menu_Chauffeur
- * Date : 10/12/2025 00:22:06
+ * Date : 28/12/2025 21:59:30
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -88,9 +88,9 @@ super.setCurseurSouris(0);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(0, 115);
+super.setPositionInitiale(0, 139);
 
-super.setTailleInitiale(86, 37);
+super.setTailleInitiale(97, 43);
 
 super.setPlan(0);
 
@@ -171,9 +171,9 @@ super.setNavigable(false);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(20, -2);
+super.setPositionInitiale(4, 8);
 
-super.setTailleInitiale(54, 101);
+super.setTailleInitiale(78, 140);
 
 super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\appetite_11331394.png");
 
@@ -268,7 +268,7 @@ super.ajouterChamp(mWD_IMG_SansNom1);
 public  void initialiserObjet()
 {
 super.initialiserObjet();
-super.setHauteurInitiale(150);
+super.setHauteurInitiale(182);
 
 super.setVisibleInitial(true);
 
@@ -325,7 +325,7 @@ super.setEtatInitial(0);
 
 super.setPositionInitiale(54, 190);
 
-super.setTailleInitiale(94, 150);
+super.setTailleInitiale(94, 182);
 
 super.setPlan(0);
 
@@ -339,7 +339,7 @@ super.setNumTab(1);
 
 super.setAltitude(1);
 
-super.setAncrageInitial(15, 1000, 1000, 0, 1000, 0);
+super.setAncrageInitial(1, 1000, 1000, 0, 1000, 0);
 
 super.setIndiceModeleLigneDynamique(0);
 
@@ -412,106 +412,23 @@ class GWDZM_ACTION5 extends WDZoneMultiligne
 ////////////////////////////////////////////////////////////////////////////
 
 /**
- * LIB_TitreAction5
+ * IMG_SansNom6
  */
-class GWDLIB_TitreAction5 extends WDLibelle
+class GWDIMG_SansNom6 extends WDChampImage
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°1 de FEN_Menu_Chauffeur.ZM_ACTION5.LIB_TitreAction5
+// Déclaration des champs du fils n°1 de FEN_Menu_Chauffeur.ZM_ACTION5.IMG_SansNom6
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969373228369633345l);
+super.setQuid(2977280001280161796l);
 
-super.setChecksum("733756113");
+super.setChecksum("847196839");
 
-super.setNom("LIB_TitreAction5");
-
-super.setType(3);
-
-super.setBulle("");
-
-super.setTypeSaisie(0);
-
-super.setMasqueSaisie(new WDChaineU("0"));
-
-super.setLibelle("Paramètres");
-
-super.setNote("", "");
-
-super.setCurseurSouris(0);
-
-super.setEtatInitial(0);
-
-super.setPositionInitiale(1, 115);
-
-super.setTailleInitiale(92, 29);
-
-super.setPlan(0);
-
-super.setCadrageHorizontal(1);
-
-super.setCadrageVertical(0);
-
-super.setTailleMin(0, 0);
-
-super.setTailleMax(2147483647, 2147483647);
-
-super.setVisibleInitial(true);
-
-super.setAltitude(1);
-
-super.setAncrageInitial(15, 1000, 1000, 0, 1000, 0);
-
-super.setEllipse(0);
-
-super.setTauxParallaxe(0, 0);
-
-super.setPresenceLibelle(true);
-
-super.setStyleLibelle(0x2D2D2D, 0xFFFFFFFF, creerPolice_GEN("Trebuchet MS", -7.000000, 1), 3, 0, 0x2D2D2D);
-
-super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0x603C0C, 0x0, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
-
-
-super.setMiseABlancSiZero(true);
-
-activerEcoute();
-super.terminerInitialisation();
-}
-
-// Activation des écouteurs: 
-public void activerEcoute()
-{
-}
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des variables globales
-////////////////////////////////////////////////////////////////////////////
-}
-public GWDLIB_TitreAction5 mWD_LIB_TitreAction5 = new GWDLIB_TitreAction5();
-
-/**
- * IMG_Settings
- */
-class GWDIMG_Settings extends WDChampImage
-{
-
-////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°2 de FEN_Menu_Chauffeur.ZM_ACTION5.IMG_Settings
-////////////////////////////////////////////////////////////////////////////
-public  void initialiserObjet()
-{
-super.initialiserObjet();
-super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969404186533551858l);
-
-super.setChecksum("773414546");
-
-super.setNom("IMG_Settings");
+super.setNom("IMG_SansNom6");
 
 super.setType(30001);
 
@@ -529,11 +446,11 @@ super.setNavigable(false);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(20, 9);
+super.setPositionInitiale(8, 8);
 
-super.setTailleInitiale(57, 80);
+super.setTailleInitiale(78, 132);
 
-super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\gear (1).png");
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\parametre (1).png");
 
 super.setPlan(0);
 
@@ -543,9 +460,9 @@ super.setTailleMax(2147483647, 2147483647);
 
 super.setVisibleInitial(true);
 
-super.setAltitude(2);
+super.setAltitude(1);
 
-super.setAncrageInitial(15, 1000, 1000, 0, 1000, 0);
+super.setAncrageInitial(0, 1000, 1000, 1000, 1000, 0);
 
 super.setTransparence(1);
 
@@ -587,7 +504,90 @@ public void activerEcoute()
 // Déclaration des variables globales
 ////////////////////////////////////////////////////////////////////////////
 }
-public GWDIMG_Settings mWD_IMG_Settings = new GWDIMG_Settings();
+public GWDIMG_SansNom6 mWD_IMG_SansNom6 = new GWDIMG_SansNom6();
+
+/**
+ * LIB_TitreAction5
+ */
+class GWDLIB_TitreAction5 extends WDLibelle
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°2 de FEN_Menu_Chauffeur.ZM_ACTION5.LIB_TitreAction5
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2969373228369633345l);
+
+super.setChecksum("733756113");
+
+super.setNom("LIB_TitreAction5");
+
+super.setType(3);
+
+super.setBulle("");
+
+super.setTypeSaisie(0);
+
+super.setMasqueSaisie(new WDChaineU("0"));
+
+super.setLibelle("Paramètres");
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(2, 148);
+
+super.setTailleInitiale(92, 30);
+
+super.setPlan(0);
+
+super.setCadrageHorizontal(1);
+
+super.setCadrageVertical(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(2);
+
+super.setAncrageInitial(15, 1000, 1000, 0, 1000, 0);
+
+super.setEllipse(0);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(true);
+
+super.setStyleLibelle(0x2D2D2D, 0xFFFFFFFF, creerPolice_GEN("Trebuchet MS", -7.000000, 1), 3, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0x603C0C, 0x0, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+super.setMiseABlancSiZero(true);
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDLIB_TitreAction5 mWD_LIB_TitreAction5 = new GWDLIB_TitreAction5();
 class GWDZM_ACTION5_Ligne1 extends LigneZMLStatique
 {
 /**
@@ -599,15 +599,15 @@ public void initialiserSousObjets()
 // Initialisation des champs de FEN_Menu_Chauffeur.ZM_ACTION5
 ////////////////////////////////////////////////////////////////////////////
 super.initialiserSousObjets();
+mWD_IMG_SansNom6.initialiserObjet();
+super.ajouterChamp(mWD_IMG_SansNom6);
 mWD_LIB_TitreAction5.initialiserObjet();
 super.ajouterChamp(mWD_LIB_TitreAction5);
-mWD_IMG_Settings.initialiserObjet();
-super.ajouterChamp(mWD_IMG_Settings);
 }
 public  void initialiserObjet()
 {
 super.initialiserObjet();
-super.setHauteurInitiale(152);
+super.setHauteurInitiale(182);
 
 super.setVisibleInitial(true);
 
@@ -664,7 +664,7 @@ super.setEtatInitial(0);
 
 super.setPositionInitiale(174, 190);
 
-super.setTailleInitiale(94, 152);
+super.setTailleInitiale(94, 182);
 
 super.setPlan(0);
 
@@ -678,7 +678,7 @@ super.setNumTab(2);
 
 super.setAltitude(2);
 
-super.setAncrageInitial(15, 1000, 1000, 0, 1000, 0);
+super.setAncrageInitial(5, 1000, 1000, 1000, 1000, 0);
 
 super.setIndiceModeleLigneDynamique(0);
 

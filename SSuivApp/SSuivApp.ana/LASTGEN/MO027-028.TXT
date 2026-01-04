@@ -1,0 +1,6 @@
+//MO027-028.TXT ANA00027 TO ANA00028
+Reclamation		FCNX+	Connexion à '192.168.100.61'	
+Magasin		FCNX+	Connexion à '192.168.100.61'	
+Utilisateur		FCNX+	Connexion à '192.168.100.61'	
+Affectation		FCNX+	Connexion à '192.168.100.61'	
+Connexion à '192.168.100.61'		CNX+		

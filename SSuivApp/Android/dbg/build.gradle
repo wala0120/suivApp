@@ -18,7 +18,7 @@ repositories {
 
 }
 apply plugin: 'com.android.application'
-archivesBaseName = '    TrackLet'
+archivesBaseName = 'SSuivApp'
 android {
 	compileSdkVersion 29
 	buildToolsVersion '29.0.3'
@@ -114,7 +114,7 @@ dependencies {
 
 	// Local binary dependency
 	implementation fileTree(dir: getProject().file('libs'), include: ['*.jar'])
-	implementation files(getProject().file('C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\windev chicha\\Programmes\\Framework\\Android\\WD250Android.aar'))
+	implementation files(getProject().file('C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\inst windev\\Programmes\\FrameWork\\Android\\WD250Android.aar'))
 
 }
 
