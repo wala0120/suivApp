@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Liste_Reclamation_Commercial
- * Date : 28/12/2025 21:52:53
+ * Date : 04/01/2026 21:15:57
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -1476,6 +1476,12 @@ public void init()
 super.init();
 
 // // Exécuter la requête
+// REQ_NbrReclamation.CurrentUserID = CurrentUserID
+WDAPIHF.getFichierSansCasseNiAccent("req_nbrreclamation").getRubriqueSansCasseNiAccent("currentuserid").setValeur(GWDPSSuivApp.getInstance().vWD_CurrentUserID);
+
+// REQ_NbrReclamation.Etat = gnCurrentRecuperationTab
+WDAPIHF.getFichierSansCasseNiAccent("req_nbrreclamation").getRubriqueSansCasseNiAccent("etat").setValeur(GWDPSSuivApp.getInstance().vWD_gnCurrentRecuperationTab);
+
 // SI HExécuteRequête(REQ_NbrReclamation) ALORS
 if(WDAPIHF.hExecuteRequete(WDAPIHF.getRequeteSansCasseNiAccent("req_nbrreclamation")).getBoolean())
 {
@@ -2007,7 +2013,7 @@ finExecProcLocale();
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// 	PROCEDURE MaFenêtre()
+// 	PROCÉDURE MaFenêtre()
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;
 if(WD_tabParam!=null) WD_ntabParamLen = WD_tabParam.length;
@@ -2103,8 +2109,8 @@ vWD_bUserIsAssigned.setValeur(false);
 // 	IF HLitRecherchePremier(Magasin, IDmagasin, Reclamation.IDmagasin) THEN
 if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("magasin"),WDAPIHF.getRubriqueSansCasseNiAccent("idmagasin"),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idmagasin")).getBoolean())
 {
-// 		sNomMagasin = Magasin.NomMagasin
-vWD_sNomMagasin.setValeur(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin"));
+// 		sNomMagasin = Magasin.NomMagasin + " " + Magasin.Adresse
+vWD_sNomMagasin.setValeur(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin").opPlus(" ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse")));
 
 // 		IF sSearchString <> "" THEN
 if(vWD_sSearchString.opDiff(""))

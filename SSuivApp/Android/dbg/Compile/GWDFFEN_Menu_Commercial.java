@@ -1,8 +1,8 @@
 /**
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
- * Classe Android : FEN_ Menu_Commercial
- * Date : 28/12/2025 21:59:30
+ * Classe Android : FEN_Menu_Commercial
+ * Date : 06/01/2026 19:59:02
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -19,7 +19,6 @@ import fr.pcsoft.wdjava.ui.champs.libelle.*;
 import fr.pcsoft.wdjava.ui.cadre.*;
 import fr.pcsoft.wdjava.ui.champs.image.*;
 import fr.pcsoft.wdjava.api.*;
-import fr.pcsoft.wdjava.core.erreur.*;
 import fr.pcsoft.wdjava.core.context.*;
 import fr.pcsoft.wdjava.core.application.*;
 import fr.pcsoft.wdjava.ui.activite.*;
@@ -32,7 +31,7 @@ public class GWDFFEN_Menu_Commercial extends WDFenetre
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs de FEN_ Menu_Commercial
+// Déclaration des champs de FEN_Menu_Commercial
 ////////////////////////////////////////////////////////////////////////////
 
 /**
@@ -42,7 +41,7 @@ class GWDZM_ACTION1 extends WDZoneMultiligne
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°1 de FEN_ Menu_Commercial.ZM_ACTION1
+// Déclaration des champs du fils n°1 de FEN_Menu_Commercial.ZM_ACTION1
 ////////////////////////////////////////////////////////////////////////////
 
 /**
@@ -50,7 +49,7 @@ class GWDZM_ACTION1 extends WDZoneMultiligne
  */
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°1 de FEN_ Menu_Commercial.ZM_ACTION1
+// Déclaration des champs du fils n°1 de FEN_Menu_Commercial.ZM_ACTION1
 ////////////////////////////////////////////////////////////////////////////
 
 /**
@@ -60,15 +59,15 @@ class GWDLIB_TitreAction1 extends WDLibelle
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°1 de FEN_ Menu_Commercial.ZM_ACTION1.LIB_TitreAction1
+// Déclaration des champs du fils n°1 de FEN_Menu_Commercial.ZM_ACTION1.LIB_TitreAction1
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969373541903891754l);
+super.setQuid(2980638923331496741l);
 
-super.setChecksum("735401987");
+super.setChecksum("775801804");
 
 super.setNom("LIB_TitreAction1");
 
@@ -143,15 +142,15 @@ class GWDIMG_SansNom2 extends WDChampImage
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°2 de FEN_ Menu_Commercial.ZM_ACTION1.IMG_SansNom2
+// Déclaration des champs du fils n°2 de FEN_Menu_Commercial.ZM_ACTION1.IMG_SansNom2
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setQuid(2970225263969103994l);
+super.setQuid(2980638923331562277l);
 
-super.setChecksum("721246942");
+super.setChecksum("775869620");
 
 super.setNom("IMG_SansNom2");
 
@@ -228,9 +227,9 @@ public void clicSurBoutonGauche()
 super.clicSurBoutonGauche();
 
 // 
-//MAP:29385c2401c4f07a:00000012:1:FEN_ Menu_Commercial.ZM_ACTION1.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION1$GWDZM_ACTION1_Ligne1$GWDIMG_SansNom2:Clic sur IMG_SansNom2
+//MAP:295d5b4f04e16b25:00000012:1:FEN_Menu_Commercial.ZM_ACTION1.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION1$GWDZM_ACTION1_Ligne1$GWDIMG_SansNom2:Clic sur IMG_SansNom2
 // OuvreFenêtreMobile(FEN_Liste_Reclamation_Commercial)
-//MAP:29385c2401c4f07a:00000012:2:FEN_ Menu_Commercial.ZM_ACTION1.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION1$GWDZM_ACTION1_Ligne1$GWDIMG_SansNom2:Clic sur IMG_SansNom2
+//MAP:295d5b4f04e16b25:00000012:2:FEN_Menu_Commercial.ZM_ACTION1.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION1$GWDZM_ACTION1_Ligne1$GWDIMG_SansNom2:Clic sur IMG_SansNom2
 WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Liste_Reclamation_Commercial);
 
 }
@@ -252,12 +251,12 @@ public GWDIMG_SansNom2 mWD_IMG_SansNom2 = new GWDIMG_SansNom2();
 class GWDZM_ACTION1_Ligne1 extends LigneZMLStatique
 {
 /**
- * Initialise tous les champs de FEN_ Menu_Commercial.ZM_ACTION1
+ * Initialise tous les champs de FEN_Menu_Commercial.ZM_ACTION1
  */
 public void initialiserSousObjets()
 {
 ////////////////////////////////////////////////////////////////////////////
-// Initialisation des champs de FEN_ Menu_Commercial.ZM_ACTION1
+// Initialisation des champs de FEN_Menu_Commercial.ZM_ACTION1
 ////////////////////////////////////////////////////////////////////////////
 super.initialiserSousObjets();
 mWD_LIB_TitreAction1.initialiserObjet();
@@ -284,12 +283,12 @@ super.terminerInitialisation();
 }
 public GWDZM_ACTION1_Ligne1 mWD_ZM_ACTION1_Ligne1 = new GWDZM_ACTION1_Ligne1();
 /**
- * Initialise tous les champs de FEN_ Menu_Commercial.ZM_ACTION1
+ * Initialise tous les champs de FEN_Menu_Commercial.ZM_ACTION1
  */
 public void initialiserSousObjets()
 {
 ////////////////////////////////////////////////////////////////////////////
-// Initialisation des champs de FEN_ Menu_Commercial.ZM_ACTION1
+// Initialisation des champs de FEN_Menu_Commercial.ZM_ACTION1
 ////////////////////////////////////////////////////////////////////////////
 super.initialiserSousObjets();
 mWD_ZM_ACTION1_Ligne1.initialiserObjet();
@@ -301,9 +300,9 @@ super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
 super.setPresenceLibelle(false);
 
-super.setQuid(2969373541903760682l);
+super.setQuid(2980638923331365669l);
 
-super.setChecksum("735313779");
+super.setChecksum("775713596");
 
 super.setNom("ZM_ACTION1");
 
@@ -370,9 +369,9 @@ public void selectionLigne()
 super.selectionLigne();
 
 // OuvreFenêtreMobile(FEN_Liste_Reclamation_Commercial)
-//MAP:29355581029dfd2a:00000021:1:FEN_ Menu_Commercial.ZM_ACTION1:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION1:Sélection (clic) d'une ligne dans ZM_ACTION1
+//MAP:295d5b4f04de6b25:00000021:1:FEN_Menu_Commercial.ZM_ACTION1:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION1:Sélection (clic) d'une ligne dans ZM_ACTION1
 // OuvreFenêtreMobile(FEN_Liste_Reclamation_Commercial)
-//MAP:29355581029dfd2a:00000021:1:FEN_ Menu_Commercial.ZM_ACTION1:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION1:Sélection (clic) d'une ligne dans ZM_ACTION1
+//MAP:295d5b4f04de6b25:00000021:1:FEN_Menu_Commercial.ZM_ACTION1:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION1:Sélection (clic) d'une ligne dans ZM_ACTION1
 WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Liste_Reclamation_Commercial);
 
 }
@@ -399,7 +398,7 @@ class GWDZM_ACTION5 extends WDZoneMultiligne
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°2 de FEN_ Menu_Commercial.ZM_ACTION5
+// Déclaration des champs du fils n°2 de FEN_Menu_Commercial.ZM_ACTION5
 ////////////////////////////////////////////////////////////////////////////
 
 /**
@@ -407,7 +406,7 @@ class GWDZM_ACTION5 extends WDZoneMultiligne
  */
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°1 de FEN_ Menu_Commercial.ZM_ACTION5
+// Déclaration des champs du fils n°1 de FEN_Menu_Commercial.ZM_ACTION5
 ////////////////////////////////////////////////////////////////////////////
 
 /**
@@ -417,15 +416,15 @@ class GWDIMG_SansNom6 extends WDChampImage
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°1 de FEN_ Menu_Commercial.ZM_ACTION5.IMG_SansNom6
+// Déclaration des champs du fils n°1 de FEN_Menu_Commercial.ZM_ACTION5.IMG_SansNom6
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setQuid(2977279069265552657l);
+super.setQuid(2980638923331758885l);
 
-super.setChecksum("840490715");
+super.setChecksum("776066228");
 
 super.setNom("IMG_SansNom6");
 
@@ -494,9 +493,28 @@ activerEcoute();
 super.terminerInitialisation();
 }
 
+/**
+ * Traitement: Clic sur IMG_SansNom6
+ */
+public void clicSurBoutonGauche()
+{
+super.clicSurBoutonGauche();
+
+// 
+//MAP:295d5b4f04e46b25:00000012:1:FEN_Menu_Commercial.ZM_ACTION5.IMG_SansNom6:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION5$GWDZM_ACTION5_Ligne1$GWDIMG_SansNom6:Clic sur IMG_SansNom6
+// OuvreFenêtreMobile(FEN_changment_de_mot_de_passe)
+//MAP:295d5b4f04e46b25:00000012:2:FEN_Menu_Commercial.ZM_ACTION5.IMG_SansNom6:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION5$GWDZM_ACTION5_Ligne1$GWDIMG_SansNom6:Clic sur IMG_SansNom6
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_changment_de_mot_de_passe);
+
+}
+
+
+
+
 // Activation des écouteurs: 
 public void activerEcoute()
 {
+super.activerEcouteurClic();
 }
 
 ////////////////////////////////////////////////////////////////////////////
@@ -512,15 +530,15 @@ class GWDLIB_TitreAction5 extends WDLibelle
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°2 de FEN_ Menu_Commercial.ZM_ACTION5.LIB_TitreAction5
+// Déclaration des champs du fils n°2 de FEN_Menu_Commercial.ZM_ACTION5.LIB_TitreAction5
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969373541904219434l);
+super.setQuid(2980638923331824421l);
 
-super.setChecksum("735729667");
+super.setChecksum("776129484");
 
 super.setNom("LIB_TitreAction5");
 
@@ -590,12 +608,12 @@ public GWDLIB_TitreAction5 mWD_LIB_TitreAction5 = new GWDLIB_TitreAction5();
 class GWDZM_ACTION5_Ligne1 extends LigneZMLStatique
 {
 /**
- * Initialise tous les champs de FEN_ Menu_Commercial.ZM_ACTION5
+ * Initialise tous les champs de FEN_Menu_Commercial.ZM_ACTION5
  */
 public void initialiserSousObjets()
 {
 ////////////////////////////////////////////////////////////////////////////
-// Initialisation des champs de FEN_ Menu_Commercial.ZM_ACTION5
+// Initialisation des champs de FEN_Menu_Commercial.ZM_ACTION5
 ////////////////////////////////////////////////////////////////////////////
 super.initialiserSousObjets();
 mWD_IMG_SansNom6.initialiserObjet();
@@ -622,12 +640,12 @@ super.terminerInitialisation();
 }
 public GWDZM_ACTION5_Ligne1 mWD_ZM_ACTION5_Ligne1 = new GWDZM_ACTION5_Ligne1();
 /**
- * Initialise tous les champs de FEN_ Menu_Commercial.ZM_ACTION5
+ * Initialise tous les champs de FEN_Menu_Commercial.ZM_ACTION5
  */
 public void initialiserSousObjets()
 {
 ////////////////////////////////////////////////////////////////////////////
-// Initialisation des champs de FEN_ Menu_Commercial.ZM_ACTION5
+// Initialisation des champs de FEN_Menu_Commercial.ZM_ACTION5
 ////////////////////////////////////////////////////////////////////////////
 super.initialiserSousObjets();
 mWD_ZM_ACTION5_Ligne1.initialiserObjet();
@@ -639,9 +657,9 @@ super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
 super.setPresenceLibelle(false);
 
-super.setQuid(2969373541904022826l);
+super.setQuid(2980638923331627813l);
 
-super.setChecksum("735575923");
+super.setChecksum("775975740");
 
 super.setNom("ZM_ACTION5");
 
@@ -704,33 +722,14 @@ super.terminerInitialisation();
  * Traitement: Sélection (clic) d'une ligne dans ZM_ACTION5
  */
 public void selectionLigne()
-//  Le clic sur la ZML execute simplement le code du bouton associé
 {
 super.selectionLigne();
 
-// // Le clic sur la ZML execute simplement le code du bouton associé
-//MAP:2935558102a1fd2a:00000021:1:FEN_ Menu_Commercial.ZM_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION5:Sélection (clic) d'une ligne dans ZM_ACTION5
-// Erreur sur l'objet: FEN_ Menu_Commercial.ZM_ACTION5
-// 	Traitement : Sélection (clic) d'une ligne dans ZM_ACTION5 (33)
-// 	Code: 301
-// 	Message: L'élément 'BTN_ACTION5' est inconnu ou inaccessible.
-// 	Ligne : 1, Colonne : 18
-// 
-// 
-// Erreur sur l'objet: FEN_ Menu_Commercial.ZM_ACTION5
-// 	Traitement : Sélection (clic) d'une ligne dans ZM_ACTION5 (33)
-// 	Code: 301
-// 	Message: L'élément 'BTN_ACTION5' est inconnu ou inaccessible.
-// 	Ligne : 1, Colonne : 18
-// 
-// 
-WDErreurManager.erreurGeneration("Erreur sur l'objet: FEN_ Menu_Commercial.ZM_ACTION5\r\n\tTraitement : Sélection (clic) d'une ligne dans ZM_ACTION5 (33)\r\n\tCode: 301\r\n\tMessage: L'élément 'BTN_ACTION5' est inconnu ou inaccessible.\r\n\tLigne : 1, Colonne : 18\r\n\r\n\r\nErreur sur l'objet: FEN_ Menu_Commercial.ZM_ACTION5\r\n\tTraitement : Sélection (clic) d'une ligne dans ZM_ACTION5 (33)\r\n\tCode: 301\r\n\tMessage: L'élément 'BTN_ACTION5' est inconnu ou inaccessible.\r\n\tLigne : 1, Colonne : 18\r\n\r\n");
-
-
-// // ExécuteTraitement(BTN_ACTION5, trtClic)
-// //MAP:2935558102a1fd2a:00000021:2:FEN_ Menu_Commercial.ZM_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION5:Sélection (clic) d'une ligne dans ZM_ACTION5
-// WDAPIVM.executeTraitement(,18);
-// 
+// OuvreFenêtreMobile(FEN_changment_de_mot_de_passe)
+//MAP:295d5b4f04e26b25:00000021:1:FEN_Menu_Commercial.ZM_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION5:Sélection (clic) d'une ligne dans ZM_ACTION5
+// OuvreFenêtreMobile(FEN_changment_de_mot_de_passe)
+//MAP:295d5b4f04e26b25:00000021:1:FEN_Menu_Commercial.ZM_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDZM_ACTION5:Sélection (clic) d'une ligne dans ZM_ACTION5
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_changment_de_mot_de_passe);
 
 }
 
@@ -756,15 +755,15 @@ class GWDIMG_Visuel extends WDChampImage
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°3 de FEN_ Menu_Commercial.IMG_Visuel
+// Déclaration des champs du fils n°3 de FEN_Menu_Commercial.IMG_Visuel
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setQuid(2969373541904350506l);
+super.setQuid(2980638923331889957l);
 
-super.setChecksum("735863019");
+super.setChecksum("776197300");
 
 super.setNom("IMG_Visuel");
 
@@ -841,9 +840,9 @@ public void init()
 super.init();
 
 // moimeme..Opacité=80
-//MAP:2935558102a6fd2a:0000000e:1:FEN_ Menu_Commercial.IMG_Visuel:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDIMG_Visuel:Initialisation de IMG_Visuel
+//MAP:295d5b4f04e66b25:0000000e:1:FEN_Menu_Commercial.IMG_Visuel:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDIMG_Visuel:Initialisation de IMG_Visuel
 // moimeme..Opacité=80
-//MAP:2935558102a6fd2a:0000000e:1:FEN_ Menu_Commercial.IMG_Visuel:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDIMG_Visuel:Initialisation de IMG_Visuel
+//MAP:295d5b4f04e66b25:0000000e:1:FEN_Menu_Commercial.IMG_Visuel:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDIMG_Visuel:Initialisation de IMG_Visuel
 WDContexte.getMoiMeme().setProp(EWDPropriete.PROP_OPACITE,80);
 
 }
@@ -864,12 +863,12 @@ public GWDIMG_Visuel mWD_IMG_Visuel;
 
 
 ////////////////////////////////////////////////////////////////////////////
-// Procédures utilisateur de FEN_ Menu_Commercial
+// Procédures utilisateur de FEN_Menu_Commercial
 ////////////////////////////////////////////////////////////////////////////
 public void fWD_executeBouton( WDObjet vWD_pChampZML )
 {
 // PROCEDURE ExecuteBouton(pChampZML)
-//MAP:193555810046fd2a:00070000:1:FEN_ Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
+//MAP:195d5b4f00316b25:00070000:1:FEN_Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
 initExecProcLocale("ExecuteBouton");
 
 try
@@ -884,17 +883,17 @@ WDObjet vWD_i = new WDEntier4();
 
 
 // i est un entier = 1
-//MAP:193555810046fd2a:00070000:3:FEN_ Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
+//MAP:195d5b4f00316b25:00070000:3:FEN_Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
 
 vWD_i.setValeur(1);
 
 
 // BOUCLE
-//MAP:193555810046fd2a:00070000:4:FEN_ Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
+//MAP:195d5b4f00316b25:00070000:4:FEN_Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
 while(true)
 {
 // 	sResChamp est une chaine  = EnumèreChamp(pChampZML..nomcomplet, i)
-//MAP:193555810046fd2a:00070000:5:FEN_ Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
+//MAP:195d5b4f00316b25:00070000:5:FEN_Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
 WDObjet vWD_sResChamp = new WDChaineU();
 
 
@@ -902,11 +901,11 @@ vWD_sResChamp.setValeur(WDAPIDivers.enumereChamp(vWD_pChampZML.getProp(EWDPropri
 
 
 // 	si sResChamp="" alors sortir
-//MAP:193555810046fd2a:00070000:6:FEN_ Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
+//MAP:195d5b4f00316b25:00070000:6:FEN_Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
 if(vWD_sResChamp.opEgal(""))
 {
 // 	si sResChamp="" alors sortir
-//MAP:193555810046fd2a:00070000:6:FEN_ Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
+//MAP:195d5b4f00316b25:00070000:6:FEN_Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
 break;
 
 //////////////////////////////////////////////////////////
@@ -915,15 +914,15 @@ break;
 }
 
 // 	si {sResChamp, indChamp}..type=typBouton alors
-//MAP:193555810046fd2a:00070000:7:FEN_ Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
+//MAP:195d5b4f00316b25:00070000:7:FEN_Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
 if(WDIndirection.get(vWD_sResChamp.getString(),4).getProp(EWDPropriete.PROP_TYPE).opEgal(4))
 {
 // 		ExécuteTraitement(sResChamp, trtclic)
-//MAP:193555810046fd2a:00070000:8:FEN_ Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
+//MAP:195d5b4f00316b25:00070000:8:FEN_Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
 WDAPIVM.executeTraitement(vWD_sResChamp,18);
 
 // 		retour
-//MAP:193555810046fd2a:00070000:9:FEN_ Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
+//MAP:195d5b4f00316b25:00070000:9:FEN_Menu_Commercial.PROCEDURE.ExecuteBouton:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:ExecuteBouton
 return;
 
 }
@@ -943,12 +942,12 @@ finExecProcLocale();
 
 
 /**
- * Traitement: Déclarations globales de FEN_ Menu_Commercial
+ * Traitement: Déclarations globales de FEN_Menu_Commercial
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// PROCEDURE MaFenêtre()
-//MAP:29355581029cfd2a:00000000:1:FEN_ Menu_Commercial:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:Déclarations globales de FEN_ Menu_Commercial
+// PROCÉDURE MaFenêtre()
+//MAP:295d5b4f04dd6b25:00000000:1:FEN_Menu_Commercial:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:Déclarations globales de FEN_Menu_Commercial
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;
 if(WD_tabParam!=null) WD_ntabParamLen = WD_tabParam.length;
@@ -968,7 +967,7 @@ public void activerEcoute()
 // Déclaration des variables globales
 ////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////
-// Création des champs de la fenêtre FEN_ Menu_Commercial
+// Création des champs de la fenêtre FEN_Menu_Commercial
 ////////////////////////////////////////////////////////////////////////////
 protected void creerChamps()
 {
@@ -978,15 +977,15 @@ mWD_IMG_Visuel = new GWDIMG_Visuel();
 
 }
 ////////////////////////////////////////////////////////////////////////////
-// Initialisation de la fenêtre FEN_ Menu_Commercial
+// Initialisation de la fenêtre FEN_Menu_Commercial
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
-super.setQuid(2969373541903695146l);
+super.setQuid(2980638923331300133l);
 
-super.setChecksum("741204020");
+super.setChecksum("781603837");
 
-super.setNom("FEN_ Menu_Commercial");
+super.setNom("FEN_Menu_Commercial");
 
 super.setType(1);
 
@@ -1032,7 +1031,7 @@ super.setCouleurBarreSysteme(0xFF000001);
 activerEcoute();
 
 ////////////////////////////////////////////////////////////////////////////
-// Initialisation des champs de FEN_ Menu_Commercial
+// Initialisation des champs de FEN_Menu_Commercial
 ////////////////////////////////////////////////////////////////////////////
 mWD_ZM_ACTION1.initialiserObjet();
 super.ajouter("ZM_ACTION1", mWD_ZM_ACTION1);

@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Requête
  * Classe Android : REQ_NbrReclamation
- * Date : 28/12/2025 21:21:33
+ * Date : 04/01/2026 21:15:58
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -27,7 +27,7 @@ return "REQ_NbrReclamation";
 }
 public String getCodeSQLOriginal()
 {
-return "SELECT\r\n\tCOUNT(*) AS NbRec\r\nFROM\r\n\tReclamation\r\n\tJOIN\r\n\tAffectation\r\n\tON Reclamation.IDRéclamation = Affectation.IDRéclamation\r\nWHERE\r\n\tAffectation.IDutilisateur = {IDutilisateur#0}\r\n\tAND\r\n\tReclamation.Etat = 2\r\n;\r\n";
+return "SELECT\r\n\tCOUNT(*) AS NbRec\r\nFROM\r\n\tReclamation\r\n\tJOIN\r\n\tAffectation\r\n\tON Reclamation.IDRéclamation = Affectation.IDRéclamation\r\nWHERE\r\n\tAffectation.IDutilisateur = {CurrentUserID#0}\r\n\tAND\r\n\tReclamation.Etat = {Etat#1}\r\n;\r\n";
 }
 public Requete initArbre() throws WDInvalidSQLException
 {
@@ -66,29 +66,28 @@ varFrom.ajouterElement(varJointure);
 Requete varReqSelect = new Requete(1);
 varReqSelect.ajouterClause(varSelect);
 varReqSelect.ajouterClause(varFrom);
-Expression expr_AND = new Expression(24, "AND", "Affectation.IDutilisateur = {IDutilisateur}\r\n\tAND\r\n\tReclamation.Etat = 2");
-Expression expr___1 = new Expression(9, "=", "Affectation.IDutilisateur = {IDutilisateur}");
+Expression expr_AND = new Expression(24, "AND", "Affectation.IDutilisateur = {CurrentUserID}\r\n\tAND\r\n\tReclamation.Etat = {Etat}");
+Expression expr___1 = new Expression(9, "=", "Affectation.IDutilisateur = {CurrentUserID}");
 Rubrique rub_IDutilisateur = new Rubrique();
 rub_IDutilisateur.setNom("Affectation.IDutilisateur");
 rub_IDutilisateur.setAlias("IDutilisateur");
 rub_IDutilisateur.setNomFichier("Affectation");
 rub_IDutilisateur.setAliasFichier("Affectation");
 expr___1.ajouterElement(rub_IDutilisateur);
-Parametre param_IDutilisateur = new Parametre();
-param_IDutilisateur.setNom("IDutilisateur");
-expr___1.ajouterElement(param_IDutilisateur);
+Parametre param_CurrentUserID = new Parametre();
+param_CurrentUserID.setNom("CurrentUserID");
+expr___1.ajouterElement(param_CurrentUserID);
 expr_AND.ajouterElement(expr___1);
-Expression expr___2 = new Expression(9, "=", "Reclamation.Etat = 2");
+Expression expr___2 = new Expression(9, "=", "Reclamation.Etat = {Etat}");
 Rubrique rub_Etat = new Rubrique();
 rub_Etat.setNom("Reclamation.Etat");
 rub_Etat.setAlias("Etat");
 rub_Etat.setNomFichier("Reclamation");
 rub_Etat.setAliasFichier("Reclamation");
 expr___2.ajouterElement(rub_Etat);
-Literal varLiteral = new Literal();
-varLiteral.setValeur("2");
-varLiteral.setTypeWL(8);
-expr___2.ajouterElement(varLiteral);
+Parametre param_Etat = new Parametre();
+param_Etat.setNom("Etat");
+expr___2.ajouterElement(param_Etat);
 expr_AND.ajouterElement(expr___2);
 Where varWhere = new Where();
 varWhere.ajouterElement(expr_AND);

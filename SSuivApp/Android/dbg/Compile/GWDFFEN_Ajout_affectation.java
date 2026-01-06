@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Ajout_affectation
- * Date : 28/12/2025 21:59:30
+ * Date : 04/01/2026 21:24:31
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -719,30 +719,26 @@ WDAPIHF.hLitSuivant(WDAPIHF.getFichierSansCasseNiAccent("utilisateur"));
 
 }
 
-// HReadFirst(Reclamation)
-//MAP:2935b1fc11803fa6:00000022:16:FEN_Ajout_affectation:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_affectation:Fin d'initialisation de FEN_Ajout_affectation
-WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("reclamation"));
-
 // WHILE NOT HOut()
-//MAP:2935b1fc11803fa6:00000022:17:FEN_Ajout_affectation:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_affectation:Fin d'initialisation de FEN_Ajout_affectation
+//MAP:2935b1fc11803fa6:00000022:16:FEN_Ajout_affectation:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_affectation:Fin d'initialisation de FEN_Ajout_affectation
 while((!WDAPIHF.hEnDehors().getBoolean()))
 {
 // 	SI réclamation.Etat = 2 ALORS
-//MAP:2935b1fc11803fa6:00000022:18:FEN_Ajout_affectation:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_affectation:Fin d'initialisation de FEN_Ajout_affectation
+//MAP:2935b1fc11803fa6:00000022:17:FEN_Ajout_affectation:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_affectation:Fin d'initialisation de FEN_Ajout_affectation
 if(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("etat").opEgal(2))
 {
 // 	SAI_NumFacture=Reclamation.Num_facture
-//MAP:2935b1fc11803fa6:00000022:1a:FEN_Ajout_affectation:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_affectation:Fin d'initialisation de FEN_Ajout_affectation
+//MAP:2935b1fc11803fa6:00000022:19:FEN_Ajout_affectation:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_affectation:Fin d'initialisation de FEN_Ajout_affectation
 mWD_SAI_NumFacture.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture"));
 
 // 	TabReclamationID.Ajoute(Reclamation.IDRéclamation) // On stocke l'ID dans le tableau
-//MAP:2935b1fc11803fa6:00000022:1b:FEN_Ajout_affectation:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_affectation:Fin d'initialisation de FEN_Ajout_affectation
+//MAP:2935b1fc11803fa6:00000022:1a:FEN_Ajout_affectation:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_affectation:Fin d'initialisation de FEN_Ajout_affectation
 WDAPITableau.tableauAjoute(vWD_TabReclamationID,WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"));
 
 }
 
 // 	HReadNext(réclamation)
-//MAP:2935b1fc11803fa6:00000022:1d:FEN_Ajout_affectation:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_affectation:Fin d'initialisation de FEN_Ajout_affectation
+//MAP:2935b1fc11803fa6:00000022:1c:FEN_Ajout_affectation:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_affectation:Fin d'initialisation de FEN_Ajout_affectation
 WDAPIHF.hLitSuivant(WDAPIHF.getFichierSansCasseNiAccent("reclamation"));
 
 }

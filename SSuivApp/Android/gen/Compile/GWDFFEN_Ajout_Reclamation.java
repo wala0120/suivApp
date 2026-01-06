@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Ajout_Reclamation
- * Date : 28/12/2025 21:52:52
+ * Date : 04/01/2026 21:15:57
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -693,6 +693,9 @@ WDAPIFenetre.ecranVersFichier();
 // HEnregistre(Reclamation)  
 WDAPIHF.hEnregistre(WDAPIHF.getFichierSansCasseNiAccent("reclamation"));
 
+// OuvreFenêtreMobile(FEN_Liste_Reclamation_Chauffeur)
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Liste_Reclamation_Chauffeur);
+
 // Ferme()
 WDAPIFenetre.ferme();
 
@@ -1128,9 +1131,9 @@ public void clicSurBoutonGauche()
 {
 super.clicSurBoutonGauche();
 
-// OuvreFenêtreMobile(FEN_Menu_Administrateur)
-// OuvreFenêtreMobile(FEN_Menu_Administrateur)
-WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Administrateur);
+// OuvreFenêtreMobile(FEN_Menu_Chauffeur)
+// OuvreFenêtreMobile(FEN_Menu_Chauffeur)
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Chauffeur);
 
 }
 
@@ -1196,7 +1199,7 @@ finExecProcLocale();
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// PROCEDURE MaFenêtre()
+// PROCÉDURE MaFenêtre()
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;
 if(WD_tabParam!=null) WD_ntabParamLen = WD_tabParam.length;

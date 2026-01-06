@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Liste_Reclamation_Commercial
- * Date : 28/12/2025 21:59:30
+ * Date : 06/01/2026 20:00:21
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -1144,9 +1144,9 @@ public void clicSurBoutonGauche()
 {
 super.clicSurBoutonGauche();
 
-// OuvreFenêtreMobile('FEN_ Menu_Commercial')
+// OuvreFenêtreMobile('FEN_Menu_Commercial')
 //MAP:2938848a03c6be8c:00000012:1:FEN_Liste_Reclamation_Commercial.IMG_SansNom1:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDIMG_SansNom1:Clic sur IMG_SansNom1
-// OuvreFenêtreMobile('FEN_ Menu_Commercial')
+// OuvreFenêtreMobile('FEN_Menu_Commercial')
 //MAP:2938848a03c6be8c:00000012:1:FEN_Liste_Reclamation_Commercial.IMG_SansNom1:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDIMG_SansNom1:Clic sur IMG_SansNom1
 WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Commercial);
 
@@ -1492,23 +1492,31 @@ super.init();
 
 // // Exécuter la requête
 //MAP:2938848a03cebe9b:0000000e:1:FEN_Liste_Reclamation_Commercial.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDIMG_Bell:Initialisation de IMG_Bell
-// SI HExécuteRequête(REQ_NbrReclamation) ALORS
+// REQ_NbrReclamation.CurrentUserID = CurrentUserID
+//MAP:2938848a03cebe9b:0000000e:2:FEN_Liste_Reclamation_Commercial.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDIMG_Bell:Initialisation de IMG_Bell
+WDAPIHF.getFichierSansCasseNiAccent("req_nbrreclamation").getRubriqueSansCasseNiAccent("currentuserid").setValeur(GWDPSSuivApp.getInstance().vWD_CurrentUserID);
+
+// REQ_NbrReclamation.Etat = gnCurrentRecuperationTab
 //MAP:2938848a03cebe9b:0000000e:3:FEN_Liste_Reclamation_Commercial.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDIMG_Bell:Initialisation de IMG_Bell
+WDAPIHF.getFichierSansCasseNiAccent("req_nbrreclamation").getRubriqueSansCasseNiAccent("etat").setValeur(GWDPSSuivApp.getInstance().vWD_gnCurrentRecuperationTab);
+
+// SI HExécuteRequête(REQ_NbrReclamation) ALORS
+//MAP:2938848a03cebe9b:0000000e:4:FEN_Liste_Reclamation_Commercial.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDIMG_Bell:Initialisation de IMG_Bell
 if(WDAPIHF.hExecuteRequete(WDAPIHF.getRequeteSansCasseNiAccent("req_nbrreclamation")).getBoolean())
 {
 // 	HLitPremier(REQ_NbrReclamation)
-//MAP:2938848a03cebe9b:0000000e:6:FEN_Liste_Reclamation_Commercial.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDIMG_Bell:Initialisation de IMG_Bell
+//MAP:2938848a03cebe9b:0000000e:7:FEN_Liste_Reclamation_Commercial.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDIMG_Bell:Initialisation de IMG_Bell
 WDAPIHF.hLitPremier(WDAPIHF.getRequeteSansCasseNiAccent("req_nbrreclamation"));
 
 // 	LIB_Badge..Valeur = REQ_NbrReclamation.NbRec
-//MAP:2938848a03cebe9b:0000000e:9:FEN_Liste_Reclamation_Commercial.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDIMG_Bell:Initialisation de IMG_Bell
+//MAP:2938848a03cebe9b:0000000e:a:FEN_Liste_Reclamation_Commercial.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDIMG_Bell:Initialisation de IMG_Bell
 mWD_LIB_Badge.setProp(EWDPropriete.PROP_VALEUR,WDAPIHF.getFichierSansCasseNiAccent("req_nbrreclamation").getRubriqueSansCasseNiAccent("nbrec"));
 
 }
 else
 {
 // 	Info("Erreur lors de l'exécution de la requête")
-//MAP:2938848a03cebe9b:0000000e:c:FEN_Liste_Reclamation_Commercial.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDIMG_Bell:Initialisation de IMG_Bell
+//MAP:2938848a03cebe9b:0000000e:d:FEN_Liste_Reclamation_Commercial.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDIMG_Bell:Initialisation de IMG_Bell
 WDAPIDialogue.info("Erreur lors de l'exécution de la requête");
 
 }
@@ -2158,9 +2166,9 @@ vWD_bUserIsAssigned.setValeur(false);
 //MAP:29372b8c02891a55:000000ea:16:FEN_Liste_Reclamation_Commercial:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Commercial
 if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("magasin"),WDAPIHF.getRubriqueSansCasseNiAccent("idmagasin"),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idmagasin")).getBoolean())
 {
-// 		sNomMagasin = Magasin.NomMagasin
+// 		sNomMagasin = Magasin.NomMagasin + " " + Magasin.Adresse
 //MAP:29372b8c02891a55:000000ea:17:FEN_Liste_Reclamation_Commercial:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Commercial
-vWD_sNomMagasin.setValeur(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin"));
+vWD_sNomMagasin.setValeur(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin").opPlus(" ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse")));
 
 // 		IF sSearchString <> "" THEN
 //MAP:29372b8c02891a55:000000ea:1a:FEN_Liste_Reclamation_Commercial:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Commercial

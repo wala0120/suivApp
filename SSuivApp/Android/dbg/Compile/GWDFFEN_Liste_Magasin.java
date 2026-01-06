@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Liste_Magasin
- * Date : 28/12/2025 21:59:30
+ * Date : 04/01/2026 21:24:31
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -132,13 +132,40 @@ super.terminerInitialisation();
 public GWDATT_Phone mWD_ATT_Phone = new GWDATT_Phone();
 
 /**
+ * ATT_IdMagasin
+ */
+class GWDATT_IdMagasin extends WDAttributZR
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°4 de FEN_Liste_Magasin.ZR_Magasins.ATT_IdMagasin
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setNom("ATT_IdMagasin");
+
+super.setProprieteAssocie(EWDPropriete.PROP_VALEUR);
+
+activerEcoute();
+super.terminerInitialisation();
+}
+// Pas de traitement pour le champ FEN_Liste_Magasin.ZR_Magasins.ATT_IdMagasin
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDATT_IdMagasin mWD_ATT_IdMagasin = new GWDATT_IdMagasin();
+
+/**
  * LIB_NomMagasin
  */
 class GWDLIB_NomMagasin extends WDLibelle
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°4 de FEN_Liste_Magasin.ZR_Magasins.LIB_NomMagasin
+// Déclaration des champs du fils n°5 de FEN_Liste_Magasin.ZR_Magasins.LIB_NomMagasin
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -221,7 +248,7 @@ class GWDLIB_Addresse extends WDLibelle
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°5 de FEN_Liste_Magasin.ZR_Magasins.LIB_Addresse
+// Déclaration des champs du fils n°6 de FEN_Liste_Magasin.ZR_Magasins.LIB_Addresse
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -304,7 +331,7 @@ class GWDLIB_Phone extends WDLibelle
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°6 de FEN_Liste_Magasin.ZR_Magasins.LIB_Phone
+// Déclaration des champs du fils n°7 de FEN_Liste_Magasin.ZR_Magasins.LIB_Phone
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -387,7 +414,7 @@ class GWDIMG_Corbeille extends WDChampImage
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°7 de FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille
+// Déclaration des champs du fils n°8 de FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -415,7 +442,7 @@ super.setNavigable(false);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(291, 27);
+super.setPositionInitiale(278, 35);
 
 super.setTailleInitiale(23, 19);
 
@@ -471,11 +498,49 @@ public void clicSurBoutonGauche()
 {
 super.clicSurBoutonGauche();
 
-// HSupprime(Magasin)
+// i est un entier
 //MAP:29514ac204ed5996:00000012:1:FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Magasins )
-// HSupprime(Magasin)
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables locales au traitement
+// (En WLangage les variables sont encore visibles après la fin du bloc dans lequel elles sont déclarées)
+////////////////////////////////////////////////////////////////////////////
+WDObjet vWD_i = new WDEntier4();
+
+
+
+// i est un entier
 //MAP:29514ac204ed5996:00000012:1:FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Magasins )
+
+
+// i = ZR_Magasins[ZR_Magasins..Occurrence].ATT_IdMagasin
+//MAP:29514ac204ed5996:00000012:3:FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Magasins )
+vWD_i.setValeur(mWD_ZR_Magasins.get(mWD_ZR_Magasins.getProp(EWDPropriete.PROP_OCCURRENCE)).get("ATT_IdMagasin"));
+
+// SI HLitRecherche(Magasin, IdMagasin, i) ALORS
+//MAP:29514ac204ed5996:00000012:5:FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Magasins )
+if(WDAPIHF.hLitRecherche(WDAPIHF.getFichierSansCasseNiAccent("magasin"),WDAPIHF.getRubriqueSansCasseNiAccent("idmagasin"),vWD_i).getBoolean())
+{
+// 	HSupprime(Magasin)
+//MAP:29514ac204ed5996:00000012:6:FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Magasins )
 WDAPIHF.hSupprime(WDAPIHF.getFichierSansCasseNiAccent("magasin"));
+
+// 	Info("Magasin a été supprimer avec succés")
+//MAP:29514ac204ed5996:00000012:7:FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Magasins )
+WDAPIDialogue.info("Magasin a été supprimer avec succés");
+
+// 	OuvreFenêtreMobile(FEN_Liste_Magasin)
+//MAP:29514ac204ed5996:00000012:8:FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Magasins )
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Liste_Magasin);
+
+}
+else
+{
+// 	Info("Magasin introuvable")
+//MAP:29514ac204ed5996:00000012:a:FEN_Liste_Magasin.ZR_Magasins.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin$GWDZR_Magasins$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Magasins )
+WDAPIDialogue.info("Magasin introuvable");
+
+}
 
 }
 
@@ -508,6 +573,8 @@ mWD_ATT_Addresse.initialiserObjet();
 super.ajouterAttributZR(mWD_ATT_Addresse);
 mWD_ATT_Phone.initialiserObjet();
 super.ajouterAttributZR(mWD_ATT_Phone);
+mWD_ATT_IdMagasin.initialiserObjet();
+super.ajouterAttributZR(mWD_ATT_IdMagasin);
 mWD_LIB_NomMagasin.initialiserObjet();
 super.ajouterChamp("LIB_NomMagasin",mWD_LIB_NomMagasin);
 mWD_LIB_Addresse.initialiserObjet();
@@ -915,7 +982,7 @@ public GWDACTB_ActionBar mWD_ACTB_ActionBar;
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// PROCEDURE MaFenêtre()
+// PROCÉDURE MaFenêtre()
 //MAP:29387d31023808f0:00000000:1:FEN_Liste_Magasin:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin:Déclarations globales de FEN_Liste_Magasin
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;
@@ -948,9 +1015,9 @@ if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("magasin")).getBoolea
 //MAP:29387d31023808f0:00000022:6:FEN_Liste_Magasin:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin:Fin d'initialisation de FEN_Liste_Magasin
 while((!WDAPIHF.hEnDehors(WDAPIHF.getFichierSansCasseNiAccent("magasin")).getBoolean()))
 {
-// 		ZR_Magasins.AjouteLigne(Magasin.NomMagasin,Magasin.Adresse,Magasin.Num_tel)
+// 		ZR_Magasins.AjouteLigne(Magasin.NomMagasin,Magasin.Adresse,Magasin.Num_tel,Magasin.IDmagasin)
 //MAP:29387d31023808f0:00000022:8:FEN_Liste_Magasin:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin:Fin d'initialisation de FEN_Liste_Magasin
-WDAPIZoneRepetee.zoneRepeteeAjouteLigne(mWD_ZR_Magasins,new WDObjet[] {WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin"),WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse"),WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("num_tel")} );
+WDAPIZoneRepetee.zoneRepeteeAjouteLigne(mWD_ZR_Magasins,new WDObjet[] {WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin"),WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse"),WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("num_tel"),WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("idmagasin")} );
 
 // 		HReadNext(Magasin)
 //MAP:29387d31023808f0:00000022:a:FEN_Liste_Magasin:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Magasin:Fin d'initialisation de FEN_Liste_Magasin

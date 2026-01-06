@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Ajout_Reclamation
- * Date : 28/12/2025 21:59:30
+ * Date : 04/01/2026 21:24:31
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -717,8 +717,12 @@ WDAPIFenetre.ecranVersFichier();
 //MAP:2935734d06066611:00000012:2f:FEN_Ajout_Reclamation.Bouton2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_Reclamation$GWDBouton2:Clic sur Bouton2
 WDAPIHF.hEnregistre(WDAPIHF.getFichierSansCasseNiAccent("reclamation"));
 
-// Ferme()
+// OuvreFenêtreMobile(FEN_Liste_Reclamation_Chauffeur)
 //MAP:2935734d06066611:00000012:30:FEN_Ajout_Reclamation.Bouton2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_Reclamation$GWDBouton2:Clic sur Bouton2
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Liste_Reclamation_Chauffeur);
+
+// Ferme()
+//MAP:2935734d06066611:00000012:32:FEN_Ajout_Reclamation.Bouton2:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_Reclamation$GWDBouton2:Clic sur Bouton2
 WDAPIFenetre.ferme();
 
 }
@@ -1160,11 +1164,11 @@ public void clicSurBoutonGauche()
 {
 super.clicSurBoutonGauche();
 
-// OuvreFenêtreMobile(FEN_Menu_Administrateur)
+// OuvreFenêtreMobile(FEN_Menu_Chauffeur)
 //MAP:2935734d060b6611:00000012:1:FEN_Ajout_Reclamation.IMG_SansNom1:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_Reclamation$GWDIMG_SansNom1:Clic sur IMG_SansNom1
-// OuvreFenêtreMobile(FEN_Menu_Administrateur)
+// OuvreFenêtreMobile(FEN_Menu_Chauffeur)
 //MAP:2935734d060b6611:00000012:1:FEN_Ajout_Reclamation.IMG_SansNom1:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_Reclamation$GWDIMG_SansNom1:Clic sur IMG_SansNom1
-WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Administrateur);
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Chauffeur);
 
 }
 
@@ -1233,7 +1237,7 @@ finExecProcLocale();
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// PROCEDURE MaFenêtre()
+// PROCÉDURE MaFenêtre()
 //MAP:2935734d06016611:00000000:1:FEN_Ajout_Reclamation:com.masociete.tracklet.wdgen.GWDFFEN_Ajout_Reclamation:Déclarations globales de FEN_Ajout_Reclamation
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;

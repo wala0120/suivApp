@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Liste_Reclamation_Admin
- * Date : 28/12/2025 21:59:30
+ * Date : 05/01/2026 09:44:03
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -419,7 +419,7 @@ super.setCurseurSouris(0);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(183, 5);
+super.setPositionInitiale(175, 4);
 
 super.setTailleInitiale(120, 19);
 
@@ -691,7 +691,7 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(197, 42);
+super.setPositionInitiale(184, 71);
 
 super.setTailleInitiale(54, 18);
 
@@ -789,14 +789,14 @@ public void clicSurBoutonGauche()
 {
 super.clicSurBoutonGauche();
 
-// IDReclamationGlobal = ATT_IdReclamation
+// IDReclamationGlobal =  ZR_Reclamation[ZR_Reclamation..Occurrence].ATT_IdReclamation
 //MAP:29387276047b226f:00000012:1:FEN_Liste_Reclamation_Admin.ZR_Reclamation.BTN_Affecter:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$GWDZR_Reclamation$GWDBTN_Affecter:Clic sur BTN_Affecter ( ZR_Reclamation )
-// IDReclamationGlobal = ATT_IdReclamation
+// IDReclamationGlobal =  ZR_Reclamation[ZR_Reclamation..Occurrence].ATT_IdReclamation
 //MAP:29387276047b226f:00000012:1:FEN_Liste_Reclamation_Admin.ZR_Reclamation.BTN_Affecter:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$GWDZR_Reclamation$GWDBTN_Affecter:Clic sur BTN_Affecter ( ZR_Reclamation )
-GWDPSSuivApp.getInstance().vWD_IDReclamationGlobal.setValeur(mWD_ATT_IdReclamation);
+GWDPSSuivApp.getInstance().vWD_IDReclamationGlobal.setValeur(mWD_ZR_Reclamation.get(mWD_ZR_Reclamation.getProp(EWDPropriete.PROP_OCCURRENCE)).get("ATT_IdReclamation"));
 
 // OuvreFenêtreMobile(FEN_Ajout_affectation)
-//MAP:29387276047b226f:00000012:3:FEN_Liste_Reclamation_Admin.ZR_Reclamation.BTN_Affecter:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$GWDZR_Reclamation$GWDBTN_Affecter:Clic sur BTN_Affecter ( ZR_Reclamation )
+//MAP:29387276047b226f:00000012:4:FEN_Liste_Reclamation_Admin.ZR_Reclamation.BTN_Affecter:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$GWDZR_Reclamation$GWDBTN_Affecter:Clic sur BTN_Affecter ( ZR_Reclamation )
 WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Ajout_affectation);
 
 }
@@ -858,7 +858,7 @@ public  void initialiserObjet()
 {
 super.initialiserObjet();
 super.setFenetre( getWDFenetreThis() );
-super.setRectCompPrincipal(1,1,318,58);
+super.setRectCompPrincipal(1,1,318,97);
 super.setQuid(2969423110221797592l);
 
 super.setChecksum("835768542");
@@ -881,7 +881,7 @@ super.setNavigable(true);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(0, 139);
+super.setPositionInitiale(0, 137);
 
 super.setTailleInitiale(320, 385);
 
@@ -913,7 +913,7 @@ super.setEnregistrementSortieLigne(true);
 
 super.setPersistant(false);
 
-super.setParamAffichage(0, 0, 1, 318, 58);
+super.setParamAffichage(0, 0, 1, 318, 97);
 
 super.setBtnEnrouleDeroule(true);
 
@@ -1664,6 +1664,236 @@ public void activerEcoute()
 }
 public GWDIMG_SansNom3 mWD_IMG_SansNom3;
 
+/**
+ * IMG_Bell
+ */
+class GWDIMG_Bell extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°7 de FEN_Liste_Reclamation_Admin.IMG_Bell
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2979909337294334178l);
+
+super.setChecksum("833043171");
+
+super.setNom("IMG_Bell");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(280, 38);
+
+super.setTailleInitiale(26, 30);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\bell.png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(7);
+
+super.setAncrageInitial(4, 1000, 1000, 1000, 1000, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+/**
+ * Traitement: Initialisation de IMG_Bell
+ */
+public void init()
+//  Exécuter la requête
+{
+super.init();
+
+// // Exécuter la requête
+//MAP:295ac3c1084c68e2:0000000e:1:FEN_Liste_Reclamation_Admin.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$GWDIMG_Bell:Initialisation de IMG_Bell
+// SI HExécuteRequête(REQ_NbrAffectation) ALORS
+//MAP:295ac3c1084c68e2:0000000e:3:FEN_Liste_Reclamation_Admin.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$GWDIMG_Bell:Initialisation de IMG_Bell
+if(WDAPIHF.hExecuteRequete(WDAPIHF.getRequeteSansCasseNiAccent("req_nbraffectation")).getBoolean())
+{
+// 	HLitPremier(REQ_NbrAffectation)
+//MAP:295ac3c1084c68e2:0000000e:6:FEN_Liste_Reclamation_Admin.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$GWDIMG_Bell:Initialisation de IMG_Bell
+WDAPIHF.hLitPremier(WDAPIHF.getRequeteSansCasseNiAccent("req_nbraffectation"));
+
+// 	Si gnCurrentAffectationTab ALORS
+//MAP:295ac3c1084c68e2:0000000e:7:FEN_Liste_Reclamation_Admin.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$GWDIMG_Bell:Initialisation de IMG_Bell
+if(GWDPSSuivApp.getInstance().vWD_gnCurrentAffectationTab.getBoolean())
+{
+// 		LIB_Badge..Valeur = REQ_NbrAffectation.NbAffected
+//MAP:295ac3c1084c68e2:0000000e:8:FEN_Liste_Reclamation_Admin.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$GWDIMG_Bell:Initialisation de IMG_Bell
+mWD_LIB_Badge.setProp(EWDPropriete.PROP_VALEUR,WDAPIHF.getFichierSansCasseNiAccent("req_nbraffectation").getRubriqueSansCasseNiAccent("nbaffected"));
+
+}
+
+// 	Si gnCurrentAffectationTab = 2 ALORS
+//MAP:295ac3c1084c68e2:0000000e:b:FEN_Liste_Reclamation_Admin.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$GWDIMG_Bell:Initialisation de IMG_Bell
+if(GWDPSSuivApp.getInstance().vWD_gnCurrentAffectationTab.opEgal(2))
+{
+// 		LIB_Badge..Valeur = REQ_NbrAffectation.NbNonAffected
+//MAP:295ac3c1084c68e2:0000000e:c:FEN_Liste_Reclamation_Admin.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$GWDIMG_Bell:Initialisation de IMG_Bell
+mWD_LIB_Badge.setProp(EWDPropriete.PROP_VALEUR,WDAPIHF.getFichierSansCasseNiAccent("req_nbraffectation").getRubriqueSansCasseNiAccent("nbnonaffected"));
+
+}
+
+}
+else
+{
+// 	Info("Erreur lors de l'exécution de la requête")
+//MAP:295ac3c1084c68e2:0000000e:12:FEN_Liste_Reclamation_Admin.IMG_Bell:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$GWDIMG_Bell:Initialisation de IMG_Bell
+WDAPIDialogue.info("Erreur lors de l'exécution de la requête");
+
+}
+
+}
+
+
+
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_Bell mWD_IMG_Bell;
+
+/**
+ * LIB_Badge
+ */
+class GWDLIB_Badge extends WDLibelle
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°8 de FEN_Liste_Reclamation_Admin.LIB_Badge
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2979909736728482858l);
+
+super.setChecksum("835231136");
+
+super.setNom("LIB_Badge");
+
+super.setType(3);
+
+super.setBulle("");
+
+super.setTypeSaisie(0);
+
+super.setMasqueSaisie(new WDChaineU("0"));
+
+super.setLibelle("");
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(274, 60);
+
+super.setTailleInitiale(22, 21);
+
+super.setPlan(0);
+
+super.setCadrageHorizontal(0);
+
+super.setCadrageVertical(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(8);
+
+super.setAncrageInitial(4, 1000, 1000, 1000, 1000, 0);
+
+super.setEllipse(0);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(true);
+
+super.setStyleLibelle(0x394AE1, 0xFFFFFFFF, creerPolice_GEN("Trebuchet MS", -8.000000, 0), 3, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0x603C0C, 0x0, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+super.setMiseABlancSiZero(true);
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDLIB_Badge mWD_LIB_Badge;
+
 
 ////////////////////////////////////////////////////////////////////////////
 // Procédures utilisateur de FEN_Liste_Reclamation_Admin
@@ -2143,7 +2373,7 @@ public GWDMMENU_SansNom2 mWD_MENU_SansNom2;
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// PROCEDURE MaFenêtre()
+// PROCÉDURE MaFenêtre()
 //MAP:29358296089918c8:00000000:1:FEN_Liste_Reclamation_Admin:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin:Déclarations globales de FEN_Liste_Reclamation_Admin
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;
@@ -2243,9 +2473,9 @@ vWD_sNomMagasin.setValeur("");
 //MAP:29358296089918c8:00000022:18:FEN_Liste_Reclamation_Admin:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin:Fin d'initialisation de FEN_Liste_Reclamation_Admin
 if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("magasin"),WDAPIHF.getRubriqueSansCasseNiAccent("idmagasin"),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idmagasin")).getBoolean())
 {
-// 		sNomMagasin = Magasin.NomMagasin
+// 		sNomMagasin = Magasin.NomMagasin + " " + Magasin.Adresse
 //MAP:29358296089918c8:00000022:19:FEN_Liste_Reclamation_Admin:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin:Fin d'initialisation de FEN_Liste_Reclamation_Admin
-vWD_sNomMagasin.setValeur(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin"));
+vWD_sNomMagasin.setValeur(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin").opPlus(" ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse")));
 
 // 		IF sSearchString <> "" THEN
 //MAP:29358296089918c8:00000022:1d:FEN_Liste_Reclamation_Admin:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin:Fin d'initialisation de FEN_Liste_Reclamation_Admin
@@ -2408,6 +2638,8 @@ mWD_SAI_Recherche = new GWDSAI_Recherche();
 mWD_IMG_SansNom1 = new GWDIMG_SansNom1();
 mWD_ONG_Affectation = new GWDONG_Affectation();
 mWD_IMG_SansNom3 = new GWDIMG_SansNom3();
+mWD_IMG_Bell = new GWDIMG_Bell();
+mWD_LIB_Badge = new GWDLIB_Badge();
 mWD_MENU_SansNom1 = new GWDMMENU_SansNom1();
 mWD_MENU_SansNom2 = new GWDMMENU_SansNom2();
 
@@ -2481,6 +2713,10 @@ mWD_ONG_Affectation.initialiserObjet();
 super.ajouter("ONG_Affectation", mWD_ONG_Affectation);
 mWD_IMG_SansNom3.initialiserObjet();
 super.ajouter("IMG_SansNom3", mWD_IMG_SansNom3);
+mWD_IMG_Bell.initialiserObjet();
+super.ajouter("IMG_Bell", mWD_IMG_Bell);
+mWD_LIB_Badge.initialiserObjet();
+super.ajouter("LIB_Badge", mWD_LIB_Badge);
 mWD_MENU_SansNom1.initialiserObjet();
 ajouterMenuContextuel(mWD_MENU_SansNom1);
 mWD_MENU_SansNom2.initialiserObjet();

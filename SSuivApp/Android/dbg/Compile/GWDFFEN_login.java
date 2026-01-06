@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_login
- * Date : 28/12/2025 21:59:30
+ * Date : 06/01/2026 19:59:02
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -727,7 +727,7 @@ return;
 
 }
 
-// SI Utilisateur.mot_de_passe <> SAI_Mot_de_passe..Valeur ALORS
+// SI Utilisateur.mot_De_passe <> SAI_Mot_de_passe..Valeur ALORS
 //MAP:2935737e063e2395:00000012:11:FEN_login.BTN_Se_connecter:com.masociete.tracklet.wdgen.GWDFFEN_login$GWDBTN_Se_connecter:Clic sur BTN_Se_connecter
 if(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("mot_de_passe").opDiff(mWD_SAI_Mot_de_passe.getProp(EWDPropriete.PROP_VALEUR)))
 {
@@ -758,23 +758,23 @@ WDAPIDialogue.info(new WDChaineU("Bienvenue ").opPlus(WDAPIHF.getFichierSansCass
 WDObjet _WDExpSelon0 = WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role");
 if(_WDExpSelon0.opEgal(1))
 {
-// 		Ouvre('FEN_ menu_commercial')  
+// 		OuvreFenêtreMobile('FEN_Menu_Commercial')  
 //MAP:2935737e063e2395:00000012:1d:FEN_login.BTN_Se_connecter:com.masociete.tracklet.wdgen.GWDFFEN_login$GWDBTN_Se_connecter:Clic sur BTN_Se_connecter
-WDAPIFenetre.ouvre(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Commercial);
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Commercial);
 
 }
 else if(_WDExpSelon0.opEgal(2))
 {
-// 		Ouvre('FEN_menu_chauffeur')  
+// 		OuvreFenêtreMobile('FEN_Menu_Chauffeur')  
 //MAP:2935737e063e2395:00000012:1f:FEN_login.BTN_Se_connecter:com.masociete.tracklet.wdgen.GWDFFEN_login$GWDBTN_Se_connecter:Clic sur BTN_Se_connecter
-WDAPIFenetre.ouvre(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Chauffeur);
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Chauffeur);
 
 }
 else if(_WDExpSelon0.opEgal(3))
 {
-// 		Ouvre(FEN_Menu_Administrateur) 
+// 		OuvreFenêtreMobile(FEN_Menu_Administrateur) 
 //MAP:2935737e063e2395:00000012:21:FEN_login.BTN_Se_connecter:com.masociete.tracklet.wdgen.GWDFFEN_login$GWDBTN_Se_connecter:Clic sur BTN_Se_connecter
-WDAPIFenetre.ouvre(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Administrateur);
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Administrateur);
 
 }
 else {
@@ -921,7 +921,7 @@ public GWDIMG_Visuel mWD_IMG_Visuel;
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// PROCEDURE MaFenêtre()
+// PROCÉDURE MaFenêtre()
 //MAP:2935737e06372395:00000000:1:FEN_login:com.masociete.tracklet.wdgen.GWDFFEN_login:Déclarations globales de FEN_login
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;

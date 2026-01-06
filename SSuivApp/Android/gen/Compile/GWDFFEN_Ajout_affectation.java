@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Ajout_affectation
- * Date : 28/12/2025 21:21:32
+ * Date : 04/01/2026 21:15:57
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -626,7 +626,7 @@ public GWDIMG_SansNom2 mWD_IMG_SansNom2;
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// PROCEDURE MaFenêtre()
+// PROCÉDURE MaFenêtre()
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;
 if(WD_tabParam!=null) WD_ntabParamLen = WD_tabParam.length;
@@ -694,9 +694,6 @@ WDAPITableau.tableauAjoute(vWD_TabChauffeurID,WDAPIHF.getFichierSansCasseNiAccen
 WDAPIHF.hLitSuivant(WDAPIHF.getFichierSansCasseNiAccent("utilisateur"));
 
 }
-
-// HReadFirst(Reclamation)
-WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("reclamation"));
 
 // WHILE NOT HOut()
 while((!WDAPIHF.hEnDehors().getBoolean()))

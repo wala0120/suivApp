@@ -8,6 +8,6 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.masociete.tracklet";
   public static final String BUILD_TYPE = "release";
   public static final String FLAVOR = "";
-  public static final int VERSION_CODE = 10;
-  public static final String VERSION_NAME = "0.0.3.0";
+  public static final int VERSION_CODE = 14;
+  public static final String VERSION_NAME = "0.0.6.0";
 }

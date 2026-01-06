@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Projet
  * Classe Android : SSuivApp
- * Date : 28/12/2025 21:52:53
+ * Date : 06/01/2026 19:01:59
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -170,6 +170,15 @@ mWD_FEN_Modifier_Reclamation.checkOuverture();
 return mWD_FEN_Modifier_Reclamation;
 }
 
+ // FEN_changment_de_mot_de_passe
+public GWDFFEN_changment_de_mot_de_passe mWD_FEN_changment_de_mot_de_passe = new GWDFFEN_changment_de_mot_de_passe();
+ // accesseur de FEN_changment_de_mot_de_passe
+public GWDFFEN_changment_de_mot_de_passe getFEN_changment_de_mot_de_passe()
+{
+mWD_FEN_changment_de_mot_de_passe.checkOuverture();
+return mWD_FEN_changment_de_mot_de_passe;
+}
+
 
  // Constructeur de la classe GWDPSSuivApp
 public GWDPSSuivApp()
@@ -195,9 +204,11 @@ ajouterFenetre("FEN_Liste_Reclamation_Chauffeur", mWD_FEN_Liste_Reclamation_Chau
 ajouterFenetre("FEN_Modifier_Utilisateur", mWD_FEN_Modifier_Utilisateur);
 ajouterFenetre("FEN_Liste_Magasin", mWD_FEN_Liste_Magasin);
 ajouterFenetre("FEN_Modifier_Reclamation", mWD_FEN_Modifier_Reclamation);
+ajouterFenetre("FEN_changment_de_mot_de_passe", mWD_FEN_changment_de_mot_de_passe);
 
 ajouterRequeteWDR( new GWDRREQ_Reclamation() );
 ajouterRequeteWDR( new GWDRREQ_NbrReclamation() );
+ajouterRequeteWDR( new GWDRREQ_NbrAffectation() );
 
 
 }
@@ -261,6 +272,20 @@ super.ajouterVariableGlobale("gnCurrentRecuperationTab",vWD_gnCurrentRecuperatio
 
 
 
+// Idmagasin est un entier
+vWD_Idmagasin = new WDEntier4();
+
+super.ajouterVariableGlobale("Idmagasin",vWD_Idmagasin);
+
+
+
+// gnIdReclamation est un entier 
+vWD_gnIdReclamation = new WDEntier4();
+
+super.ajouterVariableGlobale("gnIdReclamation",vWD_gnIdReclamation);
+
+
+
 }
 
 
@@ -277,7 +302,9 @@ static public WDObjet vWD_gnIDUtilisateur = WDVarNonAllouee.ref;
 static public WDObjet vWD_gnIDUtilisateurModifier = WDVarNonAllouee.ref;
 static public WDObjet vWD_gnCurrentAffectationTab = WDVarNonAllouee.ref;
 static public WDObjet vWD_gnCurrentRecuperationTab = WDVarNonAllouee.ref;
-public String getVersionApplication(){ return "0.0.3.0";}
+static public WDObjet vWD_Idmagasin = WDVarNonAllouee.ref;
+static public WDObjet vWD_gnIdReclamation = WDVarNonAllouee.ref;
+public String getVersionApplication(){ return "0.0.6.0";}
 public String getNomSociete(){ return "PC SOFT";}
 public String getNomAPK(){ return "SSuivApp";}
 public int getIdNomApplication(){return com.masociete.tracklet.R.string.app_name;}
@@ -370,9 +397,9 @@ super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\S
 super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BREAK_PICT.PNG?E2_4O",com.masociete.tracklet.R.drawable.aquablue_break_pict_18_selector, "");
 super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_ROLLOVER.PNG",com.masociete.tracklet.R.drawable.aquablue_rollover_19, "");
 super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_SELECT.PNG?E5_3NP_4_4_4_4",com.masociete.tracklet.R.drawable.aquablue_select_20_np3_4_4_4_4_selector, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BTN_STD.PNG?E5_A1A6A1A6A1_3NP_8_8_10_10",com.masociete.tracklet.R.drawable.aquablue_btn_std_21_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\SEARCH.PNG",com.masociete.tracklet.R.drawable.search_22, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\BELL.PNG",com.masociete.tracklet.R.drawable.bell_23, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\BELL.PNG",com.masociete.tracklet.R.drawable.bell_21, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_BTN_STD.PNG?E5_A1A6A1A6A1_3NP_8_8_10_10",com.masociete.tracklet.R.drawable.aquablue_btn_std_22_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\SEARCH.PNG",com.masociete.tracklet.R.drawable.search_23, "");
 super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\EXPRESS-DELIVERY.PNG",com.masociete.tracklet.R.drawable.express_delivery_24, "");
 super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\FBOOKING2_EDT.PNG?E5_3NP_8_8_8_8",com.masociete.tracklet.R.drawable.fbooking2_edt_25_np3_8_8_8_8_selector, "");
 super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\LOCATION (1).PNG",com.masociete.tracklet.R.drawable.location__1__26, "");
@@ -385,7 +412,9 @@ super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\S
 super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\DISKETTE.PNG",com.masociete.tracklet.R.drawable.diskette_33, "");
 super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\LIST.PNG",com.masociete.tracklet.R.drawable.list_34, "");
 super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\ADD-GROUP.PNG",com.masociete.tracklet.R.drawable.add_group_35, "");
-super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\FBOOKING2_CBOX.PNG?E12_A1A6A1A6A1A6A1A6A1A6A1A6_8O",com.masociete.tracklet.R.drawable.fbooking2_cbox_36_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\CAPTURE D’ÉCRAN 2026-01-04 195615.PNG",com.masociete.tracklet.R.drawable.capture_d_ecran_2026_01_04_195615_36, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\GABARITS\\WM\\180 AQUABLUE\\AQUABLUE_PICT_OK_16_5.PNG?E5",com.masociete.tracklet.R.drawable.aquablue_pict_ok_16_5_37_selector, "");
+super.ajouterFichierAssocie("C:\\USERS\\WALA BHY\\ONEDRIVE\\BUREAU\\STAGE PFE\\SUIVAPP\\SSUIVAPP\\FBOOKING2_CBOX.PNG?E12_A1A6A1A6A1A6A1A6A1A6A1A6_8O",com.masociete.tracklet.R.drawable.fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150, "");
 }
 
 

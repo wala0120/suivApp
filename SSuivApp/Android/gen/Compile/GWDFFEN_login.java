@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_login
- * Date : 28/12/2025 21:52:53
+ * Date : 04/01/2026 21:15:57
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -900,7 +900,7 @@ public GWDIMG_Visuel mWD_IMG_Visuel;
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// PROCEDURE MaFenêtre()
+// PROCÉDURE MaFenêtre()
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;
 if(WD_tabParam!=null) WD_ntabParamLen = WD_tabParam.length;

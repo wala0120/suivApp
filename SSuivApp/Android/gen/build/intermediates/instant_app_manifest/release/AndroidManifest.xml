@@ -3,8 +3,8 @@
     package="com.masociete.tracklet"
     android:installLocation="auto"
     android:targetSandboxVersion="2"
-    android:versionCode="10"
-    android:versionName="0.0.3.0" >
+    android:versionCode="14"
+    android:versionName="0.0.6.0" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -72,6 +72,11 @@
             android:theme="@android:style/Theme" />
         <activity
             android:name="com.masociete.tracklet.wdgen.GWDFFEN_Modifier_Utilisateur$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_changment_de_mot_de_passe$WDActiviteFenetre"
             android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
             android:hardwareAccelerated="false"
             android:theme="@android:style/Theme" />

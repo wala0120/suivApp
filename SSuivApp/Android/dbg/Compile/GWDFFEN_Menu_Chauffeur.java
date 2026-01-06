@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Menu_Chauffeur
- * Date : 28/12/2025 21:59:30
+ * Date : 04/01/2026 21:24:31
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -19,7 +19,6 @@ import fr.pcsoft.wdjava.ui.champs.libelle.*;
 import fr.pcsoft.wdjava.ui.cadre.*;
 import fr.pcsoft.wdjava.ui.champs.image.*;
 import fr.pcsoft.wdjava.api.*;
-import fr.pcsoft.wdjava.core.erreur.*;
 import fr.pcsoft.wdjava.core.context.*;
 import fr.pcsoft.wdjava.core.application.*;
 import fr.pcsoft.wdjava.ui.activite.*;
@@ -705,33 +704,14 @@ super.terminerInitialisation();
  * Traitement: Sélection (clic) d'une ligne dans ZM_ACTION5
  */
 public void selectionLigne()
-//  Le clic sur la ZML execute simplement le code du bouton associé
 {
 super.selectionLigne();
 
-// // Le clic sur la ZML execute simplement le code du bouton associé
+// OuvreFenêtreMobile(FEN_changment_de_mot_de_passe)
 //MAP:293555380283e041:00000021:1:FEN_Menu_Chauffeur.ZM_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Chauffeur$GWDZM_ACTION5:Sélection (clic) d'une ligne dans ZM_ACTION5
-// Erreur sur l'objet: FEN_Menu_Chauffeur.ZM_ACTION5
-// 	Traitement : Sélection (clic) d'une ligne dans ZM_ACTION5 (33)
-// 	Code: 301
-// 	Message: L'élément 'BTN_ACTION5' est inconnu ou inaccessible.
-// 	Ligne : 1, Colonne : 18
-// 
-// 
-// Erreur sur l'objet: FEN_Menu_Chauffeur.ZM_ACTION5
-// 	Traitement : Sélection (clic) d'une ligne dans ZM_ACTION5 (33)
-// 	Code: 301
-// 	Message: L'élément 'BTN_ACTION5' est inconnu ou inaccessible.
-// 	Ligne : 1, Colonne : 18
-// 
-// 
-WDErreurManager.erreurGeneration("Erreur sur l'objet: FEN_Menu_Chauffeur.ZM_ACTION5\r\n\tTraitement : Sélection (clic) d'une ligne dans ZM_ACTION5 (33)\r\n\tCode: 301\r\n\tMessage: L'élément 'BTN_ACTION5' est inconnu ou inaccessible.\r\n\tLigne : 1, Colonne : 18\r\n\r\n\r\nErreur sur l'objet: FEN_Menu_Chauffeur.ZM_ACTION5\r\n\tTraitement : Sélection (clic) d'une ligne dans ZM_ACTION5 (33)\r\n\tCode: 301\r\n\tMessage: L'élément 'BTN_ACTION5' est inconnu ou inaccessible.\r\n\tLigne : 1, Colonne : 18\r\n\r\n");
-
-
-// // ExécuteTraitement(BTN_ACTION5, trtClic)
-// //MAP:293555380283e041:00000021:2:FEN_Menu_Chauffeur.ZM_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Chauffeur$GWDZM_ACTION5:Sélection (clic) d'une ligne dans ZM_ACTION5
-// WDAPIVM.executeTraitement(,18);
-// 
+// OuvreFenêtreMobile(FEN_changment_de_mot_de_passe)
+//MAP:293555380283e041:00000021:1:FEN_Menu_Chauffeur.ZM_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Chauffeur$GWDZM_ACTION5:Sélection (clic) d'une ligne dans ZM_ACTION5
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_changment_de_mot_de_passe);
 
 }
 
