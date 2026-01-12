@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.masociete.tracklet.go"
     android:installLocation="auto"
-    android:versionCode="25"
+    android:versionCode="30"
     android:versionName="0.0.6.0" >
 
     <uses-sdk
