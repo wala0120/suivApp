@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_login
- * Date : 04/01/2026 21:15:57
+ * Date : 13/01/2026 20:07:55
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -719,7 +719,7 @@ return;
 
 }
 
-// SI Utilisateur.mot_de_passe <> SAI_Mot_de_passe..Valeur ALORS
+// SI Utilisateur.mot_De_passe <> SAI_Mot_de_passe..Valeur ALORS
 if(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("mot_de_passe").opDiff(mWD_SAI_Mot_de_passe.getProp(EWDPropriete.PROP_VALEUR)))
 {
 // 	Info("Mot de passe incorrect.")
@@ -743,20 +743,20 @@ WDAPIDialogue.info(new WDChaineU("Bienvenue ").opPlus(WDAPIHF.getFichierSansCass
 WDObjet _WDExpSelon0 = WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role");
 if(_WDExpSelon0.opEgal(1))
 {
-// 		Ouvre('FEN_ menu_commercial')  
-WDAPIFenetre.ouvre(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Commercial);
+// 		OuvreFenêtreMobile('FEN_Menu_Commercial')  
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Commercial);
 
 }
 else if(_WDExpSelon0.opEgal(2))
 {
-// 		Ouvre('FEN_menu_chauffeur')  
-WDAPIFenetre.ouvre(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Chauffeur);
+// 		OuvreFenêtreMobile('FEN_Menu_Chauffeur')  
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Chauffeur);
 
 }
 else if(_WDExpSelon0.opEgal(3))
 {
-// 		Ouvre(FEN_Menu_Administrateur) 
-WDAPIFenetre.ouvre(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Administrateur);
+// 		OuvreFenêtreMobile(FEN_Menu_Administrateur) 
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Administrateur);
 
 }
 else {

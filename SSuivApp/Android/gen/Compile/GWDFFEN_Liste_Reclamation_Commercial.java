@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Liste_Reclamation_Commercial
- * Date : 04/01/2026 21:15:57
+ * Date : 13/01/2026 20:07:55
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -1133,8 +1133,8 @@ public void clicSurBoutonGauche()
 {
 super.clicSurBoutonGauche();
 
-// OuvreFenêtreMobile('FEN_ Menu_Commercial')
-// OuvreFenêtreMobile('FEN_ Menu_Commercial')
+// OuvreFenêtreMobile('FEN_Menu_Commercial')
+// OuvreFenêtreMobile('FEN_Menu_Commercial')
 WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Commercial);
 
 }
@@ -1372,9 +1372,26 @@ this.setProp(EWDPropriete.PROP_INDICATION,"Rechercher");
 
 
 
+/**
+ * Traitement: A chaque modification de SAI_Recherche
+ */
+public void modification()
+{
+super.modification();
+
+// FillLooperRecuperation()
+// FillLooperRecuperation()
+fWD_fillLooperRecuperation();
+
+}
+
+
+
+
 // Activation des écouteurs: 
 public void activerEcoute()
 {
+super.activerEcouteurModification();
 }
 
 ////////////////////////////////////////////////////////////////////////////
@@ -2007,31 +2024,25 @@ finExecProcLocale();
 
 
 
-
-/**
- * Traitement: Déclarations globales de FEN_Liste_Reclamation_Commercial
- */
-public void declarerGlobale(WDObjet[] WD_tabParam)
+//  Résumé : <indiquez ici ce que fait la procédure>
+//  Syntaxe :
+//  FillLooperRecuperation ()
+// 
+//  Paramètres :
+// 	Aucun
+//  Valeur de retour :
+//  	Aucune
+// 
+//  Exemple :
+//  Indiquez ici un exemple d'utilisation.
+// 
+public void fWD_fillLooperRecuperation()
 {
-// 	PROCÉDURE MaFenêtre()
-super.declarerGlobale(WD_tabParam, 0, 0);
-int WD_ntabParamLen = 0;
-if(WD_tabParam!=null) WD_ntabParamLen = WD_tabParam.length;
-
-
-}
-
-
-
-
-/**
- * Traitement: Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Commercial
- */
-public void demandeMAJAffichage()
-{
-super.demandeMAJAffichage();
-
 // PROCÉDURE FillLooperRecuperation()
+initExecProcLocale("FillLooperRecuperation");
+
+try
+{
 
 ////////////////////////////////////////////////////////////////////////////
 // Déclaration des variables locales au traitement
@@ -2046,7 +2057,7 @@ WDObjet vWD_bBTN_Recupere = new WDBooleen();
 // ZR_Reclamation.SupprimeTout()
 WDAPIZoneRepetee.zoneRepeteeSupprimeTout(mWD_ZR_Reclamation);
 
-// ONG_Recuperation = gnCurrentRecuperationTab
+// ONG_Recuperation		= gnCurrentRecuperationTab
 mWD_ONG_Recuperation.setValeur(GWDPSSuivApp.getInstance().vWD_gnCurrentRecuperationTab);
 
 // BTN_Recuperer..Visible	= (ONG_Recuperation = 2)
@@ -2125,7 +2136,7 @@ continue;
 
 }
 
-// 		FOR EACH Affectation WHERE IDRéclamation = Reclamation.IDRéclamation
+// 		FOR EACH Affectation where IDRéclamation = Reclamation.IDRéclamation
 IWDParcours parcours2 = null;
 try
 {
@@ -2200,6 +2211,221 @@ finally
 if(parcours1 != null)
 {
 parcours1.finParcours();
+}
+}
+
+
+// bBTN_Recupere is boolean = False
+
+vWD_bBTN_Recupere.setValeur(false);
+
+
+// ZR_Reclamation.Affiche()
+WDAPIZoneRepetee.zoneRepeteeAffiche(mWD_ZR_Reclamation);
+
+}
+finally
+{
+finExecProcLocale();
+}
+
+}
+
+
+
+
+/**
+ * Traitement: Déclarations globales de FEN_Liste_Reclamation_Commercial
+ */
+public void declarerGlobale(WDObjet[] WD_tabParam)
+{
+// 	PROCÉDURE MaFenêtre()
+super.declarerGlobale(WD_tabParam, 0, 0);
+int WD_ntabParamLen = 0;
+if(WD_tabParam!=null) WD_ntabParamLen = WD_tabParam.length;
+
+
+}
+
+
+
+
+/**
+ * Traitement: Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Commercial
+ */
+public void demandeMAJAffichage()
+{
+super.demandeMAJAffichage();
+
+// PROCÉDURE FillLooperRecuperation()
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables locales au traitement
+// (En WLangage les variables sont encore visibles après la fin du bloc dans lequel elles sont déclarées)
+////////////////////////////////////////////////////////////////////////////
+WDObjet vWD_sSearchString = new WDChaineU();
+
+WDObjet vWD_bBTN_Recupere = new WDBooleen();
+
+
+
+// ZR_Reclamation.SupprimeTout()
+WDAPIZoneRepetee.zoneRepeteeSupprimeTout(mWD_ZR_Reclamation);
+
+// ONG_Recuperation = gnCurrentRecuperationTab
+mWD_ONG_Recuperation.setValeur(GWDPSSuivApp.getInstance().vWD_gnCurrentRecuperationTab);
+
+// BTN_Recuperer..Visible	= (ONG_Recuperation = 2)
+mWD_ZR_Reclamation.mWD_BTN_Recuperer.setProp(EWDPropriete.PROP_VISIBLE,mWD_ONG_Recuperation.opEgal(2));
+
+// sSearchString is string = Upper(SAI_Recherche)
+
+vWD_sSearchString.setValeur(WDAPIChaine.majuscule(mWD_SAI_Recherche));
+
+
+// FOR EACH Reclamation 
+IWDParcours parcours3 = null;
+try
+{
+parcours3 = WDParcoursFichier.pourTout(WDAPIHF.getFichierSansCasseNiAccent("reclamation"), null, true);
+while(parcours3.testParcours())
+{
+// 	nEtat			est un entier	= Reclamation.Etat
+WDObjet vWD_nEtat = new WDEntier4();
+
+
+vWD_nEtat.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("etat"));
+
+
+// 	nProbleme		est un entier	= Reclamation.Probleme
+WDObjet vWD_nProbleme = new WDEntier4();
+
+
+vWD_nProbleme.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("probleme"));
+
+
+// 	nomComercial	est une chaîne	= ""
+WDObjet vWD_nomComercial = new WDChaineU();
+
+
+vWD_nomComercial.setValeur("");
+
+
+// 	nomChauffeur	est une chaîne	= ""
+WDObjet vWD_nomChauffeur = new WDChaineU();
+
+
+vWD_nomChauffeur.setValeur("");
+
+
+// 	sNomMagasin		est une chaîne	= ""
+WDObjet vWD_sNomMagasin = new WDChaineU();
+
+
+vWD_sNomMagasin.setValeur("");
+
+
+// 	bUserIsAssigned	est un booléen	= Faux
+WDObjet vWD_bUserIsAssigned = new WDBooleen();
+
+
+vWD_bUserIsAssigned.setValeur(false);
+
+
+// 	IF HLitRecherchePremier(Magasin, IDmagasin, Reclamation.IDmagasin) THEN
+if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("magasin"),WDAPIHF.getRubriqueSansCasseNiAccent("idmagasin"),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idmagasin")).getBoolean())
+{
+// 		sNomMagasin = Magasin.NomMagasin + " " + Magasin.Adresse
+vWD_sNomMagasin.setValeur(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin").opPlus(" ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse")));
+
+// 		IF sSearchString <> "" THEN
+if(vWD_sSearchString.opDiff(""))
+{
+// 			IF Position(Upper(Reclamation.Num_facture), sSearchString) = 0 AND ...
+if((WDAPIChaine.position(WDAPIChaine.majuscule(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture")),vWD_sSearchString).opEgal(0) & WDAPIChaine.position(WDAPIChaine.majuscule(vWD_sNomMagasin),vWD_sSearchString).opEgal(0)))
+{
+// 				CONTINUE // Skip if no match
+continue;
+
+}
+
+}
+
+// 		FOR EACH Affectation WHERE IDRéclamation = Reclamation.IDRéclamation
+IWDParcours parcours4 = null;
+try
+{
+parcours4 = WDParcoursFichier.pourTout(WDAPIHF.getFichierSansCasseNiAccent("affectation"), WDAPIHF.getRubriqueSansCasseNiAccent("idreclamation"), WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"), 1, true);
+while(parcours4.testParcours())
+{
+// 			IF Affectation.IDutilisateur = CurrentUserID THEN
+if(WDAPIHF.getFichierSansCasseNiAccent("affectation").getRubriqueSansCasseNiAccent("idutilisateur").opEgal(GWDPSSuivApp.getInstance().vWD_CurrentUserID))
+{
+// 				bUserIsAssigned = Vrai
+vWD_bUserIsAssigned.setValeur(true);
+
+}
+
+// 			IF HLitRecherchePremier(Utilisateur, IDutilisateur, Affectation.IDutilisateur) THEN
+if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("utilisateur"),WDAPIHF.getRubriqueSansCasseNiAccent("idutilisateur"),WDAPIHF.getFichierSansCasseNiAccent("affectation").getRubriqueSansCasseNiAccent("idutilisateur")).getBoolean())
+{
+// 				SWITCH Utilisateur.Role
+// Délimiteur de visibilité pour ne pas étendre la visibilité de la variable temporaire _WDExpSelon
+{
+// 				SWITCH Utilisateur.Role
+WDObjet _WDExpSelon0 = WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role");
+if(_WDExpSelon0.opEgal(1))
+{
+// 					CASE 1: nomComercial += (nomComercial = "" ? "" ELSE ", ") + Utilisateur.Nom_Prenom
+vWD_nomComercial.setValeur(vWD_nomComercial.opPlus((vWD_nomComercial.opEgal("") ? (WDObjet)new WDChaineU("") : (WDObjet)new WDChaineU(", ")).opPlus(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("nom_prenom"))));
+
+}
+else if(_WDExpSelon0.opEgal(2))
+{
+// 					CASE 2: nomChauffeur += (nomChauffeur = "" ? "" ELSE ", ") + Utilisateur.Nom_Prenom
+vWD_nomChauffeur.setValeur(vWD_nomChauffeur.opPlus((vWD_nomChauffeur.opEgal("") ? (WDObjet)new WDChaineU("") : (WDObjet)new WDChaineU(", ")).opPlus(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("nom_prenom"))));
+
+}
+
+}
+
+}
+
+}
+}
+finally
+{
+if(parcours4 != null)
+{
+parcours4.finParcours();
+}
+}
+
+
+// 		IF bUserIsAssigned = Vrai AND nEtat = ONG_Recuperation THEN
+if((vWD_bUserIsAssigned.opEgal(true) & vWD_nEtat.opEgal(mWD_ONG_Recuperation)))
+{
+// 			nLine is int = ZR_Reclamation.AjouteLigne( ...
+WDObjet vWD_nLine = new WDEntier4();
+
+
+vWD_nLine.setValeur(WDAPIZoneRepetee.zoneRepeteeAjouteLigne(mWD_ZR_Reclamation,new WDObjet[] {WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture"),vWD_sNomMagasin,fWD_libelleProbleme(vWD_nProbleme),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("date"),vWD_nomComercial,vWD_nomChauffeur,fWD_libelleEtatFacture(vWD_nEtat),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")} ));
+
+
+// 			ZR_Reclamation[nLine].ATT_IdReclamation = Reclamation.IDRéclamation
+mWD_ZR_Reclamation.get(vWD_nLine).get("ATT_IdReclamation").setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"));
+
+}
+
+}
+
+}
+}
+finally
+{
+if(parcours3 != null)
+{
+parcours3.finParcours();
 }
 }
 

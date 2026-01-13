@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Menu_Administrateur
- * Date : 28/12/2025 21:59:30
+ * Date : 13/01/2026 20:13:36
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -980,9 +980,9 @@ super.setNavigable(false);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(22, 8);
+super.setPositionInitiale(8, 8);
 
-super.setTailleInitiale(58, 99);
+super.setTailleInitiale(78, 99);
 
 super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\a-propos-de.png");
 
@@ -1152,9 +1152,28 @@ initialiserSousObjets();
 super.terminerInitialisation();
 }
 
+/**
+ * Traitement: Sélection (clic) d'une ligne dans ZM_ACTION6
+ */
+public void selectionLigne()
+{
+super.selectionLigne();
+
+// 
+//MAP:2922da8701136533:00000021:1:FEN_Menu_Administrateur.ZM_ACTION6:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Administrateur$GWDZM_ACTION6:Sélection (clic) d'une ligne dans ZM_ACTION6
+// OuvreFenêtreMobile(FEN_À_propos_de_l_application)
+//MAP:2922da8701136533:00000021:2:FEN_Menu_Administrateur.ZM_ACTION6:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Administrateur$GWDZM_ACTION6:Sélection (clic) d'une ligne dans ZM_ACTION6
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_A_propos_de_l_application);
+
+}
+
+
+
+
 // Activation des écouteurs: 
 public void activerEcoute()
 {
+super.activerEcouteurSelection();
 }
 
 ////////////////////////////////////////////////////////////////////////////
@@ -1299,9 +1318,9 @@ super.setNavigable(false);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(8, -41);
+super.setPositionInitiale(8, 8);
 
-super.setTailleInitiale(78, 200);
+super.setTailleInitiale(78, 95);
 
 super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\parametre (1).png");
 
@@ -1471,9 +1490,28 @@ initialiserSousObjets();
 super.terminerInitialisation();
 }
 
+/**
+ * Traitement: Sélection (clic) d'une ligne dans ZM_ACTION5
+ */
+public void selectionLigne()
+{
+super.selectionLigne();
+
+// 
+//MAP:2922da8701186533:00000021:1:FEN_Menu_Administrateur.ZM_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Administrateur$GWDZM_ACTION5:Sélection (clic) d'une ligne dans ZM_ACTION5
+// OuvreFenêtreMobile(FEN_changment_de_mot_de_passe)
+//MAP:2922da8701186533:00000021:2:FEN_Menu_Administrateur.ZM_ACTION5:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Administrateur$GWDZM_ACTION5:Sélection (clic) d'une ligne dans ZM_ACTION5
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_changment_de_mot_de_passe);
+
+}
+
+
+
+
 // Activation des écouteurs: 
 public void activerEcoute()
 {
+super.activerEcouteurSelection();
 }
 
 ////////////////////////////////////////////////////////////////////////////
@@ -1934,6 +1972,128 @@ public void activerEcoute()
 }
 public GWDIMG_SansNom5 mWD_IMG_SansNom5;
 
+/**
+ * IMG_SansNom8
+ */
+class GWDIMG_SansNom8 extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°7 de FEN_Menu_Administrateur.IMG_SansNom8
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2982846880089490113l);
+
+super.setChecksum("746783856");
+
+super.setNom("IMG_SansNom8");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(269, 18);
+
+super.setTailleInitiale(34, 44);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\power-on.png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(7);
+
+super.setAncrageInitial(8, 1000, 1000, 1000, 500, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+/**
+ * Traitement: Clic sur IMG_SansNom8
+ */
+public void clicSurBoutonGauche()
+{
+super.clicSurBoutonGauche();
+
+// OuvreFenêtreMobile(FEN_login)
+//MAP:2965336f031dc2c1:00000012:1:FEN_Menu_Administrateur.IMG_SansNom8:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Administrateur$GWDIMG_SansNom8:Clic sur IMG_SansNom8
+// OuvreFenêtreMobile(FEN_login)
+//MAP:2965336f031dc2c1:00000012:1:FEN_Menu_Administrateur.IMG_SansNom8:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Administrateur$GWDIMG_SansNom8:Clic sur IMG_SansNom8
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_login);
+
+// gnIDUtilisateur = Null
+//MAP:2965336f031dc2c1:00000012:2:FEN_Menu_Administrateur.IMG_SansNom8:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Administrateur$GWDIMG_SansNom8:Clic sur IMG_SansNom8
+GWDPSSuivApp.getInstance().vWD_gnIDUtilisateur.setValeur(WDObjet.NULL);
+
+// CurrentUserID = Null
+//MAP:2965336f031dc2c1:00000012:3:FEN_Menu_Administrateur.IMG_SansNom8:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Administrateur$GWDIMG_SansNom8:Clic sur IMG_SansNom8
+GWDPSSuivApp.getInstance().vWD_CurrentUserID.setValeur(WDObjet.NULL);
+
+}
+
+
+
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+super.activerEcouteurClic();
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_SansNom8 mWD_IMG_SansNom8;
+
 
 ////////////////////////////////////////////////////////////////////////////
 // Procédures utilisateur de FEN_Menu_Administrateur
@@ -2050,6 +2210,7 @@ mWD_ZM_ACTION6 = new GWDZM_ACTION6();
 mWD_ZM_ACTION5 = new GWDZM_ACTION5();
 mWD_ZM_ACTION4 = new GWDZM_ACTION4();
 mWD_IMG_SansNom5 = new GWDIMG_SansNom5();
+mWD_IMG_SansNom8 = new GWDIMG_SansNom8();
 
 }
 ////////////////////////////////////////////////////////////////////////////
@@ -2121,6 +2282,8 @@ mWD_ZM_ACTION4.initialiserObjet();
 super.ajouter("ZM_ACTION4", mWD_ZM_ACTION4);
 mWD_IMG_SansNom5.initialiserObjet();
 super.ajouter("IMG_SansNom5", mWD_IMG_SansNom5);
+mWD_IMG_SansNom8.initialiserObjet();
+super.ajouter("IMG_SansNom8", mWD_IMG_SansNom8);
 
 super.terminerInitialisation();
 }

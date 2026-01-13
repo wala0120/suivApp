@@ -3,7 +3,7 @@
     package="com.masociete.tracklet.go"
     android:installLocation="auto"
     android:versionCode="30"
-    android:versionName="0.0.6.0" >
+    android:versionName="0.0.7.0" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -112,6 +112,11 @@
             android:theme="@android:style/Theme" />
         <activity
             android:name="com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$WDActiviteFenetre"
+            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+            android:hardwareAccelerated="false"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.masociete.tracklet.wdgen.GWDFFEN_A_propos_de_l_application$WDActiviteFenetre"
             android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
             android:hardwareAccelerated="false"
             android:theme="@android:style/Theme" />

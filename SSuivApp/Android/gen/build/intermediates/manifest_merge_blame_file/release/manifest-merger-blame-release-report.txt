@@ -2,41 +2,41 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.masociete.tracklet"
 4    android:installLocation="auto"
-5    android:versionCode="14"
-6    android:versionName="0.0.6.0" >
+5    android:versionCode="27"
+6    android:versionName="0.0.7.0" >
 7
 8    <uses-sdk
-8-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6490-6558
+8-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6758-6826
 9        android:minSdkVersion="21"
-9-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6500-6526
+9-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6768-6794
 10        android:targetSdkVersion="28" />
-10-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6527-6556
+10-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6795-6824
 11
 12    <supports-screens
-12-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6558-6717
+12-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6826-6985
 13        android:anyDensity="true"
-13-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6690-6715
+13-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6958-6983
 14        android:largeScreens="true"
-14-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6633-6660
+14-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6901-6928
 15        android:normalScreens="true"
-15-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6604-6632
+15-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6872-6900
 16        android:smallScreens="true"
-16-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6576-6603
+16-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6844-6871
 17        android:xlargeScreens="true" />
-17-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6661-6689
+17-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6929-6957
 18
 19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-19-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6717-6792
-19-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6734-6790
+19-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6985-7060
+19-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:7002-7058
 20    <uses-permission android:name="android.permission.INTERNET" />
-20-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6792-6853
-20-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6809-6851
+20-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:7060-7121
+20-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:7077-7119
 21    <uses-permission android:name="android.permission.VIBRATE" />
-21-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6853-6913
-21-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6870-6911
+21-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:7121-7181
+21-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:7138-7179
 22
 23    <application
-23-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:236-6490
+23-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:236-6758
 24        android:name="fr.pcsoft.wdjava.core.application.WDAndroidApp"
 24-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:249-310
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -183,39 +183,39 @@
 96            android:theme="@android:style/Theme" />
 96-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:3678-3714
 97        <activity
-97-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:3752-4010
-98            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$WDActiviteFenetre"
-98-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:3762-3825
+97-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:3752-4012
+98            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$WDActiviteFenetre"
+98-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:3762-3827
 99            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
-99-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:3826-3935
+99-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:3828-3937
 100            android:hardwareAccelerated="false"
-100-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:3973-4008
+100-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:3975-4010
 101            android:theme="@android:style/Theme" />
-101-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:3936-3972
+101-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:3938-3974
 102        <activity
-102-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4010-4270
-103            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Ajout_utilisateur$WDActiviteFenetre"
-103-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4020-4085
+102-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4012-4274
+103            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Menu_Administrateur$WDActiviteFenetre"
+103-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4022-4089
 104            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
-104-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4086-4195
+104-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4090-4199
 105            android:hardwareAccelerated="false"
-105-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4233-4268
+105-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4237-4272
 106            android:theme="@android:style/Theme" />
-106-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4196-4232
+106-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4200-4236
 107        <activity
-107-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4270-4532
-108            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Menu_Administrateur$WDActiviteFenetre"
-108-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4280-4347
+107-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4274-4545
+108            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$WDActiviteFenetre"
+108-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4284-4360
 109            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
-109-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4348-4457
+109-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4361-4470
 110            android:hardwareAccelerated="false"
-110-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4495-4530
+110-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4508-4543
 111            android:theme="@android:style/Theme" />
-111-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4458-4494
+111-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4471-4507
 112        <activity
-112-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4532-4803
-113            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$WDActiviteFenetre"
-113-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4542-4618
+112-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4545-4803
+113            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$WDActiviteFenetre"
+113-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4555-4618
 114            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
 114-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4619-4728
 115            android:hardwareAccelerated="false"
@@ -223,95 +223,105 @@
 116            android:theme="@android:style/Theme" />
 116-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4729-4765
 117        <activity
-117-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4803-5069
-118            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$WDActiviteFenetre"
-118-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4813-4884
+117-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4803-5071
+118            android:name="com.masociete.tracklet.wdgen.GWDFFEN_A_propos_de_l_application$WDActiviteFenetre"
+118-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4813-4886
 119            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
-119-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4885-4994
+119-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4887-4996
 120            android:hardwareAccelerated="false"
-120-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5032-5067
+120-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5034-5069
 121            android:theme="@android:style/Theme" />
-121-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4995-5031
-122
-123        <uses-library
-123-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5069-5147
-124            android:name="org.apache.http.legacy"
-124-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5083-5120
-125            android:required="false" />
-125-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5121-5145
-126
-127        <activity
-127-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5147-5356
-128            xmlns:android="http://schemas.android.com/apk/res/android"
-128-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5157-5215
-129            android:name="fr.pcsoft.wdjava.ui.activite.WDActivite$BlankActivity"
-129-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5216-5284
-130            android:theme="@android:style/Theme.Translucent" />
-130-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5285-5333
-131        <activity
-131-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5356-5577
-132            xmlns:android="http://schemas.android.com/apk/res/android"
-132-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5366-5424
-133            android:name="fr.pcsoft.wdjava.core.erreur.report.WDErrorReportActivity"
-133-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5425-5497
-134            android:theme="@android:style/Theme.DeviceDefault.Light" />
-134-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5498-5554
-135        <activity
-135-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5577-5942
-136            xmlns:android="http://schemas.android.com/apk/res/android"
-136-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5587-5645
-137            android:name="fr.pcsoft.wdjava.ui.searchbar.WDSearchActivity"
-137-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5646-5707
-138            android:label="@string/app_name" >
-138-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5708-5740
-139            <intent-filter>
-139-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5762-5846
-140                <action android:name="android.intent.action.SEARCH" />
-140-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5777-5830
-140-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5785-5828
-141            </intent-filter>
-142
-143            <meta-data
-143-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5846-5931
-144                android:name="android.app.searchable"
-144-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5857-5894
-145                android:resource="@xml/searchable" />
-145-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5895-5929
-146        </activity>
+121-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:4997-5033
+122        <activity
+122-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5071-5337
+123            android:name="com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$WDActiviteFenetre"
+123-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5081-5152
+124            android:configChanges="keyboardHidden|orientation|screenSize|keyboard|smallestScreenSize|screenLayout|uiMode"
+124-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5153-5262
+125            android:hardwareAccelerated="false"
+125-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5300-5335
+126            android:theme="@android:style/Theme" />
+126-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5263-5299
+127
+128        <uses-library
+128-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5337-5415
+129            android:name="org.apache.http.legacy"
+129-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5351-5388
+130            android:required="false" />
+130-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5389-5413
+131
+132        <activity
+132-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5415-5624
+133            xmlns:android="http://schemas.android.com/apk/res/android"
+133-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5425-5483
+134            android:name="fr.pcsoft.wdjava.ui.activite.WDActivite$BlankActivity"
+134-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5484-5552
+135            android:theme="@android:style/Theme.Translucent" />
+135-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5553-5601
+136        <activity
+136-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5624-5845
+137            xmlns:android="http://schemas.android.com/apk/res/android"
+137-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5634-5692
+138            android:name="fr.pcsoft.wdjava.core.erreur.report.WDErrorReportActivity"
+138-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5693-5765
+139            android:theme="@android:style/Theme.DeviceDefault.Light" />
+139-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5766-5822
+140        <activity
+140-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5845-6210
+141            xmlns:android="http://schemas.android.com/apk/res/android"
+141-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5855-5913
+142            android:name="fr.pcsoft.wdjava.ui.searchbar.WDSearchActivity"
+142-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5914-5975
+143            android:label="@string/app_name" >
+143-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5976-6008
+144            <intent-filter>
+144-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6030-6114
+145                <action android:name="android.intent.action.SEARCH" />
+145-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6045-6098
+145-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6053-6096
+146            </intent-filter>
 147
-148        <provider
-148-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5942-6164
-149            xmlns:android="http://schemas.android.com/apk/res/android"
-149-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:5952-6010
-150            android:name="fr.pcsoft.wdjava.ui.searchbar.WDSearchHistory"
-150-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6011-6071
-151            android:authorities="com.masociete.tracklet"
-151-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6097-6141
-152            android:exported="false" />
-152-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6072-6096
-153
-154        <service android:name="fr.pcsoft.wdjava.core.service.WDServiceLocal" />
-154-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6164-6234
-154-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6173-6232
-155
-156        <meta-data
-156-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6234-6315
-157            android:name="fr.pcsoft.first_window_name"
-157-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6245-6287
-158            android:value="FEN_login" />
-158-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6288-6313
-159        <meta-data
-159-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6315-6395
-160            android:name="fr.pcsoft.splash_orientation_phone"
-160-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6326-6375
-161            android:value="4" />
-161-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6376-6393
-162        <meta-data
-162-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6395-6476
-163            android:name="fr.pcsoft.splash_orientation_tablet"
-163-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6406-6456
-164            android:value="4" />
-164-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6457-6474
-165    </application>
-166
-167</manifest>
+148            <meta-data
+148-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6114-6199
+149                android:name="android.app.searchable"
+149-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6125-6162
+150                android:resource="@xml/searchable" />
+150-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6163-6197
+151        </activity>
+152
+153        <provider
+153-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6210-6432
+154            xmlns:android="http://schemas.android.com/apk/res/android"
+154-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6220-6278
+155            android:name="fr.pcsoft.wdjava.ui.searchbar.WDSearchHistory"
+155-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6279-6339
+156            android:authorities="com.masociete.tracklet"
+156-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6365-6409
+157            android:exported="false" />
+157-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6340-6364
+158
+159        <service android:name="fr.pcsoft.wdjava.core.service.WDServiceLocal" />
+159-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6432-6502
+159-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6441-6500
+160
+161        <meta-data
+161-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6502-6583
+162            android:name="fr.pcsoft.first_window_name"
+162-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6513-6555
+163            android:value="FEN_login" />
+163-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6556-6581
+164        <meta-data
+164-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6583-6663
+165            android:name="fr.pcsoft.splash_orientation_phone"
+165-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6594-6643
+166            android:value="4" />
+166-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6644-6661
+167        <meta-data
+167-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6663-6744
+168            android:name="fr.pcsoft.splash_orientation_tablet"
+168-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6674-6724
+169            android:value="4" />
+169-->C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\gen\AndroidManifest.xml:2:6725-6742
+170    </application>
+171
+172</manifest>

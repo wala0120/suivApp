@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Liste_Reclamation_Chauffeur
- * Date : 04/01/2026 21:15:57
+ * Date : 13/01/2026 20:07:55
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -648,6 +648,174 @@ public void activerEcoute()
 ////////////////////////////////////////////////////////////////////////////
 }
 public GWDLIB_Etat mWD_LIB_Etat = new GWDLIB_Etat();
+
+/**
+ * IMG_Corbeille
+ */
+class GWDIMG_Corbeille extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°14 de FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2982843607308510167l);
+
+super.setChecksum("730882700");
+
+super.setNom("IMG_Corbeille");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(283, 35);
+
+super.setTailleInitiale(23, 19);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\corbeille.png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(5);
+
+super.setAncrageInitial(5, 0, 1000, 500, 1000, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+/**
+ * Traitement: Clic sur IMG_Corbeille ( ZR_Reclamation )
+ */
+public void clicSurBoutonGauche()
+{
+super.clicSurBoutonGauche();
+
+// i est un entier
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables locales au traitement
+// (En WLangage les variables sont encore visibles après la fin du bloc dans lequel elles sont déclarées)
+////////////////////////////////////////////////////////////////////////////
+WDObjet vWD_i = new WDEntier4();
+
+
+
+// i est un entier
+
+
+// i = ZR_Reclamation[ZR_Reclamation..Occurrence].ATT_IdReclamation
+vWD_i.setValeur(mWD_ZR_Reclamation.get(mWD_ZR_Reclamation.getProp(EWDPropriete.PROP_OCCURRENCE)).get("ATT_IdReclamation"));
+
+// SI HLitRecherchePremier(affectation, idréclamation, i) ALORS
+if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("affectation"),WDAPIHF.getRubriqueSansCasseNiAccent("idreclamation"),vWD_i).getBoolean())
+{
+// 	TANTQUE HTrouve(affectation)
+while(WDAPIHF.hTrouve(WDAPIHF.getFichierSansCasseNiAccent("affectation")).getBoolean())
+{
+// 		HSupprime(affectation)
+WDAPIHF.hSupprime(WDAPIHF.getFichierSansCasseNiAccent("affectation"));
+
+// 		HLitSuivant(affectation, idréclamation)
+WDAPIHF.hLitSuivant(WDAPIHF.getFichierSansCasseNiAccent("affectation"),WDAPIHF.getRubriqueSansCasseNiAccent("idreclamation"));
+
+}
+
+}
+
+// SI HLitRecherche(Reclamation, IDRéclamation, i) ALORS
+if(WDAPIHF.hLitRecherche(WDAPIHF.getFichierSansCasseNiAccent("reclamation"),WDAPIHF.getRubriqueSansCasseNiAccent("idreclamation"),vWD_i).getBoolean())
+{
+// 	SI HSupprime(Reclamation) ALORS
+if(WDAPIHF.hSupprime(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean())
+{
+// 		Info("Réclamation et ses affectations supprimées avec succès")
+WDAPIDialogue.info("Réclamation et ses affectations supprimées avec succès");
+
+// 		OuvreFenêtreMobile(FEN_Liste_Reclamation_Chauffeur)
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Liste_Reclamation_Chauffeur);
+
+}
+else
+{
+// 		Erreur("Erreur lors de la suppression de la réclamation : " + HErreurInfo())
+WDAPIDialogue.erreur(new WDChaineU("Erreur lors de la suppression de la réclamation : ").opPlus(WDAPIHF.hErreurInfo()).getString());
+
+}
+
+}
+else
+{
+// 	Info("Réclamation introuvable")
+WDAPIDialogue.info("Réclamation introuvable");
+
+}
+
+}
+
+
+
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+super.activerEcouteurClic();
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_Corbeille mWD_IMG_Corbeille = new GWDIMG_Corbeille();
 /**
  * Initialise tous les champs de FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation
  */
@@ -683,6 +851,8 @@ mWD_LIB_Date.initialiserObjet();
 super.ajouterChamp("LIB_Date",mWD_LIB_Date);
 mWD_LIB_Etat.initialiserObjet();
 super.ajouterChamp("LIB_Etat",mWD_LIB_Etat);
+mWD_IMG_Corbeille.initialiserObjet();
+super.ajouterChamp("IMG_Corbeille",mWD_IMG_Corbeille);
 creerAttributAuto();
 }
 public  void initialiserObjet()
@@ -796,9 +966,6 @@ GWDPSSuivApp.getInstance().vWD_IDReclamationGlobal.setValeur(mWD_ATT_IdReclamati
 
 // IDCommerciale = ATT_IdComerciale
 GWDPSSuivApp.getInstance().vWD_IDCommerciale.setValeur(mWD_ATT_IdComerciale);
-
-// OuvreFenêtreMobile(FEN_Modifier_Reclamation)
-WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Modifier_Reclamation);
 
 }
 
@@ -1243,9 +1410,26 @@ this.setProp(EWDPropriete.PROP_INDICATION,"Rechercher");
 
 
 
+/**
+ * Traitement: A chaque modification de SAI_Recherche
+ */
+public void modification()
+{
+super.modification();
+
+// FillLooperByUser()
+// FillLooperByUser()
+fWD_fillLooperByUser();
+
+}
+
+
+
+
 // Activation des écouteurs: 
 public void activerEcoute()
 {
+super.activerEcouteurModification();
 }
 
 ////////////////////////////////////////////////////////////////////////////
@@ -1679,34 +1863,41 @@ finExecProcLocale();
 
 
 
-
-/**
- * Traitement: Déclarations globales de FEN_Liste_Reclamation_Chauffeur
- */
-public void declarerGlobale(WDObjet[] WD_tabParam)
+//  Résumé : <indiquez ici ce que fait la procédure>
+//  Syntaxe :
+//  FillLooperByUser ()
+// 
+//  Paramètres :
+// 	Aucun
+//  Valeur de retour :
+//  	Aucune
+// 
+//  Exemple :
+//  Indiquez ici un exemple d'utilisation.
+// 
+public void fWD_fillLooperByUser()
 {
-// PROCÉDURE MaFenêtre()
-super.declarerGlobale(WD_tabParam, 0, 0);
-int WD_ntabParamLen = 0;
-if(WD_tabParam!=null) WD_ntabParamLen = WD_tabParam.length;
+// PROCÉDURE FillLooperByUser()
+initExecProcLocale("FillLooperByUser");
 
-
-}
-
-
-
-
-/**
- * Traitement: Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
- */
-public void demandeMAJAffichage()
-//  --- Vider la zone répétée ---
+try
 {
-super.demandeMAJAffichage();
 
-// // --- Vider la zone répétée ---
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables locales au traitement
+// (En WLangage les variables sont encore visibles après la fin du bloc dans lequel elles sont déclarées)
+////////////////////////////////////////////////////////////////////////////
+WDObjet vWD_sRecherche = new WDChaineU();
+
+
+
 // ZR_Reclamation.SupprimeTout()
 WDAPIZoneRepetee.zoneRepeteeSupprimeTout(mWD_ZR_Reclamation);
+
+// sRecherche est une chaîne = Majuscule(SAI_Recherche)
+
+vWD_sRecherche.setValeur(WDAPIChaine.majuscule(mWD_SAI_Recherche));
+
 
 // SI HReadFirst(Reclamation) ALORS
 if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean())
@@ -1728,34 +1919,233 @@ WDObjet vWD_nProbleme = new WDEntier4();
 vWD_nProbleme.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("probleme"));
 
 
-// 		nomChauffeur	est une chaîne	= ""	// à remplir si nécessaire
+// 		nomChauffeur	est une chaîne	= ""	
 WDObjet vWD_nomChauffeur = new WDChaineU();
 
 
 vWD_nomChauffeur.setValeur("");
 
 
-// 		nomComercial	est une chaîne	= ""	// à remplir si nécessaire
+// 		nomComercial	est une chaîne	= ""	
 WDObjet vWD_nomComercial = new WDChaineU();
 
 
 vWD_nomComercial.setValeur("");
 
 
+// 		sNomCompletMag	est une chaîne	= ""
+WDObjet vWD_sNomCompletMag = new WDChaineU();
+
+
+vWD_sNomCompletMag.setValeur("");
+
+
 // 		SI HLitRecherchePremier(Magasin, IDmagasin, Reclamation.IDmagasin) ALORS
 if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("magasin"),WDAPIHF.getRubriqueSansCasseNiAccent("idmagasin"),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idmagasin")).getBoolean())
 {
-// 			HFiltre(Affectation, "IDRéclamation = " + Reclamation.IDRéclamation + " AND IDutilisateur = " + CurrentUserID)
+// 			sNomCompletMag = Magasin.NomMagasin + " " + Magasin.Adresse
+vWD_sNomCompletMag.setValeur(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin").opPlus(" ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse")));
+
+// 			bPasseLeFiltre est un booléen = Vrai
+WDObjet vWD_bPasseLeFiltre = new WDBooleen();
+
+
+vWD_bPasseLeFiltre.setValeur(true);
+
+
+// 			SI sRecherche <> "" ALORS
+if(vWD_sRecherche.opDiff(""))
+{
+// 				SI Position(Majuscule(Reclamation.Num_facture), sRecherche) = 0 ET ...
+if((WDAPIChaine.position(WDAPIChaine.majuscule(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture")),vWD_sRecherche).opEgal(0) & WDAPIChaine.position(WDAPIChaine.majuscule(vWD_sNomCompletMag),vWD_sRecherche).opEgal(0)))
+{
+// 					bPasseLeFiltre									= Faux
+vWD_bPasseLeFiltre.setValeur(false);
+
+}
+
+}
+
+// 			SI bPasseLeFiltre = Vrai ALORS
+if(vWD_bPasseLeFiltre.opEgal(true))
+{
+// 				HFiltre(Affectation, "IDRéclamation = " + Reclamation.IDRéclamation + " AND IDutilisateur = " + CurrentUserID)
 WDAPIHF.hFiltre(WDAPIHF.getFichierSansCasseNiAccent("affectation"),new WDChaineU("IDRéclamation = ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")).opPlus(" AND IDutilisateur = ").opPlus(GWDPSSuivApp.getInstance().vWD_CurrentUserID).getString());
 
-// 			SI HReadFirst(Affectation) ALORS
+// 				SI HReadFirst(Affectation) ALORS
 if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("affectation")).getBoolean())
 {
-// 				ZR_Reclamation.AjouteLigne(Reclamation.Num_facture,Magasin.NomMagasin+ " " + Magasin.Adresse,LibelleProbleme(nProbleme),Reclamation.Date,nomComercial,nomChauffeur,LibelleEtatFacture(nEtat),Reclamation.IDRéclamation)
-WDAPIZoneRepetee.zoneRepeteeAjouteLigne(mWD_ZR_Reclamation,new WDObjet[] {WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture"),WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin").opPlus(" ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse")),fWD_libelleProbleme(vWD_nProbleme),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("date"),vWD_nomComercial,vWD_nomChauffeur,fWD_libelleEtatFacture(vWD_nEtat),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")} );
+// 					nIndice est un entier = ZR_Reclamation.AjouteLigne(Reclamation.Num_facture, ...
+WDObjet vWD_nIndice = new WDEntier4();
 
-// 				ZR_Reclamation.ATT_IdReclamation = Reclamation.IDRéclamation
-mWD_ZR_Reclamation.mWD_ATT_IdReclamation.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"));
+
+vWD_nIndice.setValeur(WDAPIZoneRepetee.zoneRepeteeAjouteLigne(mWD_ZR_Reclamation,new WDObjet[] {WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture"),vWD_sNomCompletMag,fWD_libelleProbleme(vWD_nProbleme),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("date"),vWD_nomComercial,vWD_nomChauffeur,fWD_libelleEtatFacture(vWD_nEtat),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")} ));
+
+
+// 					ZR_Reclamation[nIndice].ATT_IdReclamation = Reclamation.IDRéclamation
+mWD_ZR_Reclamation.get(vWD_nIndice).get("ATT_IdReclamation").setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"));
+
+}
+
+// 				HDesactiveFiltre(Affectation) 
+WDAPIHF.hDesactiveFiltre(WDAPIHF.getFichierSansCasseNiAccent("affectation"));
+
+}
+
+}
+
+// 		HReadNext(Reclamation)
+WDAPIHF.hLitSuivant(WDAPIHF.getFichierSansCasseNiAccent("reclamation"));
+
+}
+
+}
+
+// ZR_Reclamation.Affiche()
+WDAPIZoneRepetee.zoneRepeteeAffiche(mWD_ZR_Reclamation);
+
+}
+finally
+{
+finExecProcLocale();
+}
+
+}
+
+
+
+
+/**
+ * Traitement: Déclarations globales de FEN_Liste_Reclamation_Chauffeur
+ */
+public void declarerGlobale(WDObjet[] WD_tabParam)
+{
+// PROCEDURE MaFenêtre()
+super.declarerGlobale(WD_tabParam, 0, 0);
+int WD_ntabParamLen = 0;
+if(WD_tabParam!=null) WD_ntabParamLen = WD_tabParam.length;
+
+
+}
+
+
+
+
+/**
+ * Traitement: Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+ */
+public void demandeMAJAffichage()
+{
+super.demandeMAJAffichage();
+
+// PROCÉDURE FillLooperByUser()
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables locales au traitement
+// (En WLangage les variables sont encore visibles après la fin du bloc dans lequel elles sont déclarées)
+////////////////////////////////////////////////////////////////////////////
+WDObjet vWD_sRecherche = new WDChaineU();
+
+
+
+// ZR_Reclamation.SupprimeTout()
+WDAPIZoneRepetee.zoneRepeteeSupprimeTout(mWD_ZR_Reclamation);
+
+// sRecherche est une chaîne = Majuscule(SAI_Recherche)
+
+vWD_sRecherche.setValeur(WDAPIChaine.majuscule(mWD_SAI_Recherche));
+
+
+// SI HReadFirst(Reclamation) ALORS
+if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean())
+{
+// 	TANTQUE PAS HOut(Reclamation)
+while((!WDAPIHF.hEnDehors(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean()))
+{
+// 		nEtat			est un entier	= Reclamation.Etat
+WDObjet vWD_nEtat = new WDEntier4();
+
+
+vWD_nEtat.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("etat"));
+
+
+// 		nProbleme		est un entier	= Reclamation.Probleme
+WDObjet vWD_nProbleme = new WDEntier4();
+
+
+vWD_nProbleme.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("probleme"));
+
+
+// 		nomChauffeur	est une chaîne	= ""	
+WDObjet vWD_nomChauffeur = new WDChaineU();
+
+
+vWD_nomChauffeur.setValeur("");
+
+
+// 		nomComercial	est une chaîne	= ""	
+WDObjet vWD_nomComercial = new WDChaineU();
+
+
+vWD_nomComercial.setValeur("");
+
+
+// 		sNomCompletMag	est une chaîne	= ""
+WDObjet vWD_sNomCompletMag = new WDChaineU();
+
+
+vWD_sNomCompletMag.setValeur("");
+
+
+// 		SI HLitRecherchePremier(Magasin, IDmagasin, Reclamation.IDmagasin) ALORS
+if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("magasin"),WDAPIHF.getRubriqueSansCasseNiAccent("idmagasin"),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idmagasin")).getBoolean())
+{
+// 			sNomCompletMag = Magasin.NomMagasin + " " + Magasin.Adresse
+vWD_sNomCompletMag.setValeur(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin").opPlus(" ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse")));
+
+// 			bPasseLeFiltre est un booléen = Vrai
+WDObjet vWD_bPasseLeFiltre = new WDBooleen();
+
+
+vWD_bPasseLeFiltre.setValeur(true);
+
+
+// 			SI sRecherche <> "" ALORS
+if(vWD_sRecherche.opDiff(""))
+{
+// 				SI Position(Majuscule(Reclamation.Num_facture), sRecherche) = 0 ET ...
+if((WDAPIChaine.position(WDAPIChaine.majuscule(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture")),vWD_sRecherche).opEgal(0) & WDAPIChaine.position(WDAPIChaine.majuscule(vWD_sNomCompletMag),vWD_sRecherche).opEgal(0)))
+{
+// 					bPasseLeFiltre									= Faux
+vWD_bPasseLeFiltre.setValeur(false);
+
+}
+
+}
+
+// 			SI bPasseLeFiltre = Vrai ALORS
+if(vWD_bPasseLeFiltre.opEgal(true))
+{
+// 				HFiltre(Affectation, "IDRéclamation = " + Reclamation.IDRéclamation + " AND IDutilisateur = " + CurrentUserID)
+WDAPIHF.hFiltre(WDAPIHF.getFichierSansCasseNiAccent("affectation"),new WDChaineU("IDRéclamation = ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")).opPlus(" AND IDutilisateur = ").opPlus(GWDPSSuivApp.getInstance().vWD_CurrentUserID).getString());
+
+// 				SI HReadFirst(Affectation) ALORS
+if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("affectation")).getBoolean())
+{
+// 					nIndice est un entier = ZR_Reclamation.AjouteLigne(Reclamation.Num_facture, ...
+WDObjet vWD_nIndice = new WDEntier4();
+
+
+vWD_nIndice.setValeur(WDAPIZoneRepetee.zoneRepeteeAjouteLigne(mWD_ZR_Reclamation,new WDObjet[] {WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture"),vWD_sNomCompletMag,fWD_libelleProbleme(vWD_nProbleme),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("date"),vWD_nomComercial,vWD_nomChauffeur,fWD_libelleEtatFacture(vWD_nEtat),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")} ));
+
+
+// 					ZR_Reclamation[nIndice].ATT_IdReclamation = Reclamation.IDRéclamation
+mWD_ZR_Reclamation.get(vWD_nIndice).get("ATT_IdReclamation").setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"));
+
+}
+
+// 				HDésactiveFiltre(Affectation) 
+WDAPIHF.hDesactiveFiltre(WDAPIHF.getFichierSansCasseNiAccent("affectation"));
 
 }
 
@@ -1774,86 +2164,6 @@ WDAPIZoneRepetee.zoneRepeteeAffiche(mWD_ZR_Reclamation);
 }
 
 
-
-// Erreur sur l'objet: FEN_Liste_Reclamation_Chauffeur
-// 	Traitement : Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur (180)
-// 	Code: 1000032
-// 	Message: Le traitement <Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur> n'est pas pris en charge en Android. Ce code sera ignoré.
-// 
-// 
-// //  --- Vider la zone répétée ---
-// {
-// // // --- Vider la zone répétée ---
-// // ZR_Reclamation.SupprimeTout()
-// WDAPIZoneRepetee.zoneRepeteeSupprimeTout(mWD_ZR_Reclamation);
-// 
-// // SI HReadFirst(Reclamation) ALORS
-// if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean())
-// {
-// // 	TANTQUE PAS HOut(Reclamation)
-// while((!WDAPIHF.hEnDehors(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean()))
-// {
-// // 		nEtat			est un entier	= Reclamation.Etat
-// WDObjet vWD_nEtat = new WDEntier4();
-// 
-// 
-// vWD_nEtat.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("etat"));
-// 
-// 
-// // 		nProbleme		est un entier	= Reclamation.Probleme
-// WDObjet vWD_nProbleme = new WDEntier4();
-// 
-// 
-// vWD_nProbleme.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("probleme"));
-// 
-// 
-// // 		nomChauffeur	est une chaîne	= ""	// à remplir si nécessaire
-// WDObjet vWD_nomChauffeur = new WDChaineU();
-// 
-// 
-// vWD_nomChauffeur.setValeur("");
-// 
-// 
-// // 		nomComercial	est une chaîne	= ""	// à remplir si nécessaire
-// WDObjet vWD_nomComercial = new WDChaineU();
-// 
-// 
-// vWD_nomComercial.setValeur("");
-// 
-// 
-// // 		SI HLitRecherchePremier(Magasin, IDmagasin, Reclamation.IDmagasin) ALORS
-// if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("magasin"),WDAPIHF.getRubriqueSansCasseNiAccent("idmagasin"),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idmagasin")).getBoolean())
-// {
-// // 			HFiltre(Affectation, "IDRéclamation = " + Reclamation.IDRéclamation + " AND IDutilisateur = " + CurrentUserID)
-// WDAPIHF.hFiltre(WDAPIHF.getFichierSansCasseNiAccent("affectation"),new WDChaineU("IDRéclamation = ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")).opPlus(" AND IDutilisateur = ").opPlus(GWDPSSuivApp.getInstance().vWD_CurrentUserID).getString());
-// 
-// // 			SI HReadFirst(Affectation) ALORS
-// if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("affectation")).getBoolean())
-// {
-// // 				ZR_Reclamation.AjouteLigne(Reclamation.Num_facture,Magasin.NomMagasin,LibelleProbleme(nProbleme),Reclamation.Date,nomComercial,nomChauffeur,LibelleEtatFacture(nEtat),Reclamation.IDRéclamation)
-// WDAPIZoneRepetee.zoneRepeteeAjouteLigne(mWD_ZR_Reclamation,new WDObjet[] {WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture"),WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin"),fWD_libelleProbleme(vWD_nProbleme),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("date"),vWD_nomComercial,vWD_nomChauffeur,fWD_libelleEtatFacture(vWD_nEtat),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")} );
-// 
-// // 				ZR_Reclamation.ATT_IdReclamation = Reclamation.IDRéclamation
-// mWD_ZR_Reclamation.mWD_ATT_IdReclamation.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"));
-// 
-// }
-// 
-// }
-// 
-// // 		HReadNext(Reclamation)
-// WDAPIHF.hLitSuivant(WDAPIHF.getFichierSansCasseNiAccent("reclamation"));
-// 
-// }
-// 
-// }
-// 
-// // ZR_Reclamation.Affiche()
-// WDAPIZoneRepetee.zoneRepeteeAffiche(mWD_ZR_Reclamation);
-// 
-// }
-// 
-// 
-// 
 
 
 // Activation des écouteurs: 

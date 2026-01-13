@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_changment_de_mot_de_passe
- * Date : 06/01/2026 20:00:21
+ * Date : 13/01/2026 19:30:23
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -367,11 +367,21 @@ WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Chauffeur);
 
 }
 
+// 	SI Utilisateur.Role = 3 ALORS
+//MAP:295ab5de04e828e2:00000012:28:FEN_changment_de_mot_de_passe.BTN_Se_connecter:com.masociete.tracklet.wdgen.GWDFFEN_changment_de_mot_de_passe$GWDBTN_Se_connecter:Clic sur BTN_Se_connecter
+if(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role").opEgal(3))
+{
+// 		OuvreFenêtreMobile(FEN_Menu_Administrateur)	
+//MAP:295ab5de04e828e2:00000012:29:FEN_changment_de_mot_de_passe.BTN_Se_connecter:com.masociete.tracklet.wdgen.GWDFFEN_changment_de_mot_de_passe$GWDBTN_Se_connecter:Clic sur BTN_Se_connecter
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Administrateur);
+
+}
+
 }
 else
 {
 // 	Info("Erreur lors de la modification du mot de passe")
-//MAP:295ab5de04e828e2:00000012:29:FEN_changment_de_mot_de_passe.BTN_Se_connecter:com.masociete.tracklet.wdgen.GWDFFEN_changment_de_mot_de_passe$GWDBTN_Se_connecter:Clic sur BTN_Se_connecter
+//MAP:295ab5de04e828e2:00000012:2c:FEN_changment_de_mot_de_passe.BTN_Se_connecter:com.masociete.tracklet.wdgen.GWDFFEN_changment_de_mot_de_passe$GWDBTN_Se_connecter:Clic sur BTN_Se_connecter
 WDAPIDialogue.info("Erreur lors de la modification du mot de passe");
 
 }
@@ -1115,9 +1125,19 @@ WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Commercial);
 //MAP:295abf2c0800802b:00000012:9:FEN_changment_de_mot_de_passe.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_changment_de_mot_de_passe$GWDIMG_SansNom2:Clic sur IMG_SansNom2
 if(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role").opEgal(2))
 {
-// 	OuvreFenêtreMobile(FEN_Menu_Chauffeur)
+// 	OuvreFenêtreMobile(FEN_Menu_Chauffeur)	
 //MAP:295abf2c0800802b:00000012:a:FEN_changment_de_mot_de_passe.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_changment_de_mot_de_passe$GWDIMG_SansNom2:Clic sur IMG_SansNom2
 WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Chauffeur);
+
+}
+
+// SI Utilisateur.Role  = 3 ALORS
+//MAP:295abf2c0800802b:00000012:c:FEN_changment_de_mot_de_passe.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_changment_de_mot_de_passe$GWDIMG_SansNom2:Clic sur IMG_SansNom2
+if(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role").opEgal(3))
+{
+// 	OuvreFenêtreMobile(FEN_Menu_Administrateur)	
+//MAP:295abf2c0800802b:00000012:d:FEN_changment_de_mot_de_passe.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_changment_de_mot_de_passe$GWDIMG_SansNom2:Clic sur IMG_SansNom2
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Administrateur);
 
 }
 

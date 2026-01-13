@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-6953
-INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-6953
-INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-6953
-INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-6953
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-7221
+INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-7221
+INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-7221
+INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-7221
 MERGED from [WD250Android.aar] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\bec4e06b3fbe9e096eb05f2056069fb3\WD250Android\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\e515d40e627c4e0412a7c5fa3f288da9\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha03] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\db741089a22b19c660ad6fbefeb526e8\swiperefreshlayout-1.1.0-alpha03\AndroidManifest.xml:17:1-24:12
@@ -32,9 +32,9 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Wala Bhy\.gradle\cac
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\420f294924962582b4c42c622af43461\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-6953
-INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-6953
-INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-6953
+INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-7221
+INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-7221
+INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:1-7221
 	package
 		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:117-149
 		INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml
@@ -54,7 +54,7 @@ INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Andro
 	android:installLocation
 		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:205-235
 application
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:236-6519
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:236-6787
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\e515d40e627c4e0412a7c5fa3f288da9\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\e515d40e627c4e0412a7c5fa3f288da9\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.core:core:1.1.0] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:5-89
@@ -247,101 +247,111 @@ ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\
 		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:4755-4791
 	android:name
 		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:4581-4644
-activity#com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$WDActiviteFenetre
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:4829-5095
+activity#com.masociete.tracklet.wdgen.GWDFFEN_A_propos_de_l_application$WDActiviteFenetre
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:4829-5097
 	android:hardwareAccelerated
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5058-5093
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5060-5095
 	android:configChanges
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:4911-5020
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:4913-5022
 	android:theme
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5021-5057
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5023-5059
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:4839-4910
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:4839-4912
+activity#com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Admin$WDActiviteFenetre
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5097-5363
+	android:hardwareAccelerated
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5326-5361
+	android:configChanges
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5179-5288
+	android:theme
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5289-5325
+	android:name
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5107-5178
 uses-library#org.apache.http.legacy
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5095-5173
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5363-5441
 	android:required
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5147-5171
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5415-5439
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5109-5146
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5377-5414
 activity#fr.pcsoft.wdjava.ui.activite.WDActivite$BlankActivity
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5173-5382
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5441-5650
 	tools:node
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5360-5380
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5628-5648
 	xmlns:android
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5183-5241
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5451-5509
 	android:theme
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5311-5359
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5579-5627
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5242-5310
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5510-5578
 activity#fr.pcsoft.wdjava.core.erreur.report.WDErrorReportActivity
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5382-5603
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5650-5871
 	tools:node
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5581-5601
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5849-5869
 	xmlns:android
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5392-5450
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5660-5718
 	android:theme
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5524-5580
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5792-5848
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5451-5523
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5719-5791
 activity#fr.pcsoft.wdjava.ui.searchbar.WDSearchActivity
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5603-5968
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5871-6236
 	tools:node
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5767-5787
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6035-6055
 	android:label
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5734-5766
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6002-6034
 	xmlns:android
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5613-5671
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5881-5939
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5672-5733
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5940-6001
 intent-filter#action:name:android.intent.action.SEARCH
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5788-5872
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6056-6140
 action#android.intent.action.SEARCH
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5803-5856
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6071-6124
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5811-5854
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6079-6122
 meta-data#android.app.searchable
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5872-5957
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6140-6225
 	android:resource
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5921-5955
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6189-6223
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5883-5920
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6151-6188
 provider#fr.pcsoft.wdjava.ui.searchbar.WDSearchHistory
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5968-6193
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6236-6461
 	tools:node
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6171-6191
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6439-6459
 	android:authorities
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6123-6170
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6391-6438
 	android:exported
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6098-6122
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6366-6390
 	xmlns:android
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:5978-6036
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6246-6304
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6037-6097
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6305-6365
 service#fr.pcsoft.wdjava.core.service.WDServiceLocal
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6193-6263
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6461-6531
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6202-6261
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6470-6529
 meta-data#fr.pcsoft.first_window_name
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6263-6344
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6531-6612
 	android:value
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6317-6342
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6585-6610
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6274-6316
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6542-6584
 meta-data#fr.pcsoft.splash_orientation_phone
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6344-6424
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6612-6692
 	android:value
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6405-6422
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6673-6690
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6355-6404
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6623-6672
 meta-data#fr.pcsoft.splash_orientation_tablet
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6424-6505
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6692-6773
 	android:value
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6486-6503
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6754-6771
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6435-6485
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6703-6753
 uses-sdk
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6519-6587
-INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6519-6587
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6787-6855
+INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6787-6855
 MERGED from [WD250Android.aar] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\bec4e06b3fbe9e096eb05f2056069fb3\WD250Android\AndroidManifest.xml:7:5-9:41
 MERGED from [WD250Android.aar] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\bec4e06b3fbe9e096eb05f2056069fb3\WD250Android\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\e515d40e627c4e0412a7c5fa3f288da9\material-1.1.0\AndroidManifest.xml:20:5-44
@@ -398,34 +408,34 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Wala Bhy
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\66e997bde0b6ece28f7fd36f5f4a1584\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Wala Bhy\.gradle\caches\transforms-2\files-2.1\8787729f29cf7add1bc29c81caccddfd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6519-6587
+INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6787-6855
 	android:targetSdkVersion
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6556-6585
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6824-6853
 	android:minSdkVersion
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6529-6555
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6797-6823
 		INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml
 		INJECTED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml
 supports-screens
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6587-6746
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6855-7014
 	android:largeScreens
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6662-6689
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6930-6957
 	android:smallScreens
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6605-6632
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6873-6900
 	android:normalScreens
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6633-6661
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6901-6929
 	android:xlargeScreens
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6690-6718
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6958-6986
 	android:anyDensity
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6719-6744
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6987-7012
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6746-6821
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:7014-7089
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6763-6819
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:7031-7087
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6821-6882
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:7089-7150
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6838-6880
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:7106-7148
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6882-6942
+ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:7150-7210
 	android:name
-		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:6899-6940
+		ADDED from C:\Users\Wala Bhy\OneDrive\Bureau\Stage PFE\suivApp\SSuivApp\Android\dbg\AndroidManifest.xml:2:7167-7208

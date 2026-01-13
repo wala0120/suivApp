@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Liste_Reclamation_Chauffeur
- * Date : 04/01/2026 21:24:31
+ * Date : 13/01/2026 20:26:29
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -650,6 +650,187 @@ public void activerEcoute()
 ////////////////////////////////////////////////////////////////////////////
 }
 public GWDLIB_Etat mWD_LIB_Etat = new GWDLIB_Etat();
+
+/**
+ * IMG_Corbeille
+ */
+class GWDIMG_Corbeille extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°14 de FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2982843607308510167l);
+
+super.setChecksum("730882700");
+
+super.setNom("IMG_Corbeille");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(283, 35);
+
+super.setTailleInitiale(23, 19);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\corbeille.png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(5);
+
+super.setAncrageInitial(5, 0, 1000, 500, 1000, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+/**
+ * Traitement: Clic sur IMG_Corbeille ( ZR_Reclamation )
+ */
+public void clicSurBoutonGauche()
+{
+super.clicSurBoutonGauche();
+
+// i est un entier
+//MAP:29653075022b23d7:00000012:1:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables locales au traitement
+// (En WLangage les variables sont encore visibles après la fin du bloc dans lequel elles sont déclarées)
+////////////////////////////////////////////////////////////////////////////
+WDObjet vWD_i = new WDEntier4();
+
+
+
+// i est un entier
+//MAP:29653075022b23d7:00000012:1:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+
+
+// i = ZR_Reclamation[ZR_Reclamation..Occurrence].ATT_IdReclamation
+//MAP:29653075022b23d7:00000012:2:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+vWD_i.setValeur(mWD_ZR_Reclamation.get(mWD_ZR_Reclamation.getProp(EWDPropriete.PROP_OCCURRENCE)).get("ATT_IdReclamation"));
+
+// SI HLitRecherchePremier(affectation, idréclamation, i) ALORS
+//MAP:29653075022b23d7:00000012:6:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("affectation"),WDAPIHF.getRubriqueSansCasseNiAccent("idreclamation"),vWD_i).getBoolean())
+{
+// 	TANTQUE HTrouve(affectation)
+//MAP:29653075022b23d7:00000012:7:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+while(WDAPIHF.hTrouve(WDAPIHF.getFichierSansCasseNiAccent("affectation")).getBoolean())
+{
+// 		HSupprime(affectation)
+//MAP:29653075022b23d7:00000012:8:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+WDAPIHF.hSupprime(WDAPIHF.getFichierSansCasseNiAccent("affectation"));
+
+// 		HLitSuivant(affectation, idréclamation)
+//MAP:29653075022b23d7:00000012:a:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+WDAPIHF.hLitSuivant(WDAPIHF.getFichierSansCasseNiAccent("affectation"),WDAPIHF.getRubriqueSansCasseNiAccent("idreclamation"));
+
+}
+
+}
+
+// SI HLitRecherche(Reclamation, IDRéclamation, i) ALORS
+//MAP:29653075022b23d7:00000012:f:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+if(WDAPIHF.hLitRecherche(WDAPIHF.getFichierSansCasseNiAccent("reclamation"),WDAPIHF.getRubriqueSansCasseNiAccent("idreclamation"),vWD_i).getBoolean())
+{
+// 	SI HSupprime(Reclamation) ALORS
+//MAP:29653075022b23d7:00000012:10:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+if(WDAPIHF.hSupprime(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean())
+{
+// 		Info("Réclamation et ses affectations supprimées avec succès")
+//MAP:29653075022b23d7:00000012:11:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+WDAPIDialogue.info("Réclamation et ses affectations supprimées avec succès");
+
+// 		OuvreFenêtreMobile(FEN_Liste_Reclamation_Chauffeur)
+//MAP:29653075022b23d7:00000012:12:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Liste_Reclamation_Chauffeur);
+
+}
+else
+{
+// 		Erreur("Erreur lors de la suppression de la réclamation : " + HErreurInfo())
+//MAP:29653075022b23d7:00000012:14:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+WDAPIDialogue.erreur(new WDChaineU("Erreur lors de la suppression de la réclamation : ").opPlus(WDAPIHF.hErreurInfo()).getString());
+
+}
+
+}
+else
+{
+// 	Info("Réclamation introuvable")
+//MAP:29653075022b23d7:00000012:17:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation.IMG_Corbeille:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation$GWDIMG_Corbeille:Clic sur IMG_Corbeille ( ZR_Reclamation )
+WDAPIDialogue.info("Réclamation introuvable");
+
+}
+
+}
+
+
+
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+super.activerEcouteurClic();
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_Corbeille mWD_IMG_Corbeille = new GWDIMG_Corbeille();
 /**
  * Initialise tous les champs de FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation
  */
@@ -685,6 +866,8 @@ mWD_LIB_Date.initialiserObjet();
 super.ajouterChamp("LIB_Date",mWD_LIB_Date);
 mWD_LIB_Etat.initialiserObjet();
 super.ajouterChamp("LIB_Etat",mWD_LIB_Etat);
+mWD_IMG_Corbeille.initialiserObjet();
+super.ajouterChamp("IMG_Corbeille",mWD_IMG_Corbeille);
 creerAttributAuto();
 }
 public  void initialiserObjet()
@@ -801,10 +984,6 @@ GWDPSSuivApp.getInstance().vWD_IDReclamationGlobal.setValeur(mWD_ATT_IdReclamati
 // IDCommerciale = ATT_IdComerciale
 //MAP:29372961021da308:00000021:2:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation:Sélection d'une ligne de ZR_Reclamation
 GWDPSSuivApp.getInstance().vWD_IDCommerciale.setValeur(mWD_ATT_IdComerciale);
-
-// OuvreFenêtreMobile(FEN_Modifier_Reclamation)
-//MAP:29372961021da308:00000021:3:FEN_Liste_Reclamation_Chauffeur.ZR_Reclamation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDZR_Reclamation:Sélection d'une ligne de ZR_Reclamation
-WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Modifier_Reclamation);
 
 }
 
@@ -1256,9 +1435,28 @@ this.setProp(EWDPropriete.PROP_INDICATION,"Rechercher");
 
 
 
+/**
+ * Traitement: A chaque modification de SAI_Recherche
+ */
+public void modification()
+{
+super.modification();
+
+// FillLooperByUser()
+//MAP:293866e907f20240:00000011:1:FEN_Liste_Reclamation_Chauffeur.SAI_Recherche:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDSAI_Recherche:A chaque modification de SAI_Recherche
+// FillLooperByUser()
+//MAP:293866e907f20240:00000011:1:FEN_Liste_Reclamation_Chauffeur.SAI_Recherche:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur$GWDSAI_Recherche:A chaque modification de SAI_Recherche
+fWD_fillLooperByUser();
+
+}
+
+
+
+
 // Activation des écouteurs: 
 public void activerEcoute()
 {
+super.activerEcouteurModification();
 }
 
 ////////////////////////////////////////////////////////////////////////////
@@ -1710,6 +1908,181 @@ finExecProcLocale();
 
 
 
+//  Résumé : <indiquez ici ce que fait la procédure>
+//  Syntaxe :
+//  FillLooperByUser ()
+// 
+//  Paramètres :
+// 	Aucun
+//  Valeur de retour :
+//  	Aucune
+// 
+//  Exemple :
+//  Indiquez ici un exemple d'utilisation.
+// 
+public void fWD_fillLooperByUser()
+{
+// PROCÉDURE FillLooperByUser()
+//MAP:196542e100444cbe:00070000:d:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+initExecProcLocale("FillLooperByUser");
+
+try
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables locales au traitement
+// (En WLangage les variables sont encore visibles après la fin du bloc dans lequel elles sont déclarées)
+////////////////////////////////////////////////////////////////////////////
+WDObjet vWD_sRecherche = new WDChaineU();
+
+
+
+// ZR_Reclamation.SupprimeTout()
+//MAP:196542e100444cbe:00070000:10:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+WDAPIZoneRepetee.zoneRepeteeSupprimeTout(mWD_ZR_Reclamation);
+
+// sRecherche est une chaîne = Majuscule(SAI_Recherche)
+//MAP:196542e100444cbe:00070000:13:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+
+vWD_sRecherche.setValeur(WDAPIChaine.majuscule(mWD_SAI_Recherche));
+
+
+// SI HReadFirst(Reclamation) ALORS
+//MAP:196542e100444cbe:00070000:16:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean())
+{
+// 	TANTQUE PAS HOut(Reclamation)
+//MAP:196542e100444cbe:00070000:17:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+while((!WDAPIHF.hEnDehors(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean()))
+{
+// 		nEtat			est un entier	= Reclamation.Etat
+//MAP:196542e100444cbe:00070000:19:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+WDObjet vWD_nEtat = new WDEntier4();
+
+
+vWD_nEtat.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("etat"));
+
+
+// 		nProbleme		est un entier	= Reclamation.Probleme
+//MAP:196542e100444cbe:00070000:1a:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+WDObjet vWD_nProbleme = new WDEntier4();
+
+
+vWD_nProbleme.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("probleme"));
+
+
+// 		nomChauffeur	est une chaîne	= ""	
+//MAP:196542e100444cbe:00070000:1b:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+WDObjet vWD_nomChauffeur = new WDChaineU();
+
+
+vWD_nomChauffeur.setValeur("");
+
+
+// 		nomComercial	est une chaîne	= ""	
+//MAP:196542e100444cbe:00070000:1c:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+WDObjet vWD_nomComercial = new WDChaineU();
+
+
+vWD_nomComercial.setValeur("");
+
+
+// 		sNomCompletMag	est une chaîne	= ""
+//MAP:196542e100444cbe:00070000:1d:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+WDObjet vWD_sNomCompletMag = new WDChaineU();
+
+
+vWD_sNomCompletMag.setValeur("");
+
+
+// 		SI HLitRecherchePremier(Magasin, IDmagasin, Reclamation.IDmagasin) ALORS
+//MAP:196542e100444cbe:00070000:20:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("magasin"),WDAPIHF.getRubriqueSansCasseNiAccent("idmagasin"),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idmagasin")).getBoolean())
+{
+// 			sNomCompletMag = Magasin.NomMagasin + " " + Magasin.Adresse
+//MAP:196542e100444cbe:00070000:21:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+vWD_sNomCompletMag.setValeur(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin").opPlus(" ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse")));
+
+// 			bPasseLeFiltre est un booléen = Vrai
+//MAP:196542e100444cbe:00070000:24:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+WDObjet vWD_bPasseLeFiltre = new WDBooleen();
+
+
+vWD_bPasseLeFiltre.setValeur(true);
+
+
+// 			SI sRecherche <> "" ALORS
+//MAP:196542e100444cbe:00070000:25:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+if(vWD_sRecherche.opDiff(""))
+{
+// 				SI Position(Majuscule(Reclamation.Num_facture), sRecherche) = 0 ET ...
+//MAP:196542e100444cbe:00070000:27:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+if((WDAPIChaine.position(WDAPIChaine.majuscule(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture")),vWD_sRecherche).opEgal(0) & WDAPIChaine.position(WDAPIChaine.majuscule(vWD_sNomCompletMag),vWD_sRecherche).opEgal(0)))
+{
+// 					bPasseLeFiltre									= Faux
+//MAP:196542e100444cbe:00070000:29:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+vWD_bPasseLeFiltre.setValeur(false);
+
+}
+
+}
+
+// 			SI bPasseLeFiltre = Vrai ALORS
+//MAP:196542e100444cbe:00070000:2e:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+if(vWD_bPasseLeFiltre.opEgal(true))
+{
+// 				HFiltre(Affectation, "IDRéclamation = " + Reclamation.IDRéclamation + " AND IDutilisateur = " + CurrentUserID)
+//MAP:196542e100444cbe:00070000:31:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+WDAPIHF.hFiltre(WDAPIHF.getFichierSansCasseNiAccent("affectation"),new WDChaineU("IDRéclamation = ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")).opPlus(" AND IDutilisateur = ").opPlus(GWDPSSuivApp.getInstance().vWD_CurrentUserID).getString());
+
+// 				SI HReadFirst(Affectation) ALORS
+//MAP:196542e100444cbe:00070000:33:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("affectation")).getBoolean())
+{
+// 					nIndice est un entier = ZR_Reclamation.AjouteLigne(Reclamation.Num_facture, ...
+//MAP:196542e100444cbe:00070000:35:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+WDObjet vWD_nIndice = new WDEntier4();
+
+
+vWD_nIndice.setValeur(WDAPIZoneRepetee.zoneRepeteeAjouteLigne(mWD_ZR_Reclamation,new WDObjet[] {WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture"),vWD_sNomCompletMag,fWD_libelleProbleme(vWD_nProbleme),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("date"),vWD_nomComercial,vWD_nomChauffeur,fWD_libelleEtatFacture(vWD_nEtat),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")} ));
+
+
+// 					ZR_Reclamation[nIndice].ATT_IdReclamation = Reclamation.IDRéclamation
+//MAP:196542e100444cbe:00070000:3f:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+mWD_ZR_Reclamation.get(vWD_nIndice).get("ATT_IdReclamation").setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"));
+
+}
+
+// 				HDesactiveFiltre(Affectation) 
+//MAP:196542e100444cbe:00070000:41:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+WDAPIHF.hDesactiveFiltre(WDAPIHF.getFichierSansCasseNiAccent("affectation"));
+
+}
+
+}
+
+// 		HReadNext(Reclamation)
+//MAP:196542e100444cbe:00070000:45:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+WDAPIHF.hLitSuivant(WDAPIHF.getFichierSansCasseNiAccent("reclamation"));
+
+}
+
+}
+
+// ZR_Reclamation.Affiche()
+//MAP:196542e100444cbe:00070000:4a:FEN_Liste_Reclamation_Chauffeur.PROCEDURE.FillLooperByUser:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:FillLooperByUser
+WDAPIZoneRepetee.zoneRepeteeAffiche(mWD_ZR_Reclamation);
+
+}
+finally
+{
+finExecProcLocale();
+}
+
+}
+
+
+
 
 /**
  * Traitement: Déclarations globales de FEN_Liste_Reclamation_Chauffeur
@@ -1732,82 +2105,112 @@ if(WD_tabParam!=null) WD_ntabParamLen = WD_tabParam.length;
  * Traitement: Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
  */
 public void demandeMAJAffichage()
-//  --- Vider la zone répétée ---
 {
 super.demandeMAJAffichage();
 
-// // --- Vider la zone répétée ---
+// PROCÉDURE FillLooperByUser()
 //MAP:293728fe01e7212b:000000ea:1:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables locales au traitement
+// (En WLangage les variables sont encore visibles après la fin du bloc dans lequel elles sont déclarées)
+////////////////////////////////////////////////////////////////////////////
+WDObjet vWD_sRecherche = new WDChaineU();
+
+
+
 // ZR_Reclamation.SupprimeTout()
-//MAP:293728fe01e7212b:000000ea:2:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+//MAP:293728fe01e7212b:000000ea:4:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
 WDAPIZoneRepetee.zoneRepeteeSupprimeTout(mWD_ZR_Reclamation);
 
+// sRecherche est une chaîne = Majuscule(SAI_Recherche)
+//MAP:293728fe01e7212b:000000ea:7:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+
+vWD_sRecherche.setValeur(WDAPIChaine.majuscule(mWD_SAI_Recherche));
+
+
 // SI HReadFirst(Reclamation) ALORS
-//MAP:293728fe01e7212b:000000ea:5:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+//MAP:293728fe01e7212b:000000ea:a:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
 if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean())
 {
 // 	TANTQUE PAS HOut(Reclamation)
-//MAP:293728fe01e7212b:000000ea:6:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+//MAP:293728fe01e7212b:000000ea:b:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
 while((!WDAPIHF.hEnDehors(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean()))
 {
-// 		nEtat			est un entier	= Reclamation.Etat
-//MAP:293728fe01e7212b:000000ea:8:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
-WDObjet vWD_nEtat = new WDEntier4();
+// 		sNomCompletMag	est une chaîne	= ""
+//MAP:293728fe01e7212b:000000ea:d:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+WDObjet vWD_sNomCompletMag = new WDChaineU();
 
 
-vWD_nEtat.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("etat"));
-
-
-// 		nProbleme		est un entier	= Reclamation.Probleme
-//MAP:293728fe01e7212b:000000ea:9:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
-WDObjet vWD_nProbleme = new WDEntier4();
-
-
-vWD_nProbleme.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("probleme"));
-
-
-// 		nomChauffeur	est une chaîne	= ""	// à remplir si nécessaire
-//MAP:293728fe01e7212b:000000ea:a:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
-WDObjet vWD_nomChauffeur = new WDChaineU();
-
-
-vWD_nomChauffeur.setValeur("");
-
-
-// 		nomComercial	est une chaîne	= ""	// à remplir si nécessaire
-//MAP:293728fe01e7212b:000000ea:b:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
-WDObjet vWD_nomComercial = new WDChaineU();
-
-
-vWD_nomComercial.setValeur("");
+vWD_sNomCompletMag.setValeur("");
 
 
 // 		SI HLitRecherchePremier(Magasin, IDmagasin, Reclamation.IDmagasin) ALORS
-//MAP:293728fe01e7212b:000000ea:e:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+//MAP:293728fe01e7212b:000000ea:10:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
 if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("magasin"),WDAPIHF.getRubriqueSansCasseNiAccent("idmagasin"),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idmagasin")).getBoolean())
 {
-// 			HFiltre(Affectation, "IDRéclamation = " + Reclamation.IDRéclamation + " AND IDutilisateur = " + CurrentUserID)
+// 			sNomCompletMag = Magasin.NomMagasin + " " + Magasin.Adresse
 //MAP:293728fe01e7212b:000000ea:11:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
-WDAPIHF.hFiltre(WDAPIHF.getFichierSansCasseNiAccent("affectation"),new WDChaineU("IDRéclamation = ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")).opPlus(" AND IDutilisateur = ").opPlus(GWDPSSuivApp.getInstance().vWD_CurrentUserID).getString());
+vWD_sNomCompletMag.setValeur(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin").opPlus(" ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse")));
 
-// 			SI HReadFirst(Affectation) ALORS
+// 			bPasseFiltreTexte est un booléen = (sRecherche = "" OU ...
 //MAP:293728fe01e7212b:000000ea:14:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
-if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("affectation")).getBoolean())
-{
-// 				ZR_Reclamation.AjouteLigne(Reclamation.Num_facture,Magasin.NomMagasin+ " " + Magasin.Adresse,LibelleProbleme(nProbleme),Reclamation.Date,nomComercial,nomChauffeur,LibelleEtatFacture(nEtat),Reclamation.IDRéclamation)
-//MAP:293728fe01e7212b:000000ea:16:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
-WDAPIZoneRepetee.zoneRepeteeAjouteLigne(mWD_ZR_Reclamation,new WDObjet[] {WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture"),WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin").opPlus(" ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse")),fWD_libelleProbleme(vWD_nProbleme),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("date"),vWD_nomComercial,vWD_nomChauffeur,fWD_libelleEtatFacture(vWD_nEtat),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")} );
+WDObjet vWD_bPasseFiltreTexte = new WDBooleen();
 
-// 				ZR_Reclamation.ATT_IdReclamation = Reclamation.IDRéclamation
-//MAP:293728fe01e7212b:000000ea:17:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
-mWD_ZR_Reclamation.mWD_ATT_IdReclamation.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"));
+
+vWD_bPasseFiltreTexte.setValeur(((vWD_sRecherche.opEgal("") | WDAPIChaine.position(WDAPIChaine.majuscule(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture")),vWD_sRecherche).opSup(0)) | WDAPIChaine.position(WDAPIChaine.majuscule(vWD_sNomCompletMag),vWD_sRecherche).opSup(0)));
+
+
+// 			SI bPasseFiltreTexte ALORS
+//MAP:293728fe01e7212b:000000ea:18:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+if(vWD_bPasseFiltreTexte.getBoolean())
+{
+// 				SI HLitRecherchePremier(Affectation, IDRéclamation, Reclamation.IDRéclamation) ALORS
+//MAP:293728fe01e7212b:000000ea:1f:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("affectation"),WDAPIHF.getRubriqueSansCasseNiAccent("idreclamation"),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")).getBoolean())
+{
+// 					SI Affectation.IDutilisateur = CurrentUserID ALORS
+//MAP:293728fe01e7212b:000000ea:22:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+if(WDAPIHF.getFichierSansCasseNiAccent("affectation").getRubriqueSansCasseNiAccent("idutilisateur").opEgal(GWDPSSuivApp.getInstance().vWD_CurrentUserID))
+{
+// 						nValProbleme	est un entier	= Reclamation.Probleme
+//MAP:293728fe01e7212b:000000ea:25:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+WDObjet vWD_nValProbleme = new WDEntier4();
+
+
+vWD_nValProbleme.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("probleme"));
+
+
+// 						nValEtat		est un entier	= Reclamation.Etat
+//MAP:293728fe01e7212b:000000ea:26:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+WDObjet vWD_nValEtat = new WDEntier4();
+
+
+vWD_nValEtat.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("etat"));
+
+
+// 						nIndice			est un entier	= ZR_Reclamation.AjouteLigne(Reclamation.Num_facture, ...
+//MAP:293728fe01e7212b:000000ea:29:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+WDObjet vWD_nIndice = new WDEntier4();
+
+
+vWD_nIndice.setValeur(WDAPIZoneRepetee.zoneRepeteeAjouteLigne(mWD_ZR_Reclamation,new WDObjet[] {WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture"),vWD_sNomCompletMag,fWD_libelleProbleme(vWD_nValProbleme),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("date"),new WDChaineU(""),new WDChaineU(""),fWD_libelleEtatFacture(vWD_nValEtat),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")} ));
+
+
+// 						ZR_Reclamation[nIndice].ATT_IdReclamation = Reclamation.IDRéclamation
+//MAP:293728fe01e7212b:000000ea:32:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+mWD_ZR_Reclamation.get(vWD_nIndice).get("ATT_IdReclamation").setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"));
+
+}
+
+}
 
 }
 
 }
 
 // 		HReadNext(Reclamation)
-//MAP:293728fe01e7212b:000000ea:1c:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+//MAP:293728fe01e7212b:000000ea:38:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
 WDAPIHF.hLitSuivant(WDAPIHF.getFichierSansCasseNiAccent("reclamation"));
 
 }
@@ -1815,107 +2218,12 @@ WDAPIHF.hLitSuivant(WDAPIHF.getFichierSansCasseNiAccent("reclamation"));
 }
 
 // ZR_Reclamation.Affiche()
-//MAP:293728fe01e7212b:000000ea:21:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
+//MAP:293728fe01e7212b:000000ea:3d:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Chauffeur
 WDAPIZoneRepetee.zoneRepeteeAffiche(mWD_ZR_Reclamation);
 
 }
 
 
-
-// Erreur sur l'objet: FEN_Liste_Reclamation_Chauffeur
-// 	Traitement : Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur (180)
-// 	Code: 1000032
-// 	Message: Le traitement <Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur> n'est pas pris en charge en Android. Ce code sera ignoré.
-// 
-// 
-// //  --- Vider la zone répétée ---
-// {
-// // // --- Vider la zone répétée ---
-// //MAP:293728fe01e7212b:000000b4:1:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// // ZR_Reclamation.SupprimeTout()
-// //MAP:293728fe01e7212b:000000b4:2:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// WDAPIZoneRepetee.zoneRepeteeSupprimeTout(mWD_ZR_Reclamation);
-// 
-// // SI HReadFirst(Reclamation) ALORS
-// //MAP:293728fe01e7212b:000000b4:5:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean())
-// {
-// // 	TANTQUE PAS HOut(Reclamation)
-// //MAP:293728fe01e7212b:000000b4:6:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// while((!WDAPIHF.hEnDehors(WDAPIHF.getFichierSansCasseNiAccent("reclamation")).getBoolean()))
-// {
-// // 		nEtat			est un entier	= Reclamation.Etat
-// //MAP:293728fe01e7212b:000000b4:8:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// WDObjet vWD_nEtat = new WDEntier4();
-// 
-// 
-// vWD_nEtat.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("etat"));
-// 
-// 
-// // 		nProbleme		est un entier	= Reclamation.Probleme
-// //MAP:293728fe01e7212b:000000b4:9:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// WDObjet vWD_nProbleme = new WDEntier4();
-// 
-// 
-// vWD_nProbleme.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("probleme"));
-// 
-// 
-// // 		nomChauffeur	est une chaîne	= ""	// à remplir si nécessaire
-// //MAP:293728fe01e7212b:000000b4:a:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// WDObjet vWD_nomChauffeur = new WDChaineU();
-// 
-// 
-// vWD_nomChauffeur.setValeur("");
-// 
-// 
-// // 		nomComercial	est une chaîne	= ""	// à remplir si nécessaire
-// //MAP:293728fe01e7212b:000000b4:b:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// WDObjet vWD_nomComercial = new WDChaineU();
-// 
-// 
-// vWD_nomComercial.setValeur("");
-// 
-// 
-// // 		SI HLitRecherchePremier(Magasin, IDmagasin, Reclamation.IDmagasin) ALORS
-// //MAP:293728fe01e7212b:000000b4:e:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("magasin"),WDAPIHF.getRubriqueSansCasseNiAccent("idmagasin"),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idmagasin")).getBoolean())
-// {
-// // 			HFiltre(Affectation, "IDRéclamation = " + Reclamation.IDRéclamation + " AND IDutilisateur = " + CurrentUserID)
-// //MAP:293728fe01e7212b:000000b4:11:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// WDAPIHF.hFiltre(WDAPIHF.getFichierSansCasseNiAccent("affectation"),new WDChaineU("IDRéclamation = ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")).opPlus(" AND IDutilisateur = ").opPlus(GWDPSSuivApp.getInstance().vWD_CurrentUserID).getString());
-// 
-// // 			SI HReadFirst(Affectation) ALORS
-// //MAP:293728fe01e7212b:000000b4:14:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// if(WDAPIHF.hLitPremier(WDAPIHF.getFichierSansCasseNiAccent("affectation")).getBoolean())
-// {
-// // 				ZR_Reclamation.AjouteLigne(Reclamation.Num_facture,Magasin.NomMagasin,LibelleProbleme(nProbleme),Reclamation.Date,nomComercial,nomChauffeur,LibelleEtatFacture(nEtat),Reclamation.IDRéclamation)
-// //MAP:293728fe01e7212b:000000b4:16:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// WDAPIZoneRepetee.zoneRepeteeAjouteLigne(mWD_ZR_Reclamation,new WDObjet[] {WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture"),WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin"),fWD_libelleProbleme(vWD_nProbleme),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("date"),vWD_nomComercial,vWD_nomChauffeur,fWD_libelleEtatFacture(vWD_nEtat),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")} );
-// 
-// // 				ZR_Reclamation.ATT_IdReclamation = Reclamation.IDRéclamation
-// //MAP:293728fe01e7212b:000000b4:17:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// mWD_ZR_Reclamation.mWD_ATT_IdReclamation.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"));
-// 
-// }
-// 
-// }
-// 
-// // 		HReadNext(Reclamation)
-// //MAP:293728fe01e7212b:000000b4:1c:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// WDAPIHF.hLitSuivant(WDAPIHF.getFichierSansCasseNiAccent("reclamation"));
-// 
-// }
-// 
-// }
-// 
-// // ZR_Reclamation.Affiche()
-// //MAP:293728fe01e7212b:000000b4:21:FEN_Liste_Reclamation_Chauffeur:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Chauffeur:Rafraîchissement du Widget FEN_Liste_Reclamation_Chauffeur
-// WDAPIZoneRepetee.zoneRepeteeAffiche(mWD_ZR_Reclamation);
-// 
-// }
-// 
-// 
-// 
 
 
 // Activation des écouteurs: 

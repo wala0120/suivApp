@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Liste_Reclamation_Admin
- * Date : 05/01/2026 09:44:03
+ * Date : 13/01/2026 19:30:23
  * Version de wdjava.dll  : 25.0.315.2
  */
 

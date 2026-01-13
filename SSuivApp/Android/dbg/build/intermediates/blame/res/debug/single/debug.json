@@ -40,12 +40,12 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_anim_scan_onde_11.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable\\anim_scan_onde_11.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\raw_wd_default_rating.svg.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\raw\\wd_default_rating.svg"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_anim_scan_onde_11.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable\\anim_scan_onde_11.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -54,10 +54,6 @@
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_action_edit.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-mdpi-v4\\ic_action_edit.png"
-    },
-    {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_pict_ok_16_5_37_selectorfocus.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_pict_ok_16_5_37_selectorfocus.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_default_mtrl_shape.xml.flat",
@@ -76,20 +72,20 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable\\wm_pulltorefresh_anim_1.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\anim_btn_checkbox_to_unchecked_check_path_merged_animation.xml.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\anim\\btn_checkbox_to_unchecked_check_path_merged_animation.xml"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_action_send_now.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-mdpi-v4\\ic_action_send_now.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\anim_btn_checkbox_to_unchecked_check_path_merged_animation.xml.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\anim\\btn_checkbox_to_unchecked_check_path_merged_animation.xml"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_action_send_now.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-mdpi-v4\\ic_action_send_now.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_days_of_week.xml.flat",
@@ -108,10 +104,6 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_pressed.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_pressed.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\anim-v21_mtrl_bottom_sheet_slide_out.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\anim-v21\\mtrl_bottom_sheet_slide_out.xml"
     },
@@ -126,6 +118,10 @@
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_normal.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_normal.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_action_copy.png.flat",
@@ -152,10 +148,6 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_normal.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_normal.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\c527b78844be871c44103f6f45a963fb\\core-1.1.0\\res\\layout-v21\\notification_template_custom_big.xml"
     },
@@ -176,12 +168,12 @@
         "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_btn_std_3_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0pressed.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_corbeille_13.png.flat",
@@ -192,28 +184,32 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\raw_wdmsg_variable_es.properties.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\raw\\wdmsg_variable_es.properties"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_wm_table_planche_picto_tri.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xxhdpi-v4\\wm_table_planche_picto_tri.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_wm_rupture_off.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xxxhdpi-v4\\wm_rupture_off.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\raw_wdmsg_variable_es.properties.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\raw\\wdmsg_variable_es.properties"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_wm_rupture_on.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xxxhdpi-v4\\wm_rupture_on.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_wm_rupture_on.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xxxhdpi-v4\\wm_rupture_on.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_wm_rupture_off.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xxxhdpi-v4\\wm_rupture_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_power_on_32.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\power_on_32.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\raw_mark_3_en.dat.flat",
@@ -268,10 +264,6 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-hdpi-v4\\wm_galerie_suivant.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_capture_d_ecran_2026_01_04_195615_36.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\capture_d_ecran_2026_01_04_195615_36.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_start_icon.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\layout\\design_text_input_start_icon.xml"
     },
@@ -280,16 +272,20 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-mdpi-v4\\ic_action_search.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150.xml.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_wm_table_recherche.png.flat",
@@ -300,32 +296,28 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable\\abc_btn_check_material_anim.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_action_next.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xhdpi-v4\\ic_action_next.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_list_divider_material.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-v21\\abc_list_divider_material.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_action_next.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xhdpi-v4\\ic_action_next.png"
-    },
-    {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_wm_rupture_on.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xhdpi-v4\\wm_rupture_on.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_wm_table_edit.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xhdpi-v4\\wm_table_edit.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_action_pause.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-mdpi-v4\\ic_action_pause.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_wm_rupture_on.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xhdpi-v4\\wm_rupture_on.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_normal.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_normal.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_action_pause.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-mdpi-v4\\ic_action_pause.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\raw_wdmsg_type_fr.properties.flat",
@@ -344,20 +336,16 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\layout\\mtrl_alert_dialog_actions.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_text_color_selector.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\color\\mtrl_btn_text_color_selector.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_action_camera.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-hdpi-v4\\ic_action_camera.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_pict_ok_16_5_37_selectorhovered.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_pict_ok_16_5_37_selectorhovered.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_action_camera.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-hdpi-v4\\ic_action_camera.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
@@ -392,10 +380,6 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\c527b78844be871c44103f6f45a963fb\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_list_34.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\list_34.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_dark.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\color\\abc_secondary_text_material_dark.xml"
     },
@@ -416,12 +400,12 @@
         "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable-xhdpi\\i_c_o_n_e________2.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_wm_table_tri_asc.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-hdpi-v4\\wm_table_tri_asc.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
@@ -488,6 +472,10 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\layout\\text_view_without_line_height.xml"
     },
     {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_disabled.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_disabled.png"
+    },
+    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_go_search_api_material.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
@@ -496,12 +484,16 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_btn_checkbox_checked_to_unchecked_mtrl_animation.xml.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable\\btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_btn_checkbox_checked_to_unchecked_mtrl_animation.xml.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable\\btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_pict_ok_16_5_38_selectorfocus.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_pict_ok_16_5_38_selectorfocus.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\raw_wm_fingerprint_white.svg.flat",
@@ -616,6 +608,10 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xhdpi-v4\\wm_hide_password.png"
     },
     {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_pict_ok_16_5_38_selectorhovered.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_pict_ok_16_5_38_selectorhovered.png"
+    },
+    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\color_material_on_background_disabled.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\color\\material_on_background_disabled.xml"
     },
@@ -644,16 +640,12 @@
         "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_btn_std_19_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0focus_1.9.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_pressed.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_pressed.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\c527b78844be871c44103f6f45a963fb\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\layout\\abc_tooltip.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\c527b78844be871c44103f6f45a963fb\\core-1.1.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_wm_text_select_handle_right.png.flat",
@@ -672,10 +664,6 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-hdpi-v4\\ic_action_pause.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_pict_ok_16_5_37_selectordisabled.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_pict_ok_16_5_37_selectordisabled.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_ripple_color.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\color\\mtrl_chip_ripple_color.xml"
     },
@@ -688,12 +676,12 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\c527b78844be871c44103f6f45a963fb\\core-1.1.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_fullscreen.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\layout\\mtrl_picker_header_fullscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_abc_cascading_menu_item_layout.xml.flat",
@@ -720,12 +708,12 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_dialog_background.xml.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\drawable\\mtrl_dialog_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialog.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\c527b78844be871c44103f6f45a963fb\\core-1.1.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_dialog_background.xml.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\drawable\\mtrl_dialog_background.xml"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_btn_std_19_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0focus.xml.flat",
@@ -844,12 +832,12 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_day.xml.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\layout\\mtrl_calendar_day.xml"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\raw_wdmsg_property_es.properties.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\raw\\wdmsg_property_es.properties"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_day.xml.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\layout\\mtrl_calendar_day.xml"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_singlechoice_material.xml.flat",
@@ -858,6 +846,10 @@
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\c527b78844be871c44103f6f45a963fb\\core-1.1.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_settings_33.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\settings_33.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\raw_wdmsg_ui_en.properties.flat",
@@ -912,24 +904,24 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_anim_scan_onde_7.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable\\anim_scan_onde_7.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar_include.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_anim_scan_onde_7.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable\\anim_scan_onde_7.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_wm_table_filtre_different.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xxhdpi-v4\\wm_table_filtre_different.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_alert_select_dialog_item.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\layout\\mtrl_alert_select_dialog_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_wm_table_filtre_different.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xxhdpi-v4\\wm_table_filtre_different.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4_wm_default_map_marker.png.flat",
@@ -980,16 +972,16 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\color\\mtrl_chip_text_color.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_wm_table_filtre_different.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-mdpi-v4\\wm_table_filtre_different.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_wm_table_filtre_different.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-hdpi-v4\\wm_table_filtre_different.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_wm_table_filtre_different.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-hdpi-v4\\wm_table_filtre_different.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_wm_table_filtre_different.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-mdpi-v4\\wm_table_filtre_different.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -1008,12 +1000,12 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-mdpi-v4\\ic_action_email.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\raw_mark_4_en.dat.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\raw\\mark_4_en.dat"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\raw_mark_4_en.dat.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\raw\\mark_4_en.dat"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1044,16 +1036,16 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\anim\\flip_horizontal_in.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_action_edit.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-hdpi-v4\\ic_action_edit.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\anim_slide_down_in.xml.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\anim\\slide_down_in.xml"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\anim_slide_down_in.xml.flat",
-        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\anim\\slide_down_in.xml"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_action_edit.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-hdpi-v4\\ic_action_edit.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_radio_to_off_mtrl_animation_interpolator_0.xml.flat",
@@ -1268,6 +1260,10 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-hdpi-v4\\wm_show_password.png"
     },
     {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_capture_d_ecran_2026_01_04_195615_37.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\capture_d_ecran_2026_01_04_195615_37.png"
+    },
+    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_action_edit.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xxhdpi-v4\\ic_action_edit.png"
     },
@@ -1472,6 +1468,10 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\color\\mtrl_filled_icon_tint.xml"
     },
     {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_diskette_34.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\diskette_34.png"
+    },
+    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_wm_pulltorefresh_anim.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable\\wm_pulltorefresh_anim.xml"
     },
@@ -1608,6 +1608,10 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_add_group_36.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\add_group_36.png"
+    },
+    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
@@ -1644,20 +1648,12 @@
         "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\chatgpt_image_28_dec__2025__11_44_06_8.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_disabled.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_disabled.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_wm_tdb_remove_selectorpressed.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xxxhdpi-v4\\wm_tdb_remove_selectorpressed.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_pict_ok_16_5_37_selectorpressed.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_pict_ok_16_5_37_selectorpressed.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\color_mtrl_filled_stroke_color.xml.flat",
@@ -1682,10 +1678,6 @@
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\color_mtrl_choice_chip_background_color.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\color\\mtrl_choice_chip_background_color.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_disabled.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_disabled.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_edt_22_np3_8_8_8_8_selectorpressed.9.png.flat",
@@ -1912,10 +1904,6 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xxhdpi-v4\\wm_table_filtre_inf.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_focus.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_focus.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_edt_7_np3_8_8_8_8_selectorhovered.9.png.flat",
         "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_edt_7_np3_8_8_8_8_selectorhovered.9.png"
     },
@@ -1954,6 +1942,10 @@
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_btn_std_3_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0pressed_1.9.png.flat",
         "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_btn_std_3_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0pressed_1.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_pressed.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_pressed.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -2120,8 +2112,8 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\drawable\\mtrl_popupmenu_background_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_pict_ok_16_5_37_selector.xml.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_pict_ok_16_5_37_selector.xml"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_pict_ok_16_5_38_selectornormal.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_pict_ok_16_5_38_selectornormal.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -2326,6 +2318,10 @@
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_wm_table_filtre_inf.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xxxhdpi-v4\\wm_table_filtre_inf.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_focus.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_focus.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_wm_tdb_remove_selectorfocus.png.flat",
@@ -2536,10 +2532,6 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_diskette_33.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\diskette_33.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
@@ -2548,8 +2540,8 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_add_group_35.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\add_group_35.png"
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_pict_ok_16_5_38_selector.xml.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_pict_ok_16_5_38_selector.xml"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\color_material_on_background_emphasis_medium.xml.flat",
@@ -2808,6 +2800,10 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_pict_ok_16_5_38_selectorpressed.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_pict_ok_16_5_38_selectorpressed.png"
+    },
+    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_i_c_o_n_e________2.png.flat",
         "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable-hdpi\\i_c_o_n_e________2.png"
     },
@@ -2912,6 +2908,10 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_pressed.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_pressed.png"
+    },
+    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_extended_fab_show_motion_spec.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\animator\\mtrl_extended_fab_show_motion_spec.xml"
     },
@@ -2974,10 +2974,6 @@
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\raw_mark_3_fr.dat.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\raw\\mark_3_fr.dat"
-    },
-    {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_settings_32.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\settings_32.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_btn_std_19_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0disabled.9.png.flat",
@@ -3138,6 +3134,10 @@
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_action_important.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xhdpi-v4\\ic_action_important.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_pict_ok_16_5_38_selectordisabled.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_pict_ok_16_5_38_selectordisabled.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -3372,6 +3372,10 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_disabled.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_disabled.png"
+    },
+    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\layout\\design_layout_snackbar.xml"
     },
@@ -3430,6 +3434,10 @@
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_list_35.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\list_35.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_break_pict_15_selectorenroule.png.flat",
@@ -3684,6 +3692,10 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-mdpi-v4\\wm_galerie_fermer.png"
     },
     {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_normal.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_normal.png"
+    },
+    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -3718,6 +3730,10 @@
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_focus.png.flat",
+        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_39_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150unselected_focus.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -3758,10 +3774,6 @@
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_action_share.png.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\bec4e06b3fbe9e096eb05f2056069fb3\\WD250Android\\res\\drawable-xxhdpi-v4\\ic_action_share.png"
-    },
-    {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_aquablue_pict_ok_16_5_37_selectornormal.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\aquablue_pict_ok_16_5_37_selectornormal.png"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_action_remove.png.flat",
@@ -3920,10 +3932,6 @@
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_focus.png.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150selected_focus.png"
-    },
-    {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_btn_std_3_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0disabled.9.png.flat",
         "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_btn_std_3_np3_8_8_10_10_selector_animh1t0h6t150h1t0h6t150h1t0disabled.9.png"
     },
@@ -4058,10 +4066,6 @@
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\color_material_on_primary_emphasis_high_type.xml.flat",
         "source": "C:\\Users\\Wala Bhy\\.gradle\\caches\\transforms-2\\files-2.1\\e515d40e627c4e0412a7c5fa3f288da9\\material-1.1.0\\res\\color\\material_on_primary_emphasis_high_type.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\drawable_fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150.xml.flat",
-        "source": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\res\\drawable\\fbooking2_cbox_38_selector_animh1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150h1t0h6t150.xml"
     },
     {
         "merged": "C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\Android\\dbg\\build\\intermediates\\res\\merged\\debug\\anim_overlap_up_out.xml.flat",

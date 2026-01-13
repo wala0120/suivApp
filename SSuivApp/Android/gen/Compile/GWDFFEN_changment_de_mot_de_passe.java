@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_changment_de_mot_de_passe
- * Date : 04/01/2026 21:15:57
+ * Date : 13/01/2026 20:07:55
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -331,7 +331,7 @@ mWD_SAI_ConfirmerMDP.setValeur("");
 // 	Si Utilisateur.Role = 1 ALORS
 if(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role").opEgal(1))
 {
-// 		OuvreFenêtreMobile('FEN_ Menu_Commercial')	
+// 		OuvreFenêtreMobile('FEN_Menu_Commercial')	
 WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Commercial);
 
 }
@@ -341,6 +341,14 @@ if(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAcce
 {
 // 		OuvreFenêtreMobile(FEN_Menu_Chauffeur)	
 WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Chauffeur);
+
+}
+
+// 	SI Utilisateur.Role = 3 ALORS
+if(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role").opEgal(3))
+{
+// 		OuvreFenêtreMobile(FEN_Menu_Administrateur)	
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Administrateur);
 
 }
 
@@ -1076,7 +1084,7 @@ return;
 // SI Utilisateur.Role  = 1 ALORS
 if(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role").opEgal(1))
 {
-// 	OuvreFenêtreMobile('FEN_ Menu_Commercial')
+// 	OuvreFenêtreMobile('FEN_Menu_Commercial')
 WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Commercial);
 
 }
@@ -1084,8 +1092,16 @@ WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Commercial);
 // SI Utilisateur.Role  = 2 ALORS
 if(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role").opEgal(2))
 {
-// 	OuvreFenêtreMobile(FEN_Menu_Chauffeur)
+// 	OuvreFenêtreMobile(FEN_Menu_Chauffeur)	
 WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Chauffeur);
+
+}
+
+// SI Utilisateur.Role  = 3 ALORS
+if(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role").opEgal(3))
+{
+// 	OuvreFenêtreMobile(FEN_Menu_Administrateur)	
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_Menu_Administrateur);
 
 }
 

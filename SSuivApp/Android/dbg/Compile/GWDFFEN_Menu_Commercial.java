@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Menu_Commercial
- * Date : 06/01/2026 19:59:02
+ * Date : 13/01/2026 20:13:36
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -861,6 +861,128 @@ public void activerEcoute()
 }
 public GWDIMG_Visuel mWD_IMG_Visuel;
 
+/**
+ * IMG_SansNom3
+ */
+class GWDIMG_SansNom3 extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°4 de FEN_Menu_Commercial.IMG_SansNom3
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2982826977251429510l);
+
+super.setChecksum("787168283");
+
+super.setNom("IMG_SansNom3");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(264, 14);
+
+super.setTailleInitiale(34, 44);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\power-on.png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(4);
+
+super.setAncrageInitial(8, 1000, 1000, 1000, 500, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+/**
+ * Traitement: Clic sur IMG_SansNom3
+ */
+public void clicSurBoutonGauche()
+{
+super.clicSurBoutonGauche();
+
+// OuvreFenêtreMobile(FEN_login)
+//MAP:2965215505860c86:00000012:1:FEN_Menu_Commercial.IMG_SansNom3:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDIMG_SansNom3:Clic sur IMG_SansNom3
+// OuvreFenêtreMobile(FEN_login)
+//MAP:2965215505860c86:00000012:1:FEN_Menu_Commercial.IMG_SansNom3:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDIMG_SansNom3:Clic sur IMG_SansNom3
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_login);
+
+// gnIDUtilisateur = Null
+//MAP:2965215505860c86:00000012:2:FEN_Menu_Commercial.IMG_SansNom3:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDIMG_SansNom3:Clic sur IMG_SansNom3
+GWDPSSuivApp.getInstance().vWD_gnIDUtilisateur.setValeur(WDObjet.NULL);
+
+// CurrentUserID = Null
+//MAP:2965215505860c86:00000012:3:FEN_Menu_Commercial.IMG_SansNom3:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial$GWDIMG_SansNom3:Clic sur IMG_SansNom3
+GWDPSSuivApp.getInstance().vWD_CurrentUserID.setValeur(WDObjet.NULL);
+
+}
+
+
+
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+super.activerEcouteurClic();
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_SansNom3 mWD_IMG_SansNom3;
+
 
 ////////////////////////////////////////////////////////////////////////////
 // Procédures utilisateur de FEN_Menu_Commercial
@@ -946,7 +1068,7 @@ finExecProcLocale();
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// PROCÉDURE MaFenêtre()
+// PROCEDURE MaFenêtre()
 //MAP:295d5b4f04dd6b25:00000000:1:FEN_Menu_Commercial:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Commercial:Déclarations globales de FEN_Menu_Commercial
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;
@@ -974,6 +1096,7 @@ protected void creerChamps()
 mWD_ZM_ACTION1 = new GWDZM_ACTION1();
 mWD_ZM_ACTION5 = new GWDZM_ACTION5();
 mWD_IMG_Visuel = new GWDIMG_Visuel();
+mWD_IMG_SansNom3 = new GWDIMG_SansNom3();
 
 }
 ////////////////////////////////////////////////////////////////////////////
@@ -1039,6 +1162,8 @@ mWD_ZM_ACTION5.initialiserObjet();
 super.ajouter("ZM_ACTION5", mWD_ZM_ACTION5);
 mWD_IMG_Visuel.initialiserObjet();
 super.ajouter("IMG_Visuel", mWD_IMG_Visuel);
+mWD_IMG_SansNom3.initialiserObjet();
+super.ajouter("IMG_SansNom3", mWD_IMG_SansNom3);
 
 super.terminerInitialisation();
 }

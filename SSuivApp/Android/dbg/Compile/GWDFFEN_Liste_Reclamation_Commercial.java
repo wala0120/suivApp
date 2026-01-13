@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Liste_Reclamation_Commercial
- * Date : 06/01/2026 20:00:21
+ * Date : 13/01/2026 19:30:23
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -1387,9 +1387,28 @@ this.setProp(EWDPropriete.PROP_INDICATION,"Rechercher");
 
 
 
+/**
+ * Traitement: A chaque modification de SAI_Recherche
+ */
+public void modification()
+{
+super.modification();
+
+// FillLooperRecuperation()
+//MAP:2938848a03ccbe8c:00000011:1:FEN_Liste_Reclamation_Commercial.SAI_Recherche:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDSAI_Recherche:A chaque modification de SAI_Recherche
+// FillLooperRecuperation()
+//MAP:2938848a03ccbe8c:00000011:1:FEN_Liste_Reclamation_Commercial.SAI_Recherche:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial$GWDSAI_Recherche:A chaque modification de SAI_Recherche
+fWD_fillLooperRecuperation();
+
+}
+
+
+
+
 // Activation des écouteurs: 
 public void activerEcoute()
 {
+super.activerEcouteurModification();
 }
 
 ////////////////////////////////////////////////////////////////////////////
@@ -2050,13 +2069,252 @@ finExecProcLocale();
 
 
 
+//  Résumé : <indiquez ici ce que fait la procédure>
+//  Syntaxe :
+//  FillLooperRecuperation ()
+// 
+//  Paramètres :
+// 	Aucun
+//  Valeur de retour :
+//  	Aucune
+// 
+//  Exemple :
+//  Indiquez ici un exemple d'utilisation.
+// 
+public void fWD_fillLooperRecuperation()
+{
+// PROCÉDURE FillLooperRecuperation()
+//MAP:196543bc0045a5cc:00070000:d:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+initExecProcLocale("FillLooperRecuperation");
+
+try
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables locales au traitement
+// (En WLangage les variables sont encore visibles après la fin du bloc dans lequel elles sont déclarées)
+////////////////////////////////////////////////////////////////////////////
+WDObjet vWD_sSearchString = new WDChaineU();
+
+WDObjet vWD_bBTN_Recupere = new WDBooleen();
+
+
+
+// ZR_Reclamation.SupprimeTout()
+//MAP:196543bc0045a5cc:00070000:10:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+WDAPIZoneRepetee.zoneRepeteeSupprimeTout(mWD_ZR_Reclamation);
+
+// ONG_Recuperation		= gnCurrentRecuperationTab
+//MAP:196543bc0045a5cc:00070000:11:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+mWD_ONG_Recuperation.setValeur(GWDPSSuivApp.getInstance().vWD_gnCurrentRecuperationTab);
+
+// BTN_Recuperer..Visible	= (ONG_Recuperation = 2)
+//MAP:196543bc0045a5cc:00070000:12:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+mWD_ZR_Reclamation.mWD_BTN_Recuperer.setProp(EWDPropriete.PROP_VISIBLE,mWD_ONG_Recuperation.opEgal(2));
+
+// sSearchString is string = Upper(SAI_Recherche)
+//MAP:196543bc0045a5cc:00070000:15:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+
+vWD_sSearchString.setValeur(WDAPIChaine.majuscule(mWD_SAI_Recherche));
+
+
+// FOR EACH Reclamation 
+//MAP:196543bc0045a5cc:00070000:18:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+IWDParcours parcours1 = null;
+try
+{
+parcours1 = WDParcoursFichier.pourTout(WDAPIHF.getFichierSansCasseNiAccent("reclamation"), null, true);
+while(parcours1.testParcours())
+{
+// 	nEtat			est un entier	= Reclamation.Etat
+//MAP:196543bc0045a5cc:00070000:1a:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+WDObjet vWD_nEtat = new WDEntier4();
+
+
+vWD_nEtat.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("etat"));
+
+
+// 	nProbleme		est un entier	= Reclamation.Probleme
+//MAP:196543bc0045a5cc:00070000:1b:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+WDObjet vWD_nProbleme = new WDEntier4();
+
+
+vWD_nProbleme.setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("probleme"));
+
+
+// 	nomComercial	est une chaîne	= ""
+//MAP:196543bc0045a5cc:00070000:1c:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+WDObjet vWD_nomComercial = new WDChaineU();
+
+
+vWD_nomComercial.setValeur("");
+
+
+// 	nomChauffeur	est une chaîne	= ""
+//MAP:196543bc0045a5cc:00070000:1d:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+WDObjet vWD_nomChauffeur = new WDChaineU();
+
+
+vWD_nomChauffeur.setValeur("");
+
+
+// 	sNomMagasin		est une chaîne	= ""
+//MAP:196543bc0045a5cc:00070000:1e:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+WDObjet vWD_sNomMagasin = new WDChaineU();
+
+
+vWD_sNomMagasin.setValeur("");
+
+
+// 	bUserIsAssigned	est un booléen	= Faux
+//MAP:196543bc0045a5cc:00070000:1f:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+WDObjet vWD_bUserIsAssigned = new WDBooleen();
+
+
+vWD_bUserIsAssigned.setValeur(false);
+
+
+// 	IF HLitRecherchePremier(Magasin, IDmagasin, Reclamation.IDmagasin) THEN
+//MAP:196543bc0045a5cc:00070000:22:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("magasin"),WDAPIHF.getRubriqueSansCasseNiAccent("idmagasin"),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idmagasin")).getBoolean())
+{
+// 		sNomMagasin = Magasin.NomMagasin + " " + Magasin.Adresse
+//MAP:196543bc0045a5cc:00070000:23:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+vWD_sNomMagasin.setValeur(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("nommagasin").opPlus(" ").opPlus(WDAPIHF.getFichierSansCasseNiAccent("magasin").getRubriqueSansCasseNiAccent("adresse")));
+
+// 		IF sSearchString <> "" THEN
+//MAP:196543bc0045a5cc:00070000:26:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+if(vWD_sSearchString.opDiff(""))
+{
+// 			IF Position(Upper(Reclamation.Num_facture), sSearchString) = 0 AND ...
+//MAP:196543bc0045a5cc:00070000:27:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+if((WDAPIChaine.position(WDAPIChaine.majuscule(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture")),vWD_sSearchString).opEgal(0) & WDAPIChaine.position(WDAPIChaine.majuscule(vWD_sNomMagasin),vWD_sSearchString).opEgal(0)))
+{
+// 				CONTINUE // Skip if no match
+//MAP:196543bc0045a5cc:00070000:29:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+continue;
+
+}
+
+}
+
+// 		FOR EACH Affectation where IDRéclamation = Reclamation.IDRéclamation
+//MAP:196543bc0045a5cc:00070000:2f:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+IWDParcours parcours2 = null;
+try
+{
+parcours2 = WDParcoursFichier.pourTout(WDAPIHF.getFichierSansCasseNiAccent("affectation"), WDAPIHF.getRubriqueSansCasseNiAccent("idreclamation"), WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"), 1, true);
+while(parcours2.testParcours())
+{
+// 			IF Affectation.IDutilisateur = CurrentUserID THEN
+//MAP:196543bc0045a5cc:00070000:32:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+if(WDAPIHF.getFichierSansCasseNiAccent("affectation").getRubriqueSansCasseNiAccent("idutilisateur").opEgal(GWDPSSuivApp.getInstance().vWD_CurrentUserID))
+{
+// 				bUserIsAssigned = Vrai
+//MAP:196543bc0045a5cc:00070000:33:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+vWD_bUserIsAssigned.setValeur(true);
+
+}
+
+// 			IF HLitRecherchePremier(Utilisateur, IDutilisateur, Affectation.IDutilisateur) THEN
+//MAP:196543bc0045a5cc:00070000:37:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+if(WDAPIHF.hLitRecherchePremier(WDAPIHF.getFichierSansCasseNiAccent("utilisateur"),WDAPIHF.getRubriqueSansCasseNiAccent("idutilisateur"),WDAPIHF.getFichierSansCasseNiAccent("affectation").getRubriqueSansCasseNiAccent("idutilisateur")).getBoolean())
+{
+// 				SWITCH Utilisateur.Role
+//MAP:196543bc0045a5cc:00070000:38:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+// Délimiteur de visibilité pour ne pas étendre la visibilité de la variable temporaire _WDExpSelon
+{
+// 				SWITCH Utilisateur.Role
+//MAP:196543bc0045a5cc:00070000:38:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+WDObjet _WDExpSelon0 = WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role");
+if(_WDExpSelon0.opEgal(1))
+{
+// 					CASE 1: nomComercial += (nomComercial = "" ? "" ELSE ", ") + Utilisateur.Nom_Prenom
+//MAP:196543bc0045a5cc:00070000:39:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+vWD_nomComercial.setValeur(vWD_nomComercial.opPlus((vWD_nomComercial.opEgal("") ? (WDObjet)new WDChaineU("") : (WDObjet)new WDChaineU(", ")).opPlus(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("nom_prenom"))));
+
+}
+else if(_WDExpSelon0.opEgal(2))
+{
+// 					CASE 2: nomChauffeur += (nomChauffeur = "" ? "" ELSE ", ") + Utilisateur.Nom_Prenom
+//MAP:196543bc0045a5cc:00070000:3a:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+vWD_nomChauffeur.setValeur(vWD_nomChauffeur.opPlus((vWD_nomChauffeur.opEgal("") ? (WDObjet)new WDChaineU("") : (WDObjet)new WDChaineU(", ")).opPlus(WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("nom_prenom"))));
+
+}
+
+}
+
+}
+
+}
+}
+finally
+{
+if(parcours2 != null)
+{
+parcours2.finParcours();
+}
+}
+
+
+// 		IF bUserIsAssigned = Vrai AND nEtat = ONG_Recuperation THEN
+//MAP:196543bc0045a5cc:00070000:43:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+if((vWD_bUserIsAssigned.opEgal(true) & vWD_nEtat.opEgal(mWD_ONG_Recuperation)))
+{
+// 			nLine is int = ZR_Reclamation.AjouteLigne( ...
+//MAP:196543bc0045a5cc:00070000:45:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+WDObjet vWD_nLine = new WDEntier4();
+
+
+vWD_nLine.setValeur(WDAPIZoneRepetee.zoneRepeteeAjouteLigne(mWD_ZR_Reclamation,new WDObjet[] {WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("num_facture"),vWD_sNomMagasin,fWD_libelleProbleme(vWD_nProbleme),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("date"),vWD_nomComercial,vWD_nomChauffeur,fWD_libelleEtatFacture(vWD_nEtat),WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation")} ));
+
+
+// 			ZR_Reclamation[nLine].ATT_IdReclamation = Reclamation.IDRéclamation
+//MAP:196543bc0045a5cc:00070000:50:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+mWD_ZR_Reclamation.get(vWD_nLine).get("ATT_IdReclamation").setValeur(WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"));
+
+}
+
+}
+
+}
+}
+finally
+{
+if(parcours1 != null)
+{
+parcours1.finParcours();
+}
+}
+
+
+// bBTN_Recupere is boolean = False
+//MAP:196543bc0045a5cc:00070000:54:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+
+vWD_bBTN_Recupere.setValeur(false);
+
+
+// ZR_Reclamation.Affiche()
+//MAP:196543bc0045a5cc:00070000:57:FEN_Liste_Reclamation_Commercial.PROCEDURE.FillLooperRecuperation:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:FillLooperRecuperation
+WDAPIZoneRepetee.zoneRepeteeAffiche(mWD_ZR_Reclamation);
+
+}
+finally
+{
+finExecProcLocale();
+}
+
+}
+
+
+
 
 /**
  * Traitement: Déclarations globales de FEN_Liste_Reclamation_Commercial
  */
 public void declarerGlobale(WDObjet[] WD_tabParam)
 {
-// 	PROCEDURE MaFenêtre()
+// 	PROCÉDURE MaFenêtre()
 //MAP:29372b8c02891a55:00000000:1:FEN_Liste_Reclamation_Commercial:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:Déclarations globales de FEN_Liste_Reclamation_Commercial
 super.declarerGlobale(WD_tabParam, 0, 0);
 int WD_ntabParamLen = 0;
@@ -2108,11 +2366,11 @@ vWD_sSearchString.setValeur(WDAPIChaine.majuscule(mWD_SAI_Recherche));
 
 // FOR EACH Reclamation 
 //MAP:29372b8c02891a55:000000ea:c:FEN_Liste_Reclamation_Commercial:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Commercial
-IWDParcours parcours1 = null;
+IWDParcours parcours3 = null;
 try
 {
-parcours1 = WDParcoursFichier.pourTout(WDAPIHF.getFichierSansCasseNiAccent("reclamation"), null, true);
-while(parcours1.testParcours())
+parcours3 = WDParcoursFichier.pourTout(WDAPIHF.getFichierSansCasseNiAccent("reclamation"), null, true);
+while(parcours3.testParcours())
 {
 // 	nEtat			est un entier	= Reclamation.Etat
 //MAP:29372b8c02891a55:000000ea:e:FEN_Liste_Reclamation_Commercial:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Commercial
@@ -2188,11 +2446,11 @@ continue;
 
 // 		FOR EACH Affectation WHERE IDRéclamation = Reclamation.IDRéclamation
 //MAP:29372b8c02891a55:000000ea:23:FEN_Liste_Reclamation_Commercial:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Commercial
-IWDParcours parcours2 = null;
+IWDParcours parcours4 = null;
 try
 {
-parcours2 = WDParcoursFichier.pourTout(WDAPIHF.getFichierSansCasseNiAccent("affectation"), WDAPIHF.getRubriqueSansCasseNiAccent("idreclamation"), WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"), 1, true);
-while(parcours2.testParcours())
+parcours4 = WDParcoursFichier.pourTout(WDAPIHF.getFichierSansCasseNiAccent("affectation"), WDAPIHF.getRubriqueSansCasseNiAccent("idreclamation"), WDAPIHF.getFichierSansCasseNiAccent("reclamation").getRubriqueSansCasseNiAccent("idreclamation"), 1, true);
+while(parcours4.testParcours())
 {
 // 			IF Affectation.IDutilisateur = CurrentUserID THEN
 //MAP:29372b8c02891a55:000000ea:26:FEN_Liste_Reclamation_Commercial:com.masociete.tracklet.wdgen.GWDFFEN_Liste_Reclamation_Commercial:Demande de mise à jour de l'affichage de FEN_Liste_Reclamation_Commercial
@@ -2238,9 +2496,9 @@ vWD_nomChauffeur.setValeur(vWD_nomChauffeur.opPlus((vWD_nomChauffeur.opEgal("") 
 }
 finally
 {
-if(parcours2 != null)
+if(parcours4 != null)
 {
-parcours2.finParcours();
+parcours4.finParcours();
 }
 }
 
@@ -2269,9 +2527,9 @@ mWD_ZR_Reclamation.get(vWD_nLine).get("ATT_IdReclamation").setValeur(WDAPIHF.get
 }
 finally
 {
-if(parcours1 != null)
+if(parcours3 != null)
 {
-parcours1.finParcours();
+parcours3.finParcours();
 }
 }
 

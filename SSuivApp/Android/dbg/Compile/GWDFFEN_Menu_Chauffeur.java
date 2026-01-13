@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Menu_Chauffeur
- * Date : 04/01/2026 21:24:31
+ * Date : 13/01/2026 20:13:36
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -843,6 +843,128 @@ public void activerEcoute()
 }
 public GWDIMG_Visuel mWD_IMG_Visuel;
 
+/**
+ * IMG_SansNom2
+ */
+class GWDIMG_SansNom2 extends WDChampImage
+{
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des champs du fils n°4 de FEN_Menu_Chauffeur.IMG_SansNom2
+////////////////////////////////////////////////////////////////////////////
+public  void initialiserObjet()
+{
+super.initialiserObjet();
+super.setFenetre( getWDFenetreThis() );
+super.setQuid(2982822652203806477l);
+
+super.setChecksum("771611315");
+
+super.setNom("IMG_SansNom2");
+
+super.setType(30001);
+
+super.setBulle("");
+
+super.setLibelle("");
+
+super.setMenuContextuelSysteme();
+
+super.setNote("", "");
+
+super.setCurseurSouris(0);
+
+super.setNavigable(false);
+
+super.setEtatInitial(0);
+
+super.setPositionInitiale(272, 15);
+
+super.setTailleInitiale(34, 44);
+
+super.setValeurInitiale("C:\\Users\\Wala Bhy\\OneDrive\\Bureau\\Stage PFE\\suivApp\\SSuivApp\\power-on.png");
+
+super.setPlan(0);
+
+super.setTailleMin(0, 0);
+
+super.setTailleMax(2147483647, 2147483647);
+
+super.setVisibleInitial(true);
+
+super.setAltitude(4);
+
+super.setAncrageInitial(8, 1000, 1000, 1000, 500, 0);
+
+super.setTransparence(1);
+
+super.setParamImage(2097158, 0, true, 100);
+
+super.setSymetrie(0);
+
+super.setZoneClicage(true);
+
+super.setPCodeMultitouch(false);
+
+super.setChargementEnTacheDeFond(false);
+
+super.setOrientationExif(false);
+
+super.setParamAnimation(1, 1, false, 300, true, false);
+
+super.setAnimationInitiale(false);
+
+super.setTauxParallaxe(0, 0);
+
+super.setPresenceLibelle(false);
+
+super.setStyleLibelle(0x2D2D2D, creerPolice_GEN("Trebuchet MS", -8.000000, 0), -1, 0, 0x2D2D2D);
+
+super.setCadreExterieur(WDCadreFactory.creerCadre_GEN(1, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 2.000000, 2.000000, 0, 1), 0, 0, 0, 0);
+
+
+activerEcoute();
+super.terminerInitialisation();
+}
+
+/**
+ * Traitement: Clic sur IMG_SansNom2
+ */
+public void clicSurBoutonGauche()
+{
+super.clicSurBoutonGauche();
+
+// OuvreFenêtreMobile(FEN_login)
+//MAP:29651d660498af0d:00000012:1:FEN_Menu_Chauffeur.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Chauffeur$GWDIMG_SansNom2:Clic sur IMG_SansNom2
+// OuvreFenêtreMobile(FEN_login)
+//MAP:29651d660498af0d:00000012:1:FEN_Menu_Chauffeur.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Chauffeur$GWDIMG_SansNom2:Clic sur IMG_SansNom2
+WDAPIFenetre.ouvreFille(GWDPSSuivApp.getInstance().mWD_FEN_login);
+
+// gnIDUtilisateur = Null
+//MAP:29651d660498af0d:00000012:2:FEN_Menu_Chauffeur.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Chauffeur$GWDIMG_SansNom2:Clic sur IMG_SansNom2
+GWDPSSuivApp.getInstance().vWD_gnIDUtilisateur.setValeur(WDObjet.NULL);
+
+// CurrentUserID = Null
+//MAP:29651d660498af0d:00000012:3:FEN_Menu_Chauffeur.IMG_SansNom2:com.masociete.tracklet.wdgen.GWDFFEN_Menu_Chauffeur$GWDIMG_SansNom2:Clic sur IMG_SansNom2
+GWDPSSuivApp.getInstance().vWD_CurrentUserID.setValeur(WDObjet.NULL);
+
+}
+
+
+
+
+// Activation des écouteurs: 
+public void activerEcoute()
+{
+super.activerEcouteurClic();
+}
+
+////////////////////////////////////////////////////////////////////////////
+// Déclaration des variables globales
+////////////////////////////////////////////////////////////////////////////
+}
+public GWDIMG_SansNom2 mWD_IMG_SansNom2;
+
 
 ////////////////////////////////////////////////////////////////////////////
 // Procédures utilisateur de FEN_Menu_Chauffeur
@@ -939,6 +1061,7 @@ protected void creerChamps()
 mWD_ZM_ACTION1 = new GWDZM_ACTION1();
 mWD_ZM_ACTION5 = new GWDZM_ACTION5();
 mWD_IMG_Visuel = new GWDIMG_Visuel();
+mWD_IMG_SansNom2 = new GWDIMG_SansNom2();
 
 }
 ////////////////////////////////////////////////////////////////////////////
@@ -1004,6 +1127,8 @@ mWD_ZM_ACTION5.initialiserObjet();
 super.ajouter("ZM_ACTION5", mWD_ZM_ACTION5);
 mWD_IMG_Visuel.initialiserObjet();
 super.ajouter("IMG_Visuel", mWD_IMG_Visuel);
+mWD_IMG_SansNom2.initialiserObjet();
+super.ajouter("IMG_SansNom2", mWD_IMG_SansNom2);
 
 super.terminerInitialisation();
 }

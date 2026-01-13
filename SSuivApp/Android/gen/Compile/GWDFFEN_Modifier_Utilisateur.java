@@ -2,7 +2,7 @@
  * Code généré par WINDEV Mobile - NE PAS MODIFIER !
  * Objet WINDEV Mobile : Fenêtre
  * Classe Android : FEN_Modifier_Utilisateur
- * Date : 04/01/2026 21:15:57
+ * Date : 13/01/2026 20:07:55
  * Version de wdjava.dll  : 25.0.315.2
  */
 
@@ -676,6 +676,9 @@ WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent(
 // Utilisateur.Role = COMBO_Role
 WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("role").setValeur(mWD_COMBO_Role);
 
+// Utilisateur.mot_De_passe = SAI_MotDePasse..Valeur
+WDAPIHF.getFichierSansCasseNiAccent("utilisateur").getRubriqueSansCasseNiAccent("mot_de_passe").setValeur(mWD_SAI_MotDePasse.getProp(EWDPropriete.PROP_VALEUR));
+
 // SI HModifie(Utilisateur) ALORS
 if(WDAPIHF.hModifie(WDAPIHF.getFichierSansCasseNiAccent("utilisateur")).getBoolean())
 {
@@ -745,9 +748,9 @@ super.setCurseurSouris(0);
 
 super.setEtatInitial(0);
 
-super.setPositionInitiale(8, 22);
+super.setPositionInitiale(25, 24);
 
-super.setTailleInitiale(320, 83);
+super.setTailleInitiale(287, 76);
 
 super.setPlan(0);
 
@@ -1008,13 +1011,13 @@ super.activerEcouteurClic();
 public GWDIMG_SansNom2 mWD_IMG_SansNom2;
 
 /**
- * SAI_Nom_Prénom1
+ * SAI_MotDePasse
  */
-class GWDSAI_Nom_Prenom1 extends WDChampSaisieSimple
+class GWDSAI_MotDePasse extends WDChampSaisieSimple
 {
 
 ////////////////////////////////////////////////////////////////////////////
-// Déclaration des champs du fils n°9 de FEN_Modifier_Utilisateur.SAI_Nom_Prénom1
+// Déclaration des champs du fils n°9 de FEN_Modifier_Utilisateur.SAI_MotDePasse
 ////////////////////////////////////////////////////////////////////////////
 public  void initialiserObjet()
 {
@@ -1026,7 +1029,7 @@ super.setQuid(2977281590425115535l);
 
 super.setChecksum("854248692");
 
-super.setNom("SAI_Nom_Prénom1");
+super.setNom("SAI_MotDePasse");
 
 super.setType(20001);
 
@@ -1141,7 +1144,7 @@ return 1;
 // Déclaration des variables globales
 ////////////////////////////////////////////////////////////////////////////
 }
-public GWDSAI_Nom_Prenom1 mWD_SAI_Nom_Prenom1;
+public GWDSAI_MotDePasse mWD_SAI_MotDePasse;
 
 
 ////////////////////////////////////////////////////////////////////////////
@@ -1306,7 +1309,7 @@ mWD_Bouton2 = new GWDBouton2();
 mWD_LIB_Ajout_Utilisateur = new GWDLIB_Ajout_Utilisateur();
 mWD_COMBO_Role = new GWDCOMBO_Role();
 mWD_IMG_SansNom2 = new GWDIMG_SansNom2();
-mWD_SAI_Nom_Prenom1 = new GWDSAI_Nom_Prenom1();
+mWD_SAI_MotDePasse = new GWDSAI_MotDePasse();
 
 }
 ////////////////////////////////////////////////////////////////////////////
@@ -1382,8 +1385,8 @@ mWD_COMBO_Role.initialiserObjet();
 super.ajouter("COMBO_Role", mWD_COMBO_Role);
 mWD_IMG_SansNom2.initialiserObjet();
 super.ajouter("IMG_SansNom2", mWD_IMG_SansNom2);
-mWD_SAI_Nom_Prenom1.initialiserObjet();
-super.ajouter("SAI_Nom_Prénom1", mWD_SAI_Nom_Prenom1);
+mWD_SAI_MotDePasse.initialiserObjet();
+super.ajouter("SAI_MotDePasse", mWD_SAI_MotDePasse);
 
 super.terminerInitialisation();
 }
